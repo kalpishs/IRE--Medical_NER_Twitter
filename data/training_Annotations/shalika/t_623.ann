@@ -1,0 +1,5 @@
+T1	Organisation 1 9	Novartis
+T2	Drug 11 17	Xolair
+T3	Disease 54 83	chronic spontaneous urticaria
+R1	Manufactured_by Arg1:T2 Arg2:T1	
+R2	Cures Arg1:T2 Arg2:T3	

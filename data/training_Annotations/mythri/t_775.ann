@@ -1,0 +1,5 @@
+T1	Disease 50 56	asthma
+T2	Symptom-or-Side-Effect 61 75	peanut allergy
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+T3	Person 36 44	children
+R2	Is_Suffering_From Arg1:T3 Arg2:T1	

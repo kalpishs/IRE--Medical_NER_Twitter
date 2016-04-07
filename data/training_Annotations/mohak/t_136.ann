@@ -1,0 +1,9 @@
+T1	Risk-Factor 1 15	Diesel exhaust
+T2	Disease 26 32	asthma
+T3	Disease 34 50	poor lung health
+T4	Disease 52 66	heart problems
+T5	Disease 78 94	breathing issues
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T4	
+R4	Increases_Likelihood_Of Arg1:T1 Arg2:T5	

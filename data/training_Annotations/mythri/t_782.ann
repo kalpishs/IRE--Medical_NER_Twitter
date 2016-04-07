@@ -1,0 +1,4 @@
+T1	Disease 28 34	asthma
+T2	Treatment 1 15	Mucus proteins
+R1	Treated_By Arg1:T1 Arg2:T2	
+T3	News 1 111	Mucus proteins may control asthma Northwestern Medicine News  01/26/2015 Northwestern Medicine scientists have

@@ -1,0 +1,4 @@
+T1	Disease 1 11	Bronchitis
+T2	Disease 13 28	sinus infection
+T3	Disease 46 59	eye infection
+R1	Causes Arg1:T2 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Disease 66 70	COPD
+T2	Person 71 79	patients
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+T3	Treatment 16 41	effects of beetroot juice
+R2	Treated_By Arg1:T1 Arg2:T3	

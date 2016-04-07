@@ -1,0 +1,3 @@
+T1	Disease 37 43	asthma
+T2	Risk-Factor 1 13	Cold weather
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

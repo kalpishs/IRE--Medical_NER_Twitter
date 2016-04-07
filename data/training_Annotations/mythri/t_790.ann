@@ -1,0 +1,5 @@
+T1	Disease 1 7	Asthma
+T2	Person 39 44	paeds
+T3	Treatment 20 34	nebuliser meds
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T1 Arg2:T3	

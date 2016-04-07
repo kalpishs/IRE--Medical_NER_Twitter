@@ -1,0 +1,7 @@
+T1	Disease 37 43	asthma
+T2	Disease 45 69	irritable bowel syndrome
+T3	Disease 71 79	diabetes
+T4	Symptom-or-Side-Effect 81 99	frequent headaches
+T5	Symptom-or-Side-Effect 101 113	chronic pain
+T6	Symptom-or-Side-Effect 115 134	difficulty sleeping
+T7	Symptom-or-Side-Effect 136 156	activity limitations

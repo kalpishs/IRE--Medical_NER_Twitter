@@ -1,0 +1,5 @@
+T1	Treatment 55 90	Natural Anti-inflammatory Speeds up
+T2	Disease 129 135	Asthma
+R1	Treated_By Arg1:T2 Arg2:T1	
+T3	Treatment 105 119	Blood purifier
+R2	Treated_By Arg1:T2 Arg2:T3	

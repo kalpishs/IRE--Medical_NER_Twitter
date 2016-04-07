@@ -1,0 +1,5 @@
+T1	Disease 8 14	asthma
+T2	Drug 15 23	steroids
+T3	Symptom-or-Side-Effect 50 64	adrenal glands
+R1	Cures Arg1:T2 Arg2:T1	
+R2	Causes Arg1:T2 Arg2:T3	

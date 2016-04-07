@@ -1,0 +1,4 @@
+T1	Organ 20 24	Lung
+T2	Symptom-or-Side-Effect 20 31	Lung damage
+T3	Disease 42 46	COPD
+R1	Comorbid_Condition Arg1:T3 Arg2:T2	

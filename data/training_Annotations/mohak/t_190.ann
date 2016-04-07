@@ -1,0 +1,4 @@
+T1	Disease 89 95	asthma
+T2	Ethnic-Group 77 83	adults
+T3	Treatment 31 39	exercise
+R1	Treated_By Arg1:T1 Arg2:T3	

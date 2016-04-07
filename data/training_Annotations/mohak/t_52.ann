@@ -1,0 +1,9 @@
+T1	Disease 70 76	asthma
+T2	Symptom-or-Side-Effect 43 62	decreased breathing
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T1	
+T3	Person 108 121	lindzkathleen
+T4	Disease 1 16	Sinus infection
+T5	Disease 18 41	bilateral ear infection
+R2	Is_Suffering_From Arg1:T3 Arg2:T5	
+R3	Is_Suffering_From Arg1:T3 Arg2:T4	
+R4	Is_Suffering_From Arg1:T3 Arg2:T1	

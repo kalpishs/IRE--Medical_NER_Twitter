@@ -1,0 +1,7 @@
+T1	Disease 69 95	inflammatory bowel disease
+T2	Disease 44 64	rheumatoid arthritis
+T3	Disease 36 42	asthma
+T4	Treatment 1 21	Mindfulness practice
+R1	Treated_By Arg1:T3 Arg2:T4	
+R2	Treated_By Arg1:T2 Arg2:T4	
+R3	Treated_By Arg1:T1 Arg2:T4	

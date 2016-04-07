@@ -1,0 +1,5 @@
+T1	Disease 69 78	emphysema
+T2	Symptom-or-Side-Effect 45 57	inflammation
+T3	Disease-Type 1 39	Premature aging of stem cell telomeres
+R1	Is_Of_Type Arg1:T1 Arg2:T3	
+R2	Comorbid_Condition Arg1:T1 Arg2:T2	

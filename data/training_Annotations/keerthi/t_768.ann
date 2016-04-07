@@ -1,0 +1,4 @@
+T1	Risk-Factor 21 33	rhinovirus C
+T2	Intensity 59 65	severe
+T3	Disease 66 72	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

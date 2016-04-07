@@ -1,0 +1,5 @@
+T1	Drug 1 11	Omalizumab
+T2	Disease 62 74	polyangiitis
+T3	Duration 78 86	36-month
+T4	Symptom-or-Side-Effect 29 56	eosinophilic granulomatosis
+R1	Cures Arg1:T1 Arg2:T2	

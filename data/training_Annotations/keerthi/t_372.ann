@@ -1,0 +1,5 @@
+T1	Risk-Factor 19 31	Rhinoviruses
+T2	Disease 102 108	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Disease-Type 64 75	respiratory
+R2	Is_Of_Type Arg1:T2 Arg2:T3	

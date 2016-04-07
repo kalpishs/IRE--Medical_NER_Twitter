@@ -1,0 +1,4 @@
+T1	Disease 64 70	asthma
+T2	Intensity 52 60	severity
+T3	Symptom-or-Side-Effect 13 24	weight loss
+R1	Comorbid_Condition Arg1:T1 Arg2:T3	

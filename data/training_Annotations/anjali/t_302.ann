@@ -1,0 +1,3 @@
+T1	Disease 67 91	asthma and lung diseases
+T2	Risk-Factor 38 56	smog-causing ozone
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Disease 1 11	Depression
+T2	Disease 47 53	asthma
+R1	Causes Arg1:T1 Arg2:T2	
+T3	Ethnic-Group 19 28	pregnancy
+T4	Ethnic-Group 39 44	child
+T5	Risk-Factor 60 81	older antidepressants
+R2	Increases_Likelihood_Of Arg1:T5 Arg2:T2	

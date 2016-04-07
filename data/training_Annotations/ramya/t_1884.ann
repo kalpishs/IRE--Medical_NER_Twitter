@@ -1,0 +1,4 @@
+T1	Disease 75 81	asthma
+T2	Symptom-or-Side-Effect 90 102	ICantBreathe
+T3	Intensity 61 70	triggered
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

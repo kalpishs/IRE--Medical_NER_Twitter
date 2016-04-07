@@ -1,0 +1,4 @@
+T1	Risk-Factor 82 123	maternal fructose intake during pregnancy
+T2	Disease 46 52	asthma
+T3	Ethnic-Group 29 34	child
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

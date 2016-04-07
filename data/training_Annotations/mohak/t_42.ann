@@ -1,0 +1,8 @@
+T1	Disease 1 38	Chronic Obstructive Pulmonary Disease
+T2	Disease 40 44	COPD
+T3	Disease-Type 49 68	progressive disease
+T4	Symptom-or-Side-Effect 80 99	breathing difficult
+R1	Is_Of_Type Arg1:T2 Arg2:T3	
+R2	Is_Of_Type Arg1:T1 Arg2:T3	
+R3	Is_Characteristic_Of Arg1:T4 Arg2:T1	
+R4	Is_Characteristic_Of Arg1:T4 Arg2:T2	

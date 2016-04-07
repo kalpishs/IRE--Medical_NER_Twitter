@@ -1,0 +1,4 @@
+T1	Risk-Factor 1 30	Adverse childhood experiences
+T2	Disease 56 62	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Intensity 35 43	increase

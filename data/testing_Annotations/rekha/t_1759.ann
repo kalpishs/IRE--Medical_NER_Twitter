@@ -1,0 +1,5 @@
+T1	Symptom-or-Side-Effect 1 21	Hospital readmission
+T2	Disease 26 32	asthma
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	
+T3	Risk-Factor 46 59	air pollution
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

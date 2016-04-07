@@ -1,0 +1,5 @@
+T1	Treatment 71 89	inhalation therapy
+T2	Disease 19 25	Asthma
+T3	Frequency 26 43	cases on the rise
+R1	Treated_By Arg1:T2 Arg2:T1	
+T4	Intensity 45 67	docs stress importance

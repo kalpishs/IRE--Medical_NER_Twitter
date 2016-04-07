@@ -1,0 +1,5 @@
+T1	Disease 53 72	sputum eosinophilia
+T2	Disease 97 103	asthma
+T3	Risk-Factor 16 44	High blood eosinophil counts
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

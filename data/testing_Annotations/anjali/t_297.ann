@@ -1,0 +1,5 @@
+T1	Risk-Factor 64 71	tobacco
+T2	Risk-Factor 72 77	smoke
+T3	Disease 90 96	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

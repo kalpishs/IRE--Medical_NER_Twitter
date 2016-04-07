@@ -1,0 +1,4 @@
+T1	Disease 69 73	COPD
+T2	Treatment 39 51	healthy diet
+R1	Treated_By Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes T2	healthy diet reduces the risk of asthma

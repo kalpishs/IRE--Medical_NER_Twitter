@@ -1,0 +1,5 @@
+T1	Risk-Factor 61 77	carbon pollution
+T2	Disease 106 112	asthma
+T3	Person 92 100	children
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Is_Suffering_From Arg1:T3 Arg2:T2	

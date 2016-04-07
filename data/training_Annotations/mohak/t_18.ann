@@ -1,0 +1,15 @@
+T1	Disease 39 52	latex allergy
+T2	Symptom-or-Side-Effect 72 80	coughing
+T3	Symptom-or-Side-Effect 82 90	wheezing
+T4	Symptom-or-Side-Effect 92 105	bronchospasms
+T5	Symptom-or-Side-Effect 107 113	asthma
+R1	Alternative_Names Arg1:T5 Arg2:T4	
+T6	Symptom-or-Side-Effect 136 147	anaphylaxis
+T7	Symptom-or-Side-Effect 152 157	shock
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T1	
+R4	Is_Characteristic_Of Arg1:T3 Arg2:T1	
+R5	Is_Characteristic_Of Arg1:T4 Arg2:T1	
+R6	Is_Characteristic_Of Arg1:T5 Arg2:T1	
+R3	Is_Characteristic_Of Arg1:T6 Arg2:T1	
+R7	Is_Characteristic_Of Arg1:T7 Arg2:T1	
+T8	Intensity 119 135	life threatening

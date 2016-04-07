@@ -1,0 +1,7 @@
+T1	Drug 14 21	Bactrim
+T2	Disease 39 53	ear infections
+T4	Disease 81 91	bronchitis
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T4	
+T3	Disease 55 79	urinary tract infections
+R3	Cures Arg1:T1 Arg2:T3	

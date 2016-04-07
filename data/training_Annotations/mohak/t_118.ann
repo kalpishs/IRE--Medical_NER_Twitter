@@ -1,0 +1,7 @@
+T1	Organisation 33 36	GSK
+T2	Organisation 73 88	GlaxoSmithKline
+T3	Mode-of-administration 37 47	injectable
+T4	Drug 48 59	asthma drug
+R1	Manufactured_by Arg1:T4 Arg2:T1	
+R2	Manufactured_by Arg1:T4 Arg2:T2	
+R3	Manufactured_by Arg1:T4 Arg2:T2	

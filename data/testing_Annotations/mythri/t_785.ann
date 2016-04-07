@@ -1,0 +1,7 @@
+T1	Disease 78 84	asthma
+T2	Symptom-or-Side-Effect 89 109	fixed airflow obstrn
+T3	Disease 129 133	COPD
+T4	Person 67 76	childhood
+R1	Is_Suffering_From Arg1:T4 Arg2:T1	
+R2	Comorbid_Condition Arg1:T1 Arg2:T2	
+R3	Comorbid_Condition Arg1:T1 Arg2:T3	

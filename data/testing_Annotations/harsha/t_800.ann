@@ -1,0 +1,5 @@
+T1	Disease 33 43	bronchitis
+T2	Symptom-or-Side-Effect 52 55	flu
+T3	Symptom-or-Side-Effect 20 32	Strep throat
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	

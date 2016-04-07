@@ -1,0 +1,5 @@
+T1	Disease 1 7	Asthma
+T2	Organ 42 46	lung
+R1	Affects Arg1:T1 Arg2:T2	
+T4	Treatment 61 96	shallow breaths  more carbon dioxid
+R2	Treated_By Arg1:T1 Arg2:T4	

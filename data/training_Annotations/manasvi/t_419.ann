@@ -1,0 +1,4 @@
+T1	Disease 63 79	childhood asthma
+T2	Risk-Factor 27 48	too-clean' environmen
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+T3	News 1 80	Medical News Today: Is a 'too-clean' environment to blame for childhood asthma?

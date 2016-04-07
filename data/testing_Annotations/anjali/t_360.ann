@@ -1,0 +1,9 @@
+T1	Age 67 72	age 7
+T2	Intensity 45 53	terrible
+T3	Disease 54 60	asthma
+T4	Disease 33 39	Asthma
+T5	Person 74 75	I
+T6	Treatment 1 12	lung phlegm
+R1	Treated_By Arg1:T4 Arg2:T6	
+R2	Is_Suffering_From Arg1:T5 Arg2:T3	
+T7	Organisation 82 111	4Life™ Transfer Factor™ 2 1/2

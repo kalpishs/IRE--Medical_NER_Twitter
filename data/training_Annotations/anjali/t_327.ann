@@ -1,0 +1,8 @@
+T1	News 68 110	global industry analysis and forecast 2015
+T2	Treatment 1 11	Nebulizers
+T3	Treatment 13 21	inhalers
+T4	Treatment 26 37	respirators
+T5	Disease 42 48	asthma
+R1	Treated_By Arg1:T5 Arg2:T2	
+R2	Treated_By Arg1:T5 Arg2:T3	
+R3	Treated_By Arg1:T5 Arg2:T4	

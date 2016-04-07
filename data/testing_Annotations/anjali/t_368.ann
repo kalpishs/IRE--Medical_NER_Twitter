@@ -1,0 +1,8 @@
+T1	Symptom-or-Side-Effect 1 5	Soot
+T2	Frequency 10 17	trigger
+T3	Disease 18 32	asthma attacks
+T4	Disease 37 51	heart problems
+T5	Person 53 71	health researchers
+R1	Is_Characteristic_Of Arg1:T1 Arg2:T3	
+R2	Comorbid_Condition Arg1:T3 Arg2:T4	
+R3	Is_Characteristic_Of Arg1:T1 Arg2:T4	

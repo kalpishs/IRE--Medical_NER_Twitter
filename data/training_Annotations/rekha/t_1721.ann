@@ -1,0 +1,3 @@
+T1	Drug 65 76	mepolizumab
+T2	Disease 53 59	asthma
+R1	Cures Arg1:T1 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Drug 110 116	diskus
+T2	Disease 85 98	asthma attack
+R1	Cures Arg1:T1 Arg2:T2	
+T3	Symptom-or-Side-Effect 14 18	cold
+T4	Symptom-or-Side-Effect 29 36	allergy

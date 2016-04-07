@@ -1,0 +1,9 @@
+T1	Gender 47 51	male
+T2	Gender 53 59	female
+T3	Symptom-or-Side-Effect 60 71	infertility
+T4	Disease 72 81	diarrhoea
+T5	Disease 83 89	asthma
+T6	Disease 91 104	ovarian tumor
+T7	Disease 105 115	 hepatitis
+T8	Disease 117 123	stroke
+T9	Disease 124 136	tuberculosis

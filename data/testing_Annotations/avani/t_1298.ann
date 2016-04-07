@@ -1,0 +1,3 @@
+T1	Treatment 1 25	Yoga breathing exercises
+T2	Disease 50 61	mild asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

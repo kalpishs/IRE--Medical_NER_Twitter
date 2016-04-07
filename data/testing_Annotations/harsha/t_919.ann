@@ -1,0 +1,6 @@
+T1	Person 13 19	Cara  
+T2	Treatment 19 31	chiropractic
+T3	Disease 81 87	asthma
+R1	Treated_By Arg1:T3 Arg2:T2	
+T4	Disease 41 57	breathing easier
+R2	Treated_By Arg1:T4 Arg2:T2	

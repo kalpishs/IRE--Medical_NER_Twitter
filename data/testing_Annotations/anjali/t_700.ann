@@ -1,0 +1,4 @@
+T1	Intensity 30 36	severe
+T2	Disease 51 57	asthma
+T3	Treatment 65 87	bronchial thermoplasty
+R1	Treated_By Arg1:T2 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Disease 51 55	COPD
+T3	Treatment 1 20	Nutrition treatment
+R1	Treated_By Arg1:T1 Arg2:T3	
+T2	Risk-Factor 24 36	hospitalized
+#1	AnnotatorNotes T1	COPD causes Hospitalizations

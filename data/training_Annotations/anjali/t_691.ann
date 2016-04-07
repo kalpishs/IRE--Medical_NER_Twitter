@@ -1,0 +1,6 @@
+T1	Organ 26 30	lung
+T2	Treatment 53 73	endobronchial valves
+T3	Person 78 86	patients
+R1	Undergoes Arg1:T3 Arg2:T2	
+T4	Disease 92 115	heterogeneous emphysema
+R2	Is_Suffering_From Arg1:T3 Arg2:T4	

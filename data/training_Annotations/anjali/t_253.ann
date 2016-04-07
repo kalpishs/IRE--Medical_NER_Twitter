@@ -1,0 +1,9 @@
+T1	Risk-Factor 1 11	Toxic smog
+T2	Risk-Factor 22 35	air pollution
+T3	Location 46 64	Greater Manchester
+T4	Disease 76 90	asthma attacks
+T5	Disease 95 109	heart problems
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T4	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T4	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T5	
+R4	Increases_Likelihood_Of Arg1:T2 Arg2:T5	

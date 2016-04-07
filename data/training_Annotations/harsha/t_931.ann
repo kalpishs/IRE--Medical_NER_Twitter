@@ -1,0 +1,5 @@
+T1	Person 1 6	Cadet
+T2	Location 19 44	Nova Scotia military base
+T3	Disease 56 69	asthma attack
+R1	Is_In Arg1:T1 Arg2:T2	
+R2	Is_Suffering_From Arg1:T1 Arg2:T3	

@@ -1,0 +1,17 @@
+T1	Treatment 1 9	Chillies
+T2	Disease 23 29	cancer
+T3	Disease 31 44	heart disease
+T4	Disease 46 52	stroke
+T5	Disease 54 65	blood clots
+T6	Disease 67 74	obesity
+T7	Disease 76 95	high blood pressure
+T8	Disease 97 113	high cholesterol
+T9	Disease 115 125	bronchitis
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	
+R5	Treated_By Arg1:T6 Arg2:T1	
+R6	Treated_By Arg1:T9 Arg2:T1	
+R7	Treated_By Arg1:T8 Arg2:T1	
+R8	Treated_By Arg1:T7 Arg2:T1	

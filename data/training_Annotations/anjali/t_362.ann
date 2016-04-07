@@ -1,0 +1,8 @@
+T1	Risk-Factor 9 16	Smoking
+T2	Disease-Type 21 32	Tooth decay
+T3	Symptom-or-Side-Effect 34 43	impotence
+T4	Disease 76 90	 heart disease
+T5	Disease 67 75	diabetes
+T6	Disease 56 65	emphysema
+T7	Disease 45 54	halitosis
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T7	

@@ -1,0 +1,4 @@
+T1	Treatment 16 26	stem cells
+T2	Disease 38 42	COPD
+R1	Treated_By Arg1:T2 Arg2:T1	
+#1	AnnotatorNotes R1	This looks like a tweet about a publication but neverthless useful information. Since we are looking only for leads

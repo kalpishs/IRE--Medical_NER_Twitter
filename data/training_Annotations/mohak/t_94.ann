@@ -1,0 +1,3 @@
+T1	Disease 67 73	asthma
+T2	Risk-Factor 28 54	chlorinated swimming pools
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

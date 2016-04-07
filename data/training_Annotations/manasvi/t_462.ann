@@ -1,0 +1,3 @@
+T1	Person 20 30	sagabal SA
+T2	Disease 1 7	Asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

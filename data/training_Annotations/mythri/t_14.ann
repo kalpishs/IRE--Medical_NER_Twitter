@@ -1,0 +1,10 @@
+T1	Disease 41 45	aids
+T2	Disease 46 51	ebola
+T3	Disease 52 58	cancer
+T4	Disease 59 70	hepatitis B
+T5	Disease 71 79	diabetes
+T6	Disease 80 89	arthritis
+T7	Disease 90 96	asthma
+T8	Disease 105 114	gonorrhea
+T9	Disease-Type 119 132	flu allergies
+T10	Disease 136 143	anthrax

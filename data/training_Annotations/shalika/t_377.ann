@@ -1,0 +1,5 @@
+T1	Drug 1 39	GlaxoSmithKline's Nucala (mepolizumab)
+T2	Mode-of-administration 46 56	injectable
+T3	Disease 100 113	severe asthma
+R1	Admistered_By Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T3	

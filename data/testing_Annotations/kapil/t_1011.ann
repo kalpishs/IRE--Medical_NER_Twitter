@@ -1,0 +1,5 @@
+T1	Organ 92 96	nasa
+T2	Drug 80 91	fluticasone
+T3	Disease 30 36	Asthma
+R1	Affects Arg1:T3 Arg2:T1	
+R2	Cures Arg1:T2 Arg2:T3	

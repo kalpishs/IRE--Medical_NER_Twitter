@@ -1,0 +1,9 @@
+T1	Organ 132 137	lungs
+T2	Treatment 54 120	Traditional fats rich in sat palmitic acid - butter  lard  palm oi
+T3	Drug 27 37	Medication
+T4	Disease 20 26	Asthma
+T5	Symptom-or-Side-Effect 38 51	stunts growth
+R1	Cures Arg1:T3 Arg2:T4	
+R2	Contraindication Arg1:T3 Arg2:T5	
+R3	Affects Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T4 Arg2:T2	

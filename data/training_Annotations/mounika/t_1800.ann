@@ -1,0 +1,4 @@
+T1	Disease 13 19	asthma
+T2	Disease 39 49	depression
+T3	Intensity 23 35	higher rates
+R1	Causes Arg1:T1 Arg2:T2	

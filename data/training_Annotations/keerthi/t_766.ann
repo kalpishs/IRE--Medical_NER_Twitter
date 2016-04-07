@@ -1,0 +1,10 @@
+T1	Drug 132 138	Advair
+T2	Disease 120 126	asthma
+R1	Cures Arg1:T1 Arg2:T2	
+T3	Disease 70 76	cancer
+T4	Disease 77 85	melanoma
+R2	Alternative_Names Arg1:T3 Arg2:T4	
+T5	Drug 102 107	PCSK9
+T6	Disease 108 119	cholesterol
+#1	AnnotatorNotes T6	Rather than a disease its a condition
+R3	Cures Arg1:T5 Arg2:T6	

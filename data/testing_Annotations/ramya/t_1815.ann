@@ -1,0 +1,3 @@
+T1	Symptom-or-Side-Effect 3 22	can't easily breath
+T2	Disease 30 36	asthma
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	

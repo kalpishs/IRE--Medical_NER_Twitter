@@ -1,0 +1,5 @@
+T1	Risk-Factor 5 36	high concentrations of diacetyl
+T2	Disease 69 75	asthma
+T3	Disease 79 103	bronchiolitis obliterans
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

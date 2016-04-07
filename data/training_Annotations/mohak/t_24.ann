@@ -1,0 +1,11 @@
+T1	Disease-Type 29 45	Chronic diseases
+T2	Disease 55 68	heart disease
+T3	Disease 70 78	diabetes
+T4	Disease 80 90	rheumatism
+T5	Disease 92 98	asthma
+T6	Disease 100 116	kidney disorders
+R1	Is_Of_Type Arg1:T2 Arg2:T1	
+R2	Is_Of_Type Arg1:T3 Arg2:T1	
+R3	Is_Of_Type Arg1:T4 Arg2:T1	
+R4	Is_Of_Type Arg1:T5 Arg2:T1	
+R5	Is_Of_Type Arg1:T6 Arg2:T1	

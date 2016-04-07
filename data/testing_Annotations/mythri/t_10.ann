@@ -1,0 +1,7 @@
+T1	Disease 1 38	Chronic Obstructive Pulmonary Disease
+T2	Disease-Type 51 63	lung disease
+R1	Is_Of_Type Arg1:T1 Arg2:T2	
+T3	Symptom-or-Side-Effect 78 96	chronic bronchitis
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	
+T4	Symptom-or-Side-Effect 101 110	emphysema
+R3	Comorbid_Condition Arg1:T1 Arg2:T4	

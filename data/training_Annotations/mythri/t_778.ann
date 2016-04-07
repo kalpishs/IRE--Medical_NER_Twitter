@@ -1,0 +1,8 @@
+T1	Organ 8 12	lung
+T2	Disease 8 19	lung cancer
+T3	Disease 38 42	COPD
+R1	Comorbid_Condition Arg1:T2 Arg2:T3	
+T4	Person 26 32	smoker
+T5	Risk-Factor 54 61	smoking
+R2	Increases_Likelihood_Of Arg1:T5 Arg2:T3	
+R3	Increases_Likelihood_Of Arg1:T5 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Person 1 2	I
+T2	Disease 30 36	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

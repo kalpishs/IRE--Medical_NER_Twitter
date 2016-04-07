@@ -1,0 +1,8 @@
+T1	Disease 11 28	destabling asthma
+T2	Disease 33 41	epilepsy
+T3	Disease 42 60	 chronic psoriasis
+T4	Symptom-or-Side-Effect 70 89	psoriatic arthritis
+T5	Symptom-or-Side-Effect 92 111	clinical depression
+R1	Comorbid_Condition Arg1:T3 Arg2:T4	
+R2	Comorbid_Condition Arg1:T3 Arg2:T5	
+T6	Organisation 2 10	MoJGovUK

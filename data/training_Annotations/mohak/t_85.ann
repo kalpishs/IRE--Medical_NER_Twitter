@@ -1,0 +1,9 @@
+T1	Drug 18 28	Prednisone
+T2	Disease 57 66	allergies
+T3	Disease 68 77	arthritis
+T4	Disease 79 85	asthma
+T5	Disease 87 105	multiple sclerosis
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T3	
+R3	Cures Arg1:T1 Arg2:T4	
+R4	Cures Arg1:T1 Arg2:T5	

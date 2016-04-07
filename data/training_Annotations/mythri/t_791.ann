@@ -1,0 +1,5 @@
+T1	Risk-Factor 32 50	mouse infestations
+T2	Risk-Factor 56 74	cockroach exposure
+T3	Disease 6 12	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

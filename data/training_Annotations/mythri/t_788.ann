@@ -1,0 +1,5 @@
+T1	Risk-Factor 49 56	chicken
+T2	Risk-Factor 60 64	eggs
+T3	Disease 66 72	Asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

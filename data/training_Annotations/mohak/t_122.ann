@@ -1,0 +1,6 @@
+T1	Disease 21 47	Poly cystic ovary syndrome
+T2	Disease 49 78	chronic reoccurring migraines
+T3	Disease 80 86	asthma
+T4	Symptom-or-Side-Effect 88 95	anxiety
+T5	Symptom-or-Side-Effect 97 107	depression
+T6	Symptom-or-Side-Effect 109 122	Mood disorder

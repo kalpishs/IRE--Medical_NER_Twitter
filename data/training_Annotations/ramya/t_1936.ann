@@ -1,0 +1,5 @@
+T1	Drug 21 32	Finasteride
+T2	Symptom-or-Side-Effect 1 10	Hair Loss
+R1	Addresses Arg1:T1 Arg2:T2	
+T3	Drug 42 50	Propecia
+R2	Addresses Arg1:T3 Arg2:T2	

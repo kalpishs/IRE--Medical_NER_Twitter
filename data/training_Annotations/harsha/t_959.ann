@@ -1,0 +1,4 @@
+T1	Disease 61 67	asthma
+T2	Person 51 60	pediatric
+#1	AnnotatorNotes T2	pediatric referred to as person
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	

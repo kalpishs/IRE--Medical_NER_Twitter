@@ -1,0 +1,5 @@
+T1	Risk-Factor 5 28	housing code violations
+T2	Disease 53 59	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Person_has_disease 43 52	childhood
+E1	Person_has_disease:T3 

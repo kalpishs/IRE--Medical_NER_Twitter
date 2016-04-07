@@ -1,0 +1,7 @@
+T1	Risk-Factor 29 44	passive smoking
+T2	Disease 53 87	frequent and severe asthma attacks
+T3	Disease 116 124	coughing
+T4	Disease 126 134	sneezing
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T4	

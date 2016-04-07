@@ -1,0 +1,4 @@
+T1	Organ 55 68	nerve endings
+T2	Disease 78 94	Allergic #Asthma
+T3	Treatment 45 68	targeting nerve endings
+R1	Treated_By Arg1:T2 Arg2:T3	

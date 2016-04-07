@@ -1,0 +1,5 @@
+T1	Weight 19 30	Weight loss
+T2	Disease 39 45	asthma
+T4	Person 58 70	obese adults
+R1	Weighs Arg1:T4 Arg2:T1	
+R2	Is_Suffering_From Arg1:T4 Arg2:T2	

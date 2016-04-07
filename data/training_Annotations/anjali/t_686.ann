@@ -1,0 +1,4 @@
+T1	Disease 1 7	Asthma
+T2	Person 26 48	Olympic-level swimmers
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+T3	Organisation 51 65	Reuters Health

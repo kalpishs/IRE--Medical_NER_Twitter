@@ -1,0 +1,4 @@
+T1	Disease 71 74	FLU
+T2	Disease 35 41	asthma
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	
+T3	Intensity 47 51	high

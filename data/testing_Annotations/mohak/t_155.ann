@@ -1,0 +1,8 @@
+T1	Disease-Type 69 89	respiratory diseases
+T2	Disease 91 97	asthma
+T3	Disease 99 111	bronchiectas
+T4	Symptom-or-Side-Effect 20 38	Sleep disturbances
+R2	Is_Characteristic_Of Arg1:T4 Arg2:T2	
+R3	Is_Characteristic_Of Arg1:T4 Arg2:T3	
+R1	Is_Of_Type Arg1:T2 Arg2:T1	
+R4	Is_Of_Type Arg1:T3 Arg2:T1	

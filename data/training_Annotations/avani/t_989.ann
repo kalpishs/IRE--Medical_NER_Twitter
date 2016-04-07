@@ -1,0 +1,4 @@
+T2	Symptom-or-Side-Effect 106 125	bronchoconstriction
+T3	Disease 129 138	dx asthma
+T4	Risk-Factor 18 40	Methacholine challenge
+R1	Increases_Likelihood_Of Arg1:T4 Arg2:T3	

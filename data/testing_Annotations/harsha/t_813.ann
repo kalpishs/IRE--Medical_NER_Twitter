@@ -1,0 +1,7 @@
+T1	Drug 1 76	advair fluticasone/salmeterol b2 receptor angonist (bronchodilator+steroid)
+T2	Disease 77 85	asthma  
+T3	Disease 85 89	COPD
+T4	Disease 106 124	chronic bronchitis
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T3	
+R3	Cures Arg1:T1 Arg2:T4	

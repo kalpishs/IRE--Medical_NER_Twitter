@@ -1,0 +1,5 @@
+T1	Test 20 34	app monitoring
+T2	Disease 72 76	COPD
+T3	Intensity 53 58	early
+R1	Detects Arg1:T1 Arg2:T2	
+R2	Detects Arg1:T1 Arg2:T2	

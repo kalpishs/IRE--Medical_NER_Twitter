@@ -1,0 +1,8 @@
+T1	Symptom-or-Side-Effect 63 74	muscle loss
+T2	Symptom-or-Side-Effect 79 86	fatigue
+T3	Person_has_disease 42 55	COPD patients
+E1	Person_has_disease:T3 
+T4	Disease 42 46	COPD
+T5	Precaution 14 32	Smart food choices
+R1	Is_Characteristic_Of Arg1:T1 Arg2:T4	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T4	

@@ -1,0 +1,11 @@
+T1	Disease 40 59	bacterial pneumonia
+T2	Disease 61 84	ear or sinus infections
+T3	Disease 86 97	dehydration
+T4	Disease 99 123	congestive heart failure
+T5	Disease 127 133	asthma
+T6	Disease 136 139	flu
+R1	Causes Arg1:T6 Arg2:T1	
+R2	Causes Arg1:T6 Arg2:T2	
+R3	Causes Arg1:T6 Arg2:T3	
+R4	Causes Arg1:T6 Arg2:T4	
+R5	Causes Arg1:T6 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Organ 42 50	Prostate
+T2	Organ 52 57	liver
+T3	Organ 59 65	kidney
+T4	Disease 67 73	asthma
+T5	Symptom-or-Side-Effect 74 90	 iron deficiency
+T6	Disease-Type 92 103	gut problem
+T7	Symptom-or-Side-Effect 105 115	joint pain
+T8	Disease 117 140	low immunity  psoriasis
+T9	Treatment 8 17	Ayurvedic

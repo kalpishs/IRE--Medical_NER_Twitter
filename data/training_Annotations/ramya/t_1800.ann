@@ -1,0 +1,3 @@
+T1	Disease 13 19	asthma
+T2	Symptom-or-Side-Effect 39 49	depression
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T1	

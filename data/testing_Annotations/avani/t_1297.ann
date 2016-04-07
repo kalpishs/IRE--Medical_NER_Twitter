@@ -1,0 +1,5 @@
+T1	Disease 14 18	COPD
+T2	Risk-Factor 1 10	Low vit D
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+T3	Disease 29 49	poorer lung function
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

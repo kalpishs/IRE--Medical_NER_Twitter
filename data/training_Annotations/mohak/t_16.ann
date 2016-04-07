@@ -1,0 +1,13 @@
+T1	Disease 60 68	coughing
+T2	Disease 70 78	wheezing
+T3	Disease 80 101	reduced lung function
+T4	Disease 103 109	asthma
+T5	Disease 111 124	heart attacks
+T6	Disease 127 134	strokes
+T7	Risk-Factor 1 19	Particle pollution
+R1	Increases_Likelihood_Of Arg1:T7 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T7 Arg2:T2	
+R3	Increases_Likelihood_Of Arg1:T7 Arg2:T3	
+R4	Increases_Likelihood_Of Arg1:T7 Arg2:T4	
+R5	Increases_Likelihood_Of Arg1:T7 Arg2:T5	
+R6	Increases_Likelihood_Of Arg1:T7 Arg2:T6	

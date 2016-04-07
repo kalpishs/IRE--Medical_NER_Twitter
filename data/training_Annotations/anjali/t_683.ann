@@ -1,0 +1,5 @@
+T1	Person_has_disease 75 93	asthmatic children
+E1	Person_has_disease:T1 
+T2	Intensity 68 74	stable
+T3	Risk-Factor 11 27	aerobic training
+T4	Symptom-or-Side-Effect 31 50	airflow obstruction

@@ -1,0 +1,3 @@
+T1	Disease 56 60	COPD
+T2	Risk-Factor 99 106	smoking
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

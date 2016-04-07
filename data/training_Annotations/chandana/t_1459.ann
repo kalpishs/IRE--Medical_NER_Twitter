@@ -1,0 +1,3 @@
+T1	Risk-Factor 38 57	diesel particulates
+T2	Disease 67 73	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

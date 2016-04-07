@@ -1,0 +1,5 @@
+T1	Disease 85 89	COPD
+T3	Risk-Factor 19 27	Diabetes
+T2	Intensity 49 68	increased mortality
+#1	AnnotatorNotes T2	not reall sure but I think Mortality does denote intensity of disease
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

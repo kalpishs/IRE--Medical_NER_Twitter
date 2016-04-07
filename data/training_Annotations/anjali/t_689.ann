@@ -1,0 +1,10 @@
+T1	Duration 17 23	28 yrs
+T2	Person 5 16	john_mellor
+T3	Intensity 24 31	painful
+T4	Disease 32 41	arthritis
+T5	Disease 44 50	asthma
+R1	Is_Suffering_From Arg1:T2 Arg2:T4	
+R2	Is_Suffering_From Arg1:T2 Arg2:T5	
+T6	Treatment 52 58	healed
+R3	Undergoes Arg1:T2 Arg2:T6	
+T7	Organ 73 85	vocal chords

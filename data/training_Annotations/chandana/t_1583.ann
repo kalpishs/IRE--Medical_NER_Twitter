@@ -1,0 +1,4 @@
+T1	Organisation 1 5	Teva
+T2	Organisation 16 19	FDA
+T3	Drug 74 92	ProAir® RespiClick
+R1	Manufactured_by Arg1:T3 Arg2:T1	

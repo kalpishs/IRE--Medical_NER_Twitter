@@ -1,0 +1,3 @@
+T1	Treatment 30 46	aerobic exercise
+T2	Disease 65 71	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

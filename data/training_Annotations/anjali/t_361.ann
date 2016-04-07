@@ -1,0 +1,9 @@
+T1	Disease 34 56	Pathogenesis of Asthma
+T2	Symptom-or-Side-Effect 58 70	Inflammation
+T3	Frequency 78 87	recurrent
+T4	Disease 88 96	Wheezing
+T5	Disease 98 112	Breathlessness
+T6	Disease 114 140	Chest Tightness & Coughing
+R1	Comorbid_Condition Arg1:T4 Arg2:T2	
+R2	Comorbid_Condition Arg1:T5 Arg2:T2	
+R3	Comorbid_Condition Arg1:T6 Arg2:T2	

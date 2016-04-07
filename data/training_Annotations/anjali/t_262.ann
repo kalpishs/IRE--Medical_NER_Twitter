@@ -1,0 +1,3 @@
+T1	Risk-Factor 29 59	endotoxin levels in house dust
+T2	Disease 64 77	atopic asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

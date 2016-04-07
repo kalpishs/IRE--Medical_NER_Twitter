@@ -1,0 +1,6 @@
+T1	Disease 62 68	asthma
+T2	Intensity 54 61	greater
+T3	Symptom-or-Side-Effect 1 25	Witnessing drug problems
+T4	Symptom-or-Side-Effect 29 46	domestic violence
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T1	
+R1	Is_Characteristic_Of Arg1:T4 Arg2:T1	

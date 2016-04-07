@@ -1,0 +1,3 @@
+T1	Treatment 21 48	Exercising 30 minutes a day
+T2	Disease 58 64	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

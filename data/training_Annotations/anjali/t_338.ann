@@ -1,0 +1,6 @@
+T1	Treatment 19 38	Weight loss surgery
+T2	Intensity 39 46	reduces
+T3	Disease 47 61	asthma attacks
+T4	Location 101 111	California
+T5	Person 63 73	Researches
+R1	Treated_By Arg1:T3 Arg2:T1	

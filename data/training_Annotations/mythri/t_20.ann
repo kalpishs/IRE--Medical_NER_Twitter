@@ -1,0 +1,5 @@
+T1	Disease 40 59	bacterial pneumonia
+T2	Disease-Type 61 84	ear or sinus infections
+T3	Symptom-or-Side-Effect 86 97	dehydration
+T4	Disease 99 123	congestive heart failure
+T5	Disease 127 133	asthma

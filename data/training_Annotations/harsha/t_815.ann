@@ -1,0 +1,4 @@
+T1	Disease 21 30	Emphysema
+T2	Drug 65 72	aspirin
+T3	News 1 19	Medical News Today
+R1	Causes Arg1:T2 Arg2:T1	

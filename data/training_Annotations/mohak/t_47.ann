@@ -1,0 +1,13 @@
+T1	Disease 44 50	asthma
+T2	Disease 52 61	hay fever
+T3	Disease 63 69	eczema
+T4	Disease 71 80	leaky gut
+T5	Disease 82 100	seasonal allergies
+T6	Disease 102 111	skin rash
+T7	Disease 1 33	Food allergies and sensitivities
+R1	Causes Arg1:T7 Arg2:T1	
+R2	Causes Arg1:T7 Arg2:T2	
+R3	Causes Arg1:T7 Arg2:T3	
+R4	Causes Arg1:T7 Arg2:T4	
+R5	Causes Arg1:T7 Arg2:T5	
+R6	Causes Arg1:T7 Arg2:T6	

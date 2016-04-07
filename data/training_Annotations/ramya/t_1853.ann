@@ -1,0 +1,4 @@
+T1	Drug 1 11	Omalizumab
+T2	Disease 34 40	asthma
+T3	Intensity 41 58	exacerbation rate
+R1	Cures Arg1:T1 Arg2:T2	

@@ -1,0 +1,9 @@
+T1	Risk-Factor 58 68	dust mites
+T2	Risk-Factor 70 81	cockroaches
+T3	Risk-Factor 83 96	animal dander
+T4	Risk-Factor 102 106	mold
+T5	Disease 32 38	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T5	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T5	
+R3	Increases_Likelihood_Of Arg1:T3 Arg2:T5	
+R4	Increases_Likelihood_Of Arg1:T4 Arg2:T5	

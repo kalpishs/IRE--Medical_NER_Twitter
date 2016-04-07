@@ -1,0 +1,6 @@
+T1	Disease 1 38	Chronic obstructive pulmonary disease
+T2	Disease 40 44	COPD
+T3	Drug 50 58	Cannabis
+R1	Cures Arg1:T3 Arg2:T2	
+R2	Cures Arg1:T3 Arg2:T1	
+R3	Alternative_Names Arg1:T1 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Treatment 1 18	Physical activity
+T2	Treatment 23 42	sedentary behaviour
+T3	Disease 64 68	COPD
+R1	Treated_By Arg1:T3 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T2	

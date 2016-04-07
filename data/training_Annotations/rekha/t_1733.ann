@@ -1,0 +1,3 @@
+T1	Drug 27 34	Actavis
+T2	Disease 35 41	asthma
+R1	Cures Arg1:T1 Arg2:T2	

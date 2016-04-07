@@ -1,0 +1,11 @@
+T1	Disease 24 30	Stroke
+T2	Disease 31 39	Diabetes
+T3	Disease 41 53	hypertension
+T4	Disease 54 60	Asthma
+T5	Disease 62 73	Infertility
+T6	Disease 75 82	Fibroid
+T7	Disease 84 87	STD
+T8	Disease 88 97	Hepatitis
+T9	Disease 98 123	Kidney  Liver malfunction
+#1	AnnotatorNotes T9	Multiple disease
+T10	Disease 124 133	Parkinson

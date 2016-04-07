@@ -1,0 +1,3 @@
+T1	Treatment 22 52	coffee and herbal ‘cigarettes’
+T2	Disease 10 16	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

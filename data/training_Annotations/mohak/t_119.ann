@@ -1,0 +1,7 @@
+T1	Test 1 5	GOLD
+T2	Disease 33 37	COPD
+T3	Disease 70 102	chronic obstructive lung disease
+R1	Alternative_Names Arg1:T2 Arg2:T3	
+R2	Detects Arg1:T1 Arg2:T2	
+R3	Detects Arg1:T1 Arg2:T3	
+#1	AnnotatorNotes R3	negative connotation

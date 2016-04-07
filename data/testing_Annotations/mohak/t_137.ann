@@ -1,0 +1,5 @@
+T1	Drug 9 15	asprin
+T2	Disease 41 50	emphysema
+T3	Organ 63 67	lung
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Affects Arg1:T2 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Duration 1 6	Older
+T2	Person_has_disease 7 22	asthma patients
+E1	Person_has_disease:T2 Occurrence:T1 Stage:T3
+T3	Intensity 26 35	increased
+T4	Risk-Factor 45 62	treatment failure

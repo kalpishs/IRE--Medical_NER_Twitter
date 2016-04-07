@@ -1,0 +1,3 @@
+T1	Drug 6 15	Metformin
+T2	Disease 49 53	COPD
+R1	Contraindication Arg1:T1 Arg2:T2	

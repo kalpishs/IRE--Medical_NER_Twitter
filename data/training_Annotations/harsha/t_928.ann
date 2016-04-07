@@ -1,0 +1,3 @@
+T1	Disease 61 70	emphysema
+T2	Treatment 27 56	lung volume reduction surgery
+R1	Treated_By Arg1:T1 Arg2:T2	

@@ -1,0 +1,4 @@
+T1	Risk-Factor 1 25	Bed-sharing with parents
+T2	Ethnic-Group 34 42	toddlers
+T3	Disease 46 52	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 24	Low CC16 concentrations
+T2	Disease 52 73	lung function decline
+T3	Person 77 83	adults
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Is_Suffering_From Arg1:T3 Arg2:T2	

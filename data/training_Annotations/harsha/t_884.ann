@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 23	Variant in KRAS 3'-UTR
+T2	Disease-Type 42 53	lung cancer
+T3	Disease 57 61	COPD
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Is_Of_Type Arg1:T3 Arg2:T2	

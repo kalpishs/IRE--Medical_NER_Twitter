@@ -1,0 +1,5 @@
+T1	Disease 97 113	nonatopic asthma
+T2	Person_has_disease 83 91	patients
+E1	Person_has_disease:T2 Disease:T1
+T3	Precaution 13 38	Vitamin D supplementation
+T4	Disease-Type 47 79	eosinophilic airway inflammation

@@ -1,0 +1,4 @@
+T1	Treatment 1 29	Organically cultivated herbs
+T2	Disease 38 44	Asthma
+T3	Organ 47 51	lung
+R1	Treated_By Arg1:T2 Arg2:T1	

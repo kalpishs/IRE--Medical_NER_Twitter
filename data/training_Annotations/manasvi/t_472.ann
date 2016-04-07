@@ -1,0 +1,3 @@
+T1	Treatment 20 31	money stone
+T2	Disease 38 51	sleep  asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Treatment 3 11	hot bath
+T2	Disease 21 41	capillary bronchitis
+T3	Disease 46 65	bronchial pneumonia
+T4	Person 69 77	children
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Undergoes Arg1:T4 Arg2:T1	

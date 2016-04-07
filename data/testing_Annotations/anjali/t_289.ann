@@ -1,0 +1,4 @@
+T1	Disease 26 71	Chronic Obstructive Pulmonary Disease (#COPD)
+T2	Frequency 72 75	80%
+T3	Risk-Factor 97 112	cigarette smoke
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

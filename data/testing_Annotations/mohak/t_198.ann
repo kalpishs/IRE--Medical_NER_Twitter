@@ -1,0 +1,4 @@
+T1	Disease 1 5	COPD
+T2	Risk-Factor 20 44	psychological conditions
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

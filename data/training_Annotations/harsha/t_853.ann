@@ -1,0 +1,5 @@
+T1	Person 19 26	Persons
+T2	Disease 32 36	COPD
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+T3	Symptom-or-Side-Effect 45 62	worse gait rhythm
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T2	

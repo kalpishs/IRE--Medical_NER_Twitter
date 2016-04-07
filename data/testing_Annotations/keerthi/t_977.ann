@@ -1,0 +1,4 @@
+T1	Disease 46 55	emphysema
+T2	Intensity 39 45	severe
+T3	Organ 1 5	Lung
+R1	Affects Arg1:T1 Arg2:T3	

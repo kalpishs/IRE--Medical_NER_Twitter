@@ -1,0 +1,5 @@
+T1	Disease 69 78	emphysema
+T2	Organ 80 84	Lung
+T3	Risk-Factor 1 39	Premature aging of stem cell telomeres
+R1	Affects Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

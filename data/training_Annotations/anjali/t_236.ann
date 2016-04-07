@@ -1,0 +1,7 @@
+T1	Organ 1 10	Pulmonary
+T2	Risk-Factor 11 23	hypertension
+T3	Person_has_disease 27 35	patients
+E1	Person_has_disease:T3 
+T4	Disease 41 91	combined pulmonary fibrosis and emphysema syndrome
+R1	Affects Arg1:T4 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T4	

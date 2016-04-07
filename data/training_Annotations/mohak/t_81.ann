@@ -1,0 +1,5 @@
+T1	Disease 91 95	copd
+T2	Treatment 64 86	drug target validation
+R1	Treated_By Arg1:T1 Arg2:T2	
+T3	Test 15 46	investigating human lung tissue
+R2	Detects Arg1:T3 Arg2:T1	

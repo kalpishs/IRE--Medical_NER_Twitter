@@ -1,0 +1,4 @@
+T1	Drug 38 58	leukotriene modifier
+T2	Disease 71 77	asthma
+R1	Cures Arg1:T1 Arg2:T2	
+T3	Test 5 34	Genome-wide association study

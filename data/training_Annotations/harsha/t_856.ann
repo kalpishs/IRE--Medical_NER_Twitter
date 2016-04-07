@@ -1,0 +1,8 @@
+T1	Symptom-or-Side-Effect 48 61	affect growth
+T2	Disease 14 20	Asthma
+T3	Drug 21 32	medications
+R1	Cures Arg1:T3 Arg2:T2	
+R2	Causes Arg1:T3 Arg2:T1	
+T4	Person 65 73	children
+#1	AnnotatorNotes T4	children grouped as person
+R3	Has Arg1:T4 Arg2:T1	

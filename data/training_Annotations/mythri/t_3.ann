@@ -1,0 +1,11 @@
+T1	Symptom-or-Side-Effect 33 41	insomnia
+T2	Disease 43 49	asthma
+T3	Symptom-or-Side-Effect 51 60	allergies
+T4	Disease 62 77	hyperthyroidism
+T5	Symptom-or-Side-Effect 79 90	acid reflux
+T6	Disease-Type 92 106	kidney disease
+T7	Disease 108 114	cancer
+T8	Symptom-or-Side-Effect 116 128	chronic pain
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	
+R2	Comorbid_Condition Arg1:T4 Arg2:T1	
+R3	Comorbid_Condition Arg1:T7 Arg2:T1	

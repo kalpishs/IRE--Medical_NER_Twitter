@@ -1,0 +1,6 @@
+T1	Treatment 8 33	Vitamin D supplementation
+T2	Person_has_disease 37 55	asthmatic children
+E1	Person_has_disease:T2 Stage:T3 Disease:T4
+T3	Intensity 56 63	reduces
+T4	Disease 72 91	asthma exacerbation
+R2	Treated_By Arg1:T4 Arg2:T1	

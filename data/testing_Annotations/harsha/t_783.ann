@@ -1,0 +1,4 @@
+T1	Person 15 27	Donna Shocks
+T3	Person 87 95	children
+T4	Disease 99 105	asthma
+R1	Is_Suffering_From Arg1:T3 Arg2:T4	

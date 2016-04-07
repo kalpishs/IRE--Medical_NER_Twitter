@@ -1,0 +1,5 @@
+T1	Organisation 1 16	GlaxoSmithKline
+T2	Drug 98 102	Breo
+T3	Organ 17 21	lung
+T4	Mode-of-administration 81 88	inhaled
+R1	Manufactured_by Arg1:T2 Arg2:T1	

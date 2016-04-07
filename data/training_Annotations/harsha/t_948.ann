@@ -1,0 +1,4 @@
+T1	Risk-Factor 10 22	Gut bacteria
+T2	Disease 41 47	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes T1	low level of gut bacteria in infacts

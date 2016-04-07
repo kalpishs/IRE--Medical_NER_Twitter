@@ -1,0 +1,3 @@
+T1	Treatment 1 15	Lung treatment
+T2	Disease 39 55	severe emphysema
+R1	Treated_By Arg1:T2 Arg2:T1	

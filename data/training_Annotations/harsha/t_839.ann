@@ -1,0 +1,4 @@
+T1	Treatment 1 14	Lemon Verbena
+T2	Disease 86 92	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	
+#1	AnnotatorNotes T1	Lemon Verbena refers to a plant

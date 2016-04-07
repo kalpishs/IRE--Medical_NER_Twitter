@@ -1,0 +1,4 @@
+T1	Frequency 1 14	every morning
+T2	Person 15 16	i
+T3	Disease 29 35	asthma
+R1	Is_Suffering_From Arg1:T2 Arg2:T3	

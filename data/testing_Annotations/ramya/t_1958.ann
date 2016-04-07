@@ -1,0 +1,4 @@
+T1	Treatment 1 19	Emergency inhalers
+T2	Organisation 23 30	schools
+T3	Disease 42 48	asthma
+R1	Treated_By Arg1:T3 Arg2:T1	

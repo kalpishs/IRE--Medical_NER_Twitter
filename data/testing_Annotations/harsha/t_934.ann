@@ -1,0 +1,3 @@
+T1	Person 1 14	Leonard Nimoy
+T2	Disease 23 60	chronic obstructive pulmonary disease
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

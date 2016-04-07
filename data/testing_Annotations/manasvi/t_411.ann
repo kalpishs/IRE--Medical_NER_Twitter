@@ -1,0 +1,4 @@
+T1	News 0 94	"Medical News Today: Study links a healthy diet to lower risk of COPD - http://t.co/xdba9p1dkS
+T2	Treatment 35 47	healthy diet
+T3	Disease 65 69	COPD
+R1	Treated_By Arg1:T3 Arg2:T2	

@@ -1,0 +1,8 @@
+T1	Disease 1 40	Aspirin exacerbated respiratory disease
+T2	Disease 42 46	AERD
+T3	Symptom-or-Side-Effect 68 86	adult onset asthma
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T2	
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T1	
+T4	Symptom-or-Side-Effect 88 100	nasal polyps
+R3	Is_Characteristic_Of Arg1:T4 Arg2:T2	
+R4	Is_Characteristic_Of Arg1:T4 Arg2:T1	

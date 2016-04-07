@@ -1,0 +1,8 @@
+T1	Risk-Factor 69 76	smoking
+T2	Risk-Factor 78 87	lifestyle
+T3	Precaution 49 61	vaccinations
+T4	Precaution 40 47	hygiene
+T5	Disease 18 24	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T5	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T5	
+T6	Disease 32 38	winter

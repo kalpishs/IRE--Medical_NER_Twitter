@@ -1,0 +1,5 @@
+T1	Disease 81 85	COPD
+T2	Treatment 57 70	critical care
+R1	Treated_By Arg1:T1 Arg2:T2	
+T3	Person 8 13	lives
+R2	Undergoes Arg1:T3 Arg2:T2	

@@ -1,0 +1,4 @@
+T1	Disease 62 68	asthma
+T2	Treatment 25 42	bariatric surgery
+T3	Organisation 1 10	MGH study
+R1	Treated_By Arg1:T1 Arg2:T2	

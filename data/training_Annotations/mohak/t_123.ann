@@ -1,0 +1,3 @@
+T1	Disease 36 73	chronic obstructive pulmonary disease
+T2	Drug 14 26	Breo Ellipta
+R1	Cures Arg1:T2 Arg2:T1	

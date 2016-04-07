@@ -1,0 +1,5 @@
+T1	Drug 20 26	RPL554
+T2	Disease 45 49	COPD
+T3	Organisation 60 73	Verona Pharma
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Manufactured_by Arg1:T1 Arg2:T3	

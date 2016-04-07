@@ -1,0 +1,7 @@
+T1	Organisation 1 9	Novartis
+T2	Drug 15 28	India's Cipla
+T3	Drug 34 57	respiratory drug Onbrez
+T4	Location 79 84	Swiss
+T5	Person 85 94	drugmaker
+R1	Is_In Arg1:T5 Arg2:T4	
+R2	Manufactured_by Arg1:T3 Arg2:T1	

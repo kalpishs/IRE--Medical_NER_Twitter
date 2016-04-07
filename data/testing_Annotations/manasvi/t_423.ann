@@ -1,0 +1,6 @@
+T1	Organisation 0 10	"LA BioMed
+T2	Money 29 36	$80 000
+T3	Treatment 63 78	pulmonary rehab
+T4	Disease 91 95	COPD
+R1	Treated_By Arg1:T4 Arg2:T3	
+R2	Performed_By Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Disease 72 78	asthma
+T2	Person 59 66	smokers
+T3	Symptom-or-Side-Effect 1 26	Reduced airway lumen area
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	
+R3	Comorbid_Condition Arg1:T1 Arg2:T3	

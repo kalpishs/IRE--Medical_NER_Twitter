@@ -1,0 +1,5 @@
+T1	Treatment 21 38	Bariatric surgery
+T2	Disease 47 68	small airway function
+R1	Treated_By Arg1:T2 Arg2:T1	
+T3	Disease 79 100	systemic inflammation
+R2	Treated_By Arg1:T3 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	News 70 95	San Bernardino County Sun
+T2	Location 45 55	California
+T3	Disease 61 67	asthma
+T4	Person 33 41	children
+#1	AnnotatorNotes T4	children referred as person
+R1	Is_Suffering_From Arg1:T4 Arg2:T3	
+R2	Is_In Arg1:T4 Arg2:T2	

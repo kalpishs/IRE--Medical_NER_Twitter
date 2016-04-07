@@ -1,0 +1,5 @@
+T1	Disease 58 70	mesothelioma
+T2	Test 48 54	PET-CT
+R1	Detects Arg1:T2 Arg2:T1	
+T3	Disease 13 17	COPD
+T4	Disease 22 37	Pleural Disease

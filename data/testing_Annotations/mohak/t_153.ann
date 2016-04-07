@@ -1,0 +1,5 @@
+T1	Treatment 17 26	Pineapple
+T2	Disease 88 94	asthma
+T3	Disease 103 123	breathing conditions
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	

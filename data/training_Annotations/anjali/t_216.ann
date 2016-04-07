@@ -1,0 +1,6 @@
+T1	Location 35 39	U.S.
+T2	Disease 87 108	COPD  coronary artery
+T3	Money 51 55	cost
+T4	Symptom-or-Side-Effect 75 85	depression
+R1	Is_Characteristic_Of Arg1:T4 Arg2:T2	
+#1	AnnotatorNotes T3	bigger cost linked to COPD

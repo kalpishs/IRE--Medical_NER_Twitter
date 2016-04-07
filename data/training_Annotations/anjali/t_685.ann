@@ -1,0 +1,3 @@
+T1	Disease 60 64	COPD
+T2	Person 46 54	patients
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	

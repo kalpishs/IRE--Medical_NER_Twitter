@@ -1,0 +1,5 @@
+T1	Symptom-or-Side-Effect 69 78	Allergies
+T2	Disease 80 86	asthma
+T3	Disease 88 94	cancer
+T4	Symptom-or-Side-Effect 96 108	constipation
+T5	Symptom-or-Side-Effect 110 135	high cholesterol  obesity

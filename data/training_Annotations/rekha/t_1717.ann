@@ -1,0 +1,4 @@
+T1	Treatment 1 5	Yoga
+T2	Symptom-or-Side-Effect 15 28	lung function
+T3	Disease 46 50	COPD
+R1	Treated_By Arg1:T3 Arg2:T1	

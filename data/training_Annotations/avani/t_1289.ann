@@ -1,0 +1,5 @@
+T1	Test 1 38	Metabolomic analysis of urine samples
+T2	Disease 57 63	asthma
+T3	Disease 69 73	COPD
+R1	Detects Arg1:T1 Arg2:T2	
+R2	Detects Arg1:T1 Arg2:T3	

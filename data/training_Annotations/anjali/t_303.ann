@@ -1,0 +1,9 @@
+T1	Treatment 17 25	Swimming
+T2	Treatment 27 34	cycling
+T3	Treatment 36 43	sailing
+T4	Treatment 48 55	walking
+T5	Disease 64 70	asthma
+R1	Treated_By Arg1:T5 Arg2:T1	
+R2	Treated_By Arg1:T5 Arg2:T2	
+R3	Treated_By Arg1:T5 Arg2:T3	
+R4	Treated_By Arg1:T5 Arg2:T4	

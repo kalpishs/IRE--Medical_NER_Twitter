@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 18	Newly found genes
+T2	Disease 29 38	allergies
+T3	Disease 40 46	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

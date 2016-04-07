@@ -1,0 +1,7 @@
+T1	Drug 79 84	Cipro
+T2	Drug 86 94	Levaquin
+T3	Treatment 62 73	antibiotics
+R1	Involves Arg1:T3 Arg2:T1	
+R2	Involves Arg1:T3 Arg2:T2	
+T4	Organisation 0 14	"FDA Committee
+T5	News 0 118	"FDA Committee recommends label changes  warnings for popular antibiotics like Cipro  Levaquin https://t.co/yayZdk9q2y

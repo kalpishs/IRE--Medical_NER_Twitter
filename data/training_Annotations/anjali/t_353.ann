@@ -1,0 +1,3 @@
+T1	Risk-Factor 45 59	Climate change
+T2	Disease 69 83	asthma attacks
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

@@ -1,0 +1,11 @@
+T1	Treatment 21 29	Ayurveda
+T2	Disease 47 55	High B.P
+T3	Disease 57 65	Diabetes
+T4	Disease 66 73	Obesity
+T5	Disease 74 80	Asthma
+T6	Disease 81 92	Infertility
+T7	Disease 93 106	Skin ailments
+T8	Disease 107 120	Eyes ailments
+T9	Disease 121 137	Immune disorders
+T10	Disease 140 157	Seasonal ailments
+R1	Treated_By Arg1:T2 Arg2:T1	

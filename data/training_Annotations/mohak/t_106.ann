@@ -1,0 +1,3 @@
+T1	Disease 123 129	asthma
+T2	Risk-Factor 96 115	Rubber tree flowers
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

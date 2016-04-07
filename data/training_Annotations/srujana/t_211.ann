@@ -1,0 +1,5 @@
+T1	Disease 73 79	asthma
+T2	Disease 89 98	sinusitis
+T3	Symptom-or-Side-Effect 35 41	eczema
+T4	Symptom-or-Side-Effect 51 61	scaly skin
+T5	Symptom-or-Side-Effect 63 71	dry eyes

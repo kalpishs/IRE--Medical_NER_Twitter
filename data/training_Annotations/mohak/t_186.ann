@@ -1,0 +1,4 @@
+T1	Risk-Factor 85 90	ozone
+#1	AnnotatorNotes T1	depletion
+T2	Disease 94 108	asthma attacks
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

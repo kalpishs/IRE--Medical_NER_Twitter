@@ -1,0 +1,13 @@
+T1	Disease 86 90	COPD
+T2	Disease 107 116	emphysema
+T3	Disease 121 139	chronic bronchitis
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	
+T4	Disease-Type 46 59	Lung diseases
+R3	Is_Of_Type Arg1:T1 Arg2:T4	
+R4	Is_Of_Type Arg1:T2 Arg2:T4	
+R5	Is_Of_Type Arg1:T3 Arg2:T4	
+T5	Risk-Factor 70 77	smoking
+R6	Increases_Likelihood_Of Arg1:T5 Arg2:T2	
+R7	Increases_Likelihood_Of Arg1:T5 Arg2:T1	
+R8	Increases_Likelihood_Of Arg1:T5 Arg2:T3	

@@ -1,0 +1,7 @@
+T1	Disease 26 32	asthma
+T2	Person 41 51	allergists
+T3	Person 57 66	sufferers
+T4	Test 1 11	Asthma app
+R1	Detects Arg1:T4 Arg2:T1	
+R2	Is_Suffering_From Arg1:T3 Arg2:T1	
+R3	Undergoes Arg1:T3 Arg2:T4	

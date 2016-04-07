@@ -1,0 +1,4 @@
+T1	Disease 21 27	Asthma
+T2	Symptom-or-Side-Effect 64 76	stunt growth
+T3	Location 5 13	NewDelhi
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

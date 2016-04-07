@@ -1,0 +1,7 @@
+T1	Person 36 44	children
+T2	Disease 50 56	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+T3	Disease 61 75	peanut allergy
+R2	Comorbid_Condition Arg1:T2 Arg2:T3	
+T5	Test 31 35	test
+R3	Undergoes Arg1:T1 Arg2:T5	

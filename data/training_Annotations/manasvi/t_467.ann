@@ -1,0 +1,5 @@
+T1	Disease 1 16	Allergic asthma
+T2	Drug 49 57	molecule
+T3	Organisation 18 21	UFZ
+R1	Cures Arg1:T2 Arg2:T1	
+R2	Manufactured_by Arg1:T2 Arg2:T3	

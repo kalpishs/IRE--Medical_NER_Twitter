@@ -1,0 +1,5 @@
+T1	Drug 30 39	Pulmicort
+T2	Disease 12 18	Asthma
+T3	Drug 53 62	Symbicort
+T4	Drug 64 73	Formotero
+R1	Cures Arg1:T1 Arg2:T2	

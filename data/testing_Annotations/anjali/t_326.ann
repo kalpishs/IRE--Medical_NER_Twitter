@@ -1,0 +1,7 @@
+T1	Treatment 25 44	breathing exercises
+T2	Treatment 54 69	correct posture
+T3	Frequency 81 102	eliminate or decrease
+T4	Disease 117 131	asthma attacks
+R1	Treated_By Arg1:T4 Arg2:T2	
+R2	Treated_By Arg1:T4 Arg2:T1	
+T5	Intensity 103 112	serverity

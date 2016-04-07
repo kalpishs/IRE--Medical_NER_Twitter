@@ -1,0 +1,3 @@
+T1	Treatment 8 37	Ayurvedic and Herbal products
+T2	Disease 67 73	Asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

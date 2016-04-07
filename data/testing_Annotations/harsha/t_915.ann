@@ -1,0 +1,7 @@
+T1	Disease 78 82	COPD
+T2	Person 64 72	patients
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+T3	Treatment 1 24	Noninvasive ventilation
+R2	Undergoes Arg1:T2 Arg2:T3	
+R3	Treated_By Arg1:T1 Arg2:T3	
+#1	AnnotatorNotes T3	Noninvasive ventilation method has been helpful

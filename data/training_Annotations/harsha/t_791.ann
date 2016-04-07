@@ -1,0 +1,3 @@
+T1	Risk-Factor 32 50	mouse infestations
+T2	Disease 6 21	asthma symptoms
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

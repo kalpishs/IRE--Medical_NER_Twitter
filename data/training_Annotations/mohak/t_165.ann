@@ -1,0 +1,3 @@
+T1	Disease 22 28	asthma
+T2	Disease 48 60	heart attack
+R1	Causes Arg1:T1 Arg2:T2	

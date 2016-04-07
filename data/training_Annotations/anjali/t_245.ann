@@ -1,0 +1,13 @@
+T1	Organ 10 23	lung diseases
+T2	Disease 25 31	Asthma
+T3	Disease 33 37	COPD
+T4	Disease 39 57	Chronic Bronchitis
+T5	Disease 59 68	Emphysema
+T6	Disease 70 86	Acute Bronchitis
+T7	Disease 92 107	Cystic Fibrosis
+R1	Affects Arg1:T2 Arg2:T1	
+R2	Affects Arg1:T3 Arg2:T1	
+R3	Affects Arg1:T4 Arg2:T1	
+R4	Affects Arg1:T5 Arg2:T1	
+R5	Affects Arg1:T6 Arg2:T1	
+R6	Affects Arg1:T7 Arg2:T1	

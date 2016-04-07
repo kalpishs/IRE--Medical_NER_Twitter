@@ -1,0 +1,5 @@
+T1	Organisation 17 22	Glaxo
+T2	Drug 23 34	asthma drug
+R1	Manufactured_by Arg1:T2 Arg2:T1	
+T3	Ethnic-Group 51 62	adolescents
+T4	Ethnic-Group 39 45	adults

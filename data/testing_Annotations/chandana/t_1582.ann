@@ -1,0 +1,7 @@
+T1	Risk-Factor 52 59	Smoking
+T2	Disease 67 73	Cancer
+T3	Disease 75 88	Heart Disease
+T4	Disease 90 99	Emphysema
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T4	

@@ -1,0 +1,4 @@
+T1	Disease 97 103	Asthma
+T2	Drug 24 36	Platycodin D
+T3	Symptom-or-Side-Effect 55 67	Inflammation
+R1	Addresses Arg1:T2 Arg2:T3	

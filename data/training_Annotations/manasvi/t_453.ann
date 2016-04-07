@@ -1,0 +1,5 @@
+T1	Risk-Factor 26 43	Unbridled passion
+T2	Disease 65 82	triple amputation
+T3	Disease 87 103	life-long asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

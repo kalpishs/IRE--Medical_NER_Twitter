@@ -1,0 +1,3 @@
+T1	Test 1 38	Forced oscillometry bested spirometry
+T2	Disease 71 77	asthma
+R1	Detects Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Risk-Factor 1 15	Peanut allergy
+T2	Disease 27 33	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

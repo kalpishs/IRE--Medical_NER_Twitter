@@ -1,0 +1,13 @@
+T1	Treatment 16 24	Hypnosis
+T2	Disease 44 51	anxiety
+T3	Disease 53 61	insomnia
+T4	Disease 63 70	phobias
+T5	Disease 72 79	obesity
+T6	Disease 81 87	asthma
+T7	Disease 93 117	irritable bowel syndrome
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	
+R5	Treated_By Arg1:T6 Arg2:T1	
+R6	Treated_By Arg1:T7 Arg2:T1	

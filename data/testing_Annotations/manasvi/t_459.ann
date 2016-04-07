@@ -1,0 +1,7 @@
+T1	Disease 51 57	asthma
+T2	Disease-Type 59 98	chronic obstructive #pulmonary diseases
+T3	Drug 17 29	Breathe Free
+T4	Organisation 1 14	Organic India
+R1	Is_Of_Type Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T3 Arg2:T1	
+R3	Manufactured_by Arg1:T3 Arg2:T4	

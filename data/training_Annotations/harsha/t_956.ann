@@ -1,0 +1,4 @@
+T1	Disease 1 7	Asthma
+T2	Disease 32 44	heart attack
+R1	Causes Arg1:T1 Arg2:T2	
+T3	News 52 70	The Economic Times

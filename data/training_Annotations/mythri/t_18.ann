@@ -1,0 +1,12 @@
+T1	Intensity 32 38	severe
+T3	Symptom-or-Side-Effect 72 80	coughing
+T4	Symptom-or-Side-Effect 82 90	wheezing
+T5	Symptom-or-Side-Effect 92 105	bronchospasms
+T6	Symptom-or-Side-Effect 119 147	life threatening anaphylaxis
+T7	Symptom-or-Side-Effect 152 157	shock
+T2	Disease 32 52	severe latex allergy
+R1	Comorbid_Condition Arg1:T2 Arg2:T3	
+R2	Comorbid_Condition Arg1:T2 Arg2:T4	
+R3	Comorbid_Condition Arg1:T2 Arg2:T5	
+R4	Comorbid_Condition Arg1:T2 Arg2:T6	
+R5	Comorbid_Condition Arg1:T2 Arg2:T7	

@@ -1,0 +1,4 @@
+T1	Drug 42 50	levaquin
+T2	Symptom-or-Side-Effect 51 68	skin side effects
+R1	Causes Arg1:T1 Arg2:T2	
+T3	Drug 18 25	Lamisil

@@ -1,0 +1,6 @@
+T1	Person 18 25	Patient
+T2	Disease 32 41	emphysema
+T3	Treatment 70 85	valve treatment
+R1	Treated_By Arg1:T2 Arg2:T3	
+R2	Is_Suffering_From Arg1:T1 Arg2:T2	
+R3	Undergoes Arg1:T1 Arg2:T3	

@@ -1,0 +1,17 @@
+T1	Treatment 18 23	Beets
+T2	Disease 43 49	cancer
+T3	Disease 51 66	chronic fatigue
+T4	Disease 68 73	colds
+T5	Disease 75 81	eczema
+T6	Disease 83 93	gallstones
+T7	Disease 95 114	high blood pressure
+T8	Disease 116 125	psoriasis
+T9	Disease 130 136	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	
+R5	Treated_By Arg1:T6 Arg2:T1	
+R6	Treated_By Arg1:T7 Arg2:T1	
+R7	Treated_By Arg1:T8 Arg2:T1	
+R8	Treated_By Arg1:T9 Arg2:T1	

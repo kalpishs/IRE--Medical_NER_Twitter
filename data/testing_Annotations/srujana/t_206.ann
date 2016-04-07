@@ -1,0 +1,4 @@
+T1	Symptom-or-Side-Effect 51 96	airways remodelling and loss of reversibility
+T2	Disease 1 15	chronic asthma
+T3	Intensity 21 40	sub-optimal control
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Organisation 1 12	AstraZeneca
+T2	Disease 35 39	COPD
+T3	Drug 99 109	lung drugs
+R1	Manufactured_by Arg1:T3 Arg2:T1	
+R2	Cures Arg1:T3 Arg2:T2	

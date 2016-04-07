@@ -1,0 +1,4 @@
+T1	Risk-Factor 7 19	Gut bacteria
+T2	Disease 38 44	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Intensity 45 49	risk

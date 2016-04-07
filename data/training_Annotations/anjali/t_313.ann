@@ -1,0 +1,3 @@
+T1	Treatment 12 35	Standing deep breathing
+T2	Disease 71 116	bronchitis  emphysema and shortness of breath
+R1	Treated_By Arg1:T2 Arg2:T1	

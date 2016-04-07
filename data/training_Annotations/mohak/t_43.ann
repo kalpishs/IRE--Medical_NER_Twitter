@@ -1,0 +1,5 @@
+T1	Disease 77 114	chronic obstructive pulmonary disease
+T2	Disease 117 121	COPD
+T3	Organisation 20 30	Theravance
+T4	Organisation 12 15	GSK
+R1	Alternative_Names Arg1:T1 Arg2:T2	

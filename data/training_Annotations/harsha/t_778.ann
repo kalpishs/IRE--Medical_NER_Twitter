@@ -1,0 +1,5 @@
+T1	Disease 8 19	lung cancer
+T2	Person 26 32	smoker
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+T3	Disease 38 42	COPD
+R2	Is_Suffering_From Arg1:T2 Arg2:T3	

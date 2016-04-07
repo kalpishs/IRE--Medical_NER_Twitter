@@ -1,0 +1,3 @@
+T1	Disease 45 51	asthma
+T2	Risk-Factor 1 21	Psychosocial factors
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

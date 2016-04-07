@@ -1,0 +1,5 @@
+T1	Disease 49 55	asthma
+T2	Drug 1 11	Budesonide
+T3	Mode-of-administration 13 19	nhaler
+R1	Admistered_By Arg1:T2 Arg2:T3	
+R2	Cures Arg1:T2 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Disease 19 31	Rhinoviruses
+T2	Symptom-or-Side-Effect 64 84	respiratory symptoms
+T3	Person 88 96	children
+T4	Disease 102 108	asthma
+R1	Causes Arg1:T1 Arg2:T4	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T4	
+R3	Comorbid_Condition Arg1:T1 Arg2:T2	
+T5	Intensity 32 45	significantly

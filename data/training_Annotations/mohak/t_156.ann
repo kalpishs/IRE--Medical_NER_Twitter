@@ -1,0 +1,5 @@
+T1	Disease 1 7	Asthma
+T2	Disease 19 38	respiratory disease
+R1	Comorbid_Condition Arg1:T2 Arg2:T1	
+T3	Location 78 88	California
+T4	Ethnic-Group 66 74	children

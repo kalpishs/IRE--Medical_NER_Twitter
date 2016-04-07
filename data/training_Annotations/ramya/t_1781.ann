@@ -1,0 +1,3 @@
+T1	Disease 13 19	asthma
+T2	Symptom-or-Side-Effect 30 41	sore throat
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Disease 27 64	chronic obstructive pulmonary disease
+T2	Disease 66 70	COPD
+T3	Organ 104 108	lung
+R1	Affects Arg1:T2 Arg2:T3	
+R2	Affects Arg1:T1 Arg2:T3	

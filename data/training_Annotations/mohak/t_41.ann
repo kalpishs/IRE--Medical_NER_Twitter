@@ -1,0 +1,6 @@
+T1	Treatment 84 96	healthy diet
+T2	Disease 1 38	Chronic obstructive pulmonary disease
+T3	Disease 40 44	COPD
+R1	Alternative_Names Arg1:T2 Arg2:T3	
+R2	Treated_By Arg1:T2 Arg2:T1	
+R3	Treated_By Arg1:T3 Arg2:T1	

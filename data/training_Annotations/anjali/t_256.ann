@@ -1,0 +1,9 @@
+T1	Treatment 1 15	Oxygen therapy
+T2	Disease 49 55	Cancer
+T3	Disease 57 61	AIDS
+T4	Disease 63 69	Asthma
+T5	Disease 71 97	Heart and Vascular disease
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	

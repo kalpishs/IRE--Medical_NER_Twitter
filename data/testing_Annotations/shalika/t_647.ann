@@ -1,0 +1,5 @@
+T1	Drug 95 105	omalizumab
+T2	Disease 65 74	urticaria
+T3	Disease 79 89	angioedema
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T3	

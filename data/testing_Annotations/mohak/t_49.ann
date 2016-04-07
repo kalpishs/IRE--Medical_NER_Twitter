@@ -1,0 +1,9 @@
+T1	Test 18 30	Breathalyzer
+T2	Disease 49 60	lung cancer
+R1	Detects Arg1:T1 Arg2:T2	
+T3	Disease 62 75	liver disease
+R2	Detects Arg1:T1 Arg2:T3	
+T4	Disease 77 90	heart disease
+R3	Detects Arg1:T1 Arg2:T4	
+T5	Disease 92 98	asthma
+R4	Detects Arg1:T1 Arg2:T5	

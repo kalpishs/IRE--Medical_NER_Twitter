@@ -1,0 +1,3 @@
+T1	Drug 1 19	Heart disease drug
+T2	Disease 26 32	asthma
+R1	Cures Arg1:T1 Arg2:T2	

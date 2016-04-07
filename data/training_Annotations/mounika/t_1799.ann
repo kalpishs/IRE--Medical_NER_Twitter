@@ -1,0 +1,4 @@
+T1	Drug 2 10	levaquin
+T2	Drug 32 44	Finasteride:
+T3	Drug 53 61	Propecia
+R1	Alternative_Names Arg1:T2 Arg2:T3	

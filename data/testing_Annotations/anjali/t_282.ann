@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 14	Air pollution
+T2	Disease 43 57	asthma attacks
+T3	Disease 62 76	heart problems
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

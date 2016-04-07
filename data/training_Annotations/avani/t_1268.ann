@@ -1,0 +1,3 @@
+T1	Treatment 18 34	Laser technology
+T2	Disease 56 62	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

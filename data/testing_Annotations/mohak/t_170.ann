@@ -1,0 +1,7 @@
+T1	Disease 61 79	chronic bronchitis
+T2	Disease 47 56	emphysema
+T3	Disease 8 44	Chronic Obstructive Pulmonary Disase
+T4	Disease 1 5	COPD
+R1	Alternative_Names Arg1:T3 Arg2:T4	
+R2	Comorbid_Condition Arg1:T3 Arg2:T2	
+R3	Comorbid_Condition Arg1:T3 Arg2:T1	

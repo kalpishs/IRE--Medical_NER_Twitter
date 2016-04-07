@@ -1,0 +1,3 @@
+T1	Treatment 19 38	Nutrition treatment
+T2	Disease 69 73	COPD
+R1	Treated_By Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Person 67 76	childhood
+T2	Disease 78 84	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+T3	Disease 89 109	fixed airflow obstrn
+R2	Causes Arg1:T3 Arg2:T2	
+T4	Disease 129 133	COPD
+R3	Causes Arg1:T4 Arg2:T2	

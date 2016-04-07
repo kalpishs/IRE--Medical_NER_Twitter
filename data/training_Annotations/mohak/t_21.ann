@@ -1,0 +1,3 @@
+T1	Disease 1 7	Asthma
+T2	Disease-Type 20 41	heterogeneous disease
+R1	Is_Of_Type Arg1:T1 Arg2:T2	

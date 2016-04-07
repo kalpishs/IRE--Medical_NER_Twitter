@@ -1,0 +1,7 @@
+T1	Treatment 33 39	Grapes
+T3	Disease 68 74	asthma
+R2	Treated_By Arg1:T3 Arg2:T1	
+T4	Disease 77 86	migraines
+R3	Treated_By Arg1:T4 Arg2:T1	
+T5	Disease 97 110	breast cancer
+R4	Treated_By Arg1:T5 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Treatment 24 40	Regular exercise
+T2	Disease 50 65	asthma symptoms
+R1	Treated_By Arg1:T2 Arg2:T1	
+T3	Intensity 41 49	relieves

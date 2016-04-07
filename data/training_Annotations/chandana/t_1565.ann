@@ -1,0 +1,4 @@
+T1	Drug 5 17	Levalbuterol
+T2	Organisation 22 46	Teva Pharmaceuticals USA
+R1	Manufactured_by Arg1:T1 Arg2:T2	
+T3	Mode-of-administration 65 75	inhalation

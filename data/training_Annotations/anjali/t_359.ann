@@ -1,0 +1,8 @@
+T1	Disease 89 95	cancer
+T2	Disease 77 84	anaemia
+T3	Treatment 25 39	mooring powder
+T4	Disease 48 63	asthma symptoms
+T5	Intensity 40 47	reduces
+R1	Treated_By Arg1:T4 Arg2:T3	
+R2	Treated_By Arg1:T2 Arg2:T3	
+R3	Treated_By Arg1:T1 Arg2:T3	

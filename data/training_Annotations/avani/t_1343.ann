@@ -1,0 +1,3 @@
+T1	Treatment 14 47	Stiolto Respimat Inhalation Spray
+T2	Disease 87 91	COPD
+R1	Treated_By Arg1:T2 Arg2:T1	

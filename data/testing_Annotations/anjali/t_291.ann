@@ -1,0 +1,7 @@
+T1	Disease 64 84	exacerbation of COPD
+T2	Intensity 58 63	acute
+T3	Person_has_disease 44 52	patients
+E1	Person_has_disease:T3 
+T4	Treatment 1 15	Milkvetch root
+T5	Organ 25 40	immune function
+R1	Treated_By Arg1:T1 Arg2:T4	

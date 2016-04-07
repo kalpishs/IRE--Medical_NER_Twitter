@@ -1,0 +1,6 @@
+T1	Risk-Factor 1 11	Overweight
+T2	Person 12 20	children
+#1	AnnotatorNotes T2	Age group
+T3	Disease 51 57	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Is_Suffering_From Arg1:T2 Arg2:T3	

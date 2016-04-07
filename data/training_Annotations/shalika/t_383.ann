@@ -1,0 +1,6 @@
+T1	Intensity 19 27	20% rise
+T2	Disease 62 65	flu
+T3	Disease 70 81	bronchitis'
+T4	Risk-Factor 1 7	Bleach
+R1	Increases_Likelihood_Of Arg1:T4 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T4 Arg2:T3	

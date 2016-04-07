@@ -1,0 +1,4 @@
+T1	Drug 80 91	fluticasone
+T2	Mode-of-administration 92 97	nasal
+T3	Test 52 73	breath alcohol levels
+R1	Admistered_By Arg1:T1 Arg2:T2	

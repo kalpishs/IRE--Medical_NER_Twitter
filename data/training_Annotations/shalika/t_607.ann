@@ -1,0 +1,4 @@
+T1	Disease 38 43	#COPD
+T2	Treatment 51 70	injectable vaccines
+T3	Disease 79 101	pneumococcal infection
+R1	Treated_By Arg1:T3 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Disease 41 52	allergies  
+T2	Disease 52 60	asthma  
+T3	Risk-Factor 19 33	Climate change
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Test 1 25	Philips' wearable sensor
+T2	Disease 32 36	COPD
+R1	Detects Arg1:T1 Arg2:T2	

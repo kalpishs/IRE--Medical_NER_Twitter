@@ -1,0 +1,4 @@
+T1	Precaution 1 12	Weight loss
+T2	Disease 21 27	asthma
+T3	Person 40 52	obese adults
+R1	Is_Suffering_From Arg1:T3 Arg2:T2	

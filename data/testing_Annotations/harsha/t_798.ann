@@ -1,0 +1,3 @@
+T1	Disease 64 70	asthma
+T2	Risk-Factor 12 39	Mold-ridden NYCHA buildings
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

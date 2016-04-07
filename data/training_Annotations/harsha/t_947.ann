@@ -1,0 +1,9 @@
+T1	Disease 1 7	Asthma
+T2	Drug 8 19	medications
+R1	Cures Arg1:T2 Arg2:T1	
+T3	Person 27 34	infancy
+T4	Symptom-or-Side-Effect 35 48	affect growth
+R2	Causes Arg1:T2 Arg2:T4	
+R3	Uses Arg1:T3 Arg2:T2	
+R4	Has Arg1:T3 Arg2:T4	
+T5	News 63 82	Nature World Report

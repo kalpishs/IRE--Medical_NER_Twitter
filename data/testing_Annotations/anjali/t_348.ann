@@ -1,0 +1,4 @@
+T2	Frequency 8 14	raises
+T3	Disease 36 48	heart attack
+T1	Risk-Factor 1 7	Asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

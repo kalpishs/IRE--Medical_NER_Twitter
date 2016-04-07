@@ -1,0 +1,4 @@
+T1	Disease 1 7	Asthma
+T2	Symptom-or-Side-Effect 35 58	obstructive sleep apnea
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T1	

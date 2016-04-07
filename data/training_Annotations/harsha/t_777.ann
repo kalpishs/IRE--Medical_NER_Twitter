@@ -1,0 +1,3 @@
+T1	Disease 72 82	ronchitis.
+T2	Symptom-or-Side-Effect 59 67	eadache 
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

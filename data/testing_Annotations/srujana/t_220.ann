@@ -1,0 +1,10 @@
+T1	Disease 65 68	ASD
+T2	Disease 69 73	SIDS
+T3	Disease 74 77	ADD
+T4	Disease 78 82	ADHD
+T5	Disease 83 91	Diabetes
+T6	Disease 92 98	Cancer
+T7	Disease 99 105	asthma
+T8	Disease 128 136	Seizures
+T9	Symptom-or-Side-Effect 106 115	Allergies
+T10	Symptom-or-Side-Effect 137 151	Brain Swelling

@@ -1,0 +1,9 @@
+T1	Disease 49 55	asthma
+T2	Risk-Factor 57 64	Tobacco
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+T3	Risk-Factor 65 72	smoke  
+T4	Risk-Factor 72 88	changing seasons
+T5	Risk-Factor 90 98	pollen  
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R3	Increases_Likelihood_Of Arg1:T4 Arg2:T1	
+R4	Increases_Likelihood_Of Arg1:T5 Arg2:T1	

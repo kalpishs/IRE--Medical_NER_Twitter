@@ -1,0 +1,7 @@
+T1	Person_takes_drug 1 17	Catherine Farmer
+E1	Person_takes_drug:T1 
+T2	Organisation 28 47	Johnson & Johnson’s
+T3	Drug 66 81	fluoroquinolone
+T4	Drug 93 101	Levaquin
+R1	Manufactured_by Arg1:T3 Arg2:T2	
+R2	Manufactured_by Arg1:T4 Arg2:T2	

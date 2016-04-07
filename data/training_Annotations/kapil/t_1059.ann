@@ -1,0 +1,7 @@
+T1	Disease 31 43	Constipation
+T2	Disease 62 68	Eczema
+T3	Treatment 26 29	IBS
+R1	Treated_By Arg1:T1 Arg2:T3	
+T4	Disease 70 78	Diabetes
+T5	Disease 94 100	Asthma
+T6	Disease 80 92	Fibromyalgia

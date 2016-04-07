@@ -1,0 +1,3 @@
+T1	Risk-Factor 23 57	early life exposure to paracetamol
+T2	Disease 62 68	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Drug 1 13	Cannabis oil
+T2	Disease 56 60	COPD
+R1	Cures Arg1:T1 Arg2:T2	

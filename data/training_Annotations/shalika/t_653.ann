@@ -1,0 +1,5 @@
+T1	Drug 29 47	asthma medications
+T2	Symptom-or-Side-Effect 67 80	birth defects
+R1	Causes Arg1:T1 Arg2:T2	
+T3	Person 0 16	"First-trimester
+R2	Uses Arg1:T3 Arg2:T1	

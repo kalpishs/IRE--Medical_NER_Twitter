@@ -1,0 +1,5 @@
+T1	Risk-Factor 47 71	fungal protease allergen
+T2	Disease 112 118	asthma
+T3	Symptom-or-Side-Effect 81 108	airway hyper-responsiveness
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

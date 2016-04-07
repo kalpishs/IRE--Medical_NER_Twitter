@@ -1,0 +1,5 @@
+T1	Disease 76 82	asthma
+T2	Symptom-or-Side-Effect 15 24	microbial
+T3	Symptom-or-Side-Effect 29 50	metabolic alterations
+R1	Comorbid_Condition Arg1:T1 Arg2:T3	
+R2	Comorbid_Condition Arg1:T1 Arg2:T2	

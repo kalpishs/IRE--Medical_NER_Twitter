@@ -1,0 +1,4 @@
+T1	Symptom-or-Side-Effect 6 14	ailments
+T2	Symptom-or-Side-Effect 27 40	chronic cough
+T3	Disease 65 69	COPD
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T3	

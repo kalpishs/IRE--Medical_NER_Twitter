@@ -1,0 +1,5 @@
+T1	Symptom-or-Side-Effect 57 64	chronic
+T2	Symptom-or-Side-Effect 65 89	non-communicable disease
+T3	Disease 47 53	asthma
+R1	Is_Characteristic_Of Arg1:T1 Arg2:T3	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T3	

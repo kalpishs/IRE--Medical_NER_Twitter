@@ -1,0 +1,7 @@
+T1	Disease 28 32	COPD
+T2	Person 33 41	patients
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+T3	Symptom-or-Side-Effect 1 21	respiratory problems
+T4	Location 54 69	livestock farms
+R3	Is_In Arg1:T2 Arg2:T4	
+R2	Has Arg1:T2 Arg2:T3	

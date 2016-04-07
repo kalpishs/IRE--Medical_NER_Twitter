@@ -1,0 +1,5 @@
+T2	Disease 67 73	asthma
+T3	Organ 80 85	teeth
+R1	Affects Arg1:T2 Arg2:T3	
+T1	Risk-Factor 28 54	chlorinated swimming pools
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

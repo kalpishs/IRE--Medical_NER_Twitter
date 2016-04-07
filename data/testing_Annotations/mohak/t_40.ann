@@ -1,0 +1,11 @@
+T1	Disease 68 81	Heart disease
+T2	Disease 82 97	Type 2 diabetes
+T3	Disease 98 104	Asthma
+T4	Disease 105 116	Sleep apnea
+T5	Disease 117 138	Social discrimination
+T6	Risk-Factor 20 27	obesity
+R1	Increases_Likelihood_Of Arg1:T6 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T6 Arg2:T2	
+R3	Increases_Likelihood_Of Arg1:T6 Arg2:T3	
+R4	Increases_Likelihood_Of Arg1:T6 Arg2:T4	
+R5	Increases_Likelihood_Of Arg1:T6 Arg2:T5	

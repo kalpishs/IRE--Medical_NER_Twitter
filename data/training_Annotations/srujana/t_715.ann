@@ -1,0 +1,5 @@
+T1	Mode-of-administration 1 8	Inhaled
+T2	Drug 9 24	corticosteroids
+T3	Disease 29 33	COPD
+T4	Disease 59 68	pneumonia
+R1	Cures Arg1:T2 Arg2:T4	

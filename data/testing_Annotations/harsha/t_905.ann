@@ -1,0 +1,4 @@
+T1	Risk-Factor 83 90	smoking
+T2	Frequency 50 53	80%
+T3	Disease 57 61	COPD
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

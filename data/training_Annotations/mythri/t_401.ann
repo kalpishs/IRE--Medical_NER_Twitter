@@ -1,0 +1,4 @@
+T1	Risk-Factor 16 44	High blood eosinophil counts
+T2	Symptom-or-Side-Effect 53 72	sputum eosinophilia
+T3	Disease 90 103	severe asthma
+#1	AnnotatorNotes T2	High blood eosinophil count can cause sputum esnophilia in asthma patients

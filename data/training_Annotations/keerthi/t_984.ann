@@ -1,0 +1,7 @@
+T1	Drug 2 8	clomid
+T2	Drug 37 46	Singulair
+T3	Drug 10 28	Montelukast Sodium
+R1	Alternative_Names Arg1:T3 Arg2:T2	
+T4	Drug 53 68	fertility drugs
+R2	Alternative_Names Arg1:T4 Arg2:T1	
+T5	Advertisement 0 118	"#clomid: Montelukast Sodium Generic Singulair - Buy fertility drugs without a prescription at http://t.co/j05yxjx99I"

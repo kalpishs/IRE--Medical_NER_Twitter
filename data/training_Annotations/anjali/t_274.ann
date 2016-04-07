@@ -1,0 +1,5 @@
+T1	Person 37 51	young children
+T2	Disease 27 33	asthma
+T3	Treatment 1 15	Breathing test
+R1	Treated_By Arg1:T2 Arg2:T3	
+R2	Is_Suffering_From Arg1:T1 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Treatment 1 10	Paper cup
+T2	Disease 27 33	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	
+T3	Treatment 75 82	spacers
+R2	Treated_By Arg1:T2 Arg2:T3	

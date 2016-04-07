@@ -1,0 +1,8 @@
+T1	Disease 43 49	cancer
+T2	Symptom-or-Side-Effect 51 66	chronic fatigue
+T3	Symptom-or-Side-Effect 68 73	colds
+T4	Symptom-or-Side-Effect 75 81	eczema
+T5	Disease 83 93	gallstones
+T6	Symptom-or-Side-Effect 95 114	high blood pressure
+T7	Disease 115 125	 psoriasis
+T8	Disease 130 136	asthma

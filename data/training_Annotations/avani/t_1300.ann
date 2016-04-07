@@ -1,0 +1,5 @@
+T1	Treatment 16 53	coronary revascularization procedures
+T2	Disease 74 78	COPD
+T3	Person 60 66	people
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Is_Suffering_From Arg1:T3 Arg2:T2	

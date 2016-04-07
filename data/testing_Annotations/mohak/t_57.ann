@@ -1,0 +1,15 @@
+T1	Disease 32 42	dry coughs
+T2	Disease 44 54	bronchitis
+T3	Disease 56 64	dry skin
+T4	Disease 66 70	acne
+T5	Disease 72 83	nose bleeds
+T6	Disease 89 98	headaches
+T7	Disease 100 113	kidney stones
+T8	Risk-Factor 1 21	Limited water intake
+R1	Increases_Likelihood_Of Arg1:T8 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T8 Arg2:T2	
+R3	Increases_Likelihood_Of Arg1:T8 Arg2:T3	
+R4	Increases_Likelihood_Of Arg1:T8 Arg2:T4	
+R5	Increases_Likelihood_Of Arg1:T8 Arg2:T5	
+R6	Increases_Likelihood_Of Arg1:T8 Arg2:T6	
+R7	Increases_Likelihood_Of Arg1:T8 Arg2:T7	

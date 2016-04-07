@@ -1,0 +1,6 @@
+T1	Treatment 13 24	acupuncture
+T2	Disease 42 48	asthma
+T3	Person 28 36	children
+R1	Undergoes Arg1:T3 Arg2:T1	
+R2	Treated_By Arg1:T2 Arg2:T1	
+T4	News 50 92	a systematic review http://t.co/6rPA5bprXM

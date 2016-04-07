@@ -1,0 +1,9 @@
+T1	Disease 93 99	asthma
+T2	Location 118 124	Canada
+T3	Treatment 14 73	Faecalibacterium  Lachnospira  Veillonellaand Rothia (FLVR)
+T4	Person 83 92	childhood
+R1	Treated_By Arg1:T1 Arg2:T3	
+#1	AnnotatorNotes T4	refers to children
+#2	AnnotatorNotes T3	FLVR refers to a bacteria
+R2	Undergoes Arg1:T4 Arg2:T3	
+#3	AnnotatorNotes R2	FLVR bacteria in children prevents from asthma

@@ -1,0 +1,3 @@
+T1	Drug 1 11	Omalizumab
+T2	Disease 29 42	severe asthma
+R1	Cures Arg1:T1 Arg2:T2	

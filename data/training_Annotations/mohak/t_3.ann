@@ -1,0 +1,15 @@
+T1	Disease 43 49	asthma
+T2	Disease 51 60	allergies
+T3	Disease 62 77	hyperthyroidism
+T4	Disease 79 90	acid reflux
+T5	Disease 92 106	kidney disease
+T6	Disease 108 114	cancer
+T7	Disease 116 128	chronic pain
+T8	Disease 33 41	insomnia
+R1	Causes Arg1:T1 Arg2:T8	
+R2	Causes Arg1:T2 Arg2:T8	
+R3	Causes Arg1:T3 Arg2:T8	
+R4	Causes Arg1:T4 Arg2:T8	
+R5	Causes Arg1:T5 Arg2:T8	
+R6	Causes Arg1:T6 Arg2:T8	
+R7	Causes Arg1:T7 Arg2:T8	

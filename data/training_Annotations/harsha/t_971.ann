@@ -1,0 +1,5 @@
+T1	Disease 42 59	Thalassemia Major
+T2	Disease 103 109	asthma
+T3	Person 2 17	Asad_Umar Salam
+R1	Is_Suffering_From Arg1:T3 Arg2:T1	
+R2	Is_Suffering_From Arg1:T3 Arg2:T2	

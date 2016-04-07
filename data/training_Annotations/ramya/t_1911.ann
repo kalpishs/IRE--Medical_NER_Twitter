@@ -1,0 +1,4 @@
+T1	Drug 10 26	Psychedelic drug
+T2	Disease 36 42	asthma
+T3	Precaution 27 35	prevents
+R1	Cures Arg1:T1 Arg2:T2	

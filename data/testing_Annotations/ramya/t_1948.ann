@@ -1,0 +1,3 @@
+T1	Disease 1 7	Asthma
+T2	Symptom-or-Side-Effect 19 46	stunts growth among infants
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

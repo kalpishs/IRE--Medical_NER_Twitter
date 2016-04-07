@@ -1,0 +1,5 @@
+T1	Disease 36 46	bronchitis
+T2	Symptom-or-Side-Effect 49 68	stomach pain/cramps
+T3	Person 6 12	Jeremy
+R1	Is_Suffering_From Arg1:T3 Arg2:T1	
+R2	Has Arg1:T3 Arg2:T2	

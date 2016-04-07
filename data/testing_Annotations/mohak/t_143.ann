@@ -1,0 +1,5 @@
+T1	Risk-Factor 33 40	smoking
+T2	Ethnic-Group 50 59	pregnancy
+T3	Disease 110 116	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+T4	Ethnic-Group 126 139	grandchildren

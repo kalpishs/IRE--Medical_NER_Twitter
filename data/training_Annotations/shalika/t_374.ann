@@ -1,0 +1,6 @@
+T1	Treatment 13 25	inconsistent
+T2	Treatment 41 51	guidelines
+T3	Disease 56 68	acute asthma
+T4	Organisation 77 89	hospital EDs
+R1	Treated_By Arg1:T3 Arg2:T2	
+R2	Treated_By Arg1:T3 Arg2:T1	

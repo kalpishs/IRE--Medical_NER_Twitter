@@ -1,0 +1,5 @@
+T1	Risk-Factor 50 57	smoking
+T2	Disease 12 26	preterm births
+T3	Disease 31 37	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

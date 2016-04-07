@@ -1,0 +1,4 @@
+T1	Disease 18 30	Eosinophilia
+T2	Disease 45 50	NAACP
+T3	Disease 52 131	Neoplasm Allergy/ Asthma Addison's disease Collagen vascular diseases Parasites
+R1	Alternative_Names Arg1:T2 Arg2:T3	

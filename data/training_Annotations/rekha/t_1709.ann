@@ -1,0 +1,5 @@
+T1	Disease 33 45	osteoporosis
+T2	Symptom-or-Side-Effect 47 56	fractures
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+T3	Risk-Factor 6 13	smokers
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

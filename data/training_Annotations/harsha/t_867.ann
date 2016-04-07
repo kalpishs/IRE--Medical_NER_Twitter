@@ -1,0 +1,8 @@
+T1	Disease 32 45	asthma attack
+T2	Person 14 21	toddler
+T3	Location 49 55	flight
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	
+R2	Is_In Arg1:T2 Arg2:T3	
+T4	Treatment 61 85	makeshift medical device
+R3	Treated_By Arg1:T1 Arg2:T4	
+#1	AnnotatorNotes T2	Toddler referred as person

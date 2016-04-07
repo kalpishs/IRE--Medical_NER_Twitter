@@ -1,0 +1,5 @@
+T1	Disease 9 15	asthma
+T2	Intensity 43 49	severe
+T3	Disease 50 56	asthma
+T4	Test 16 25	Diagnosis
+R1	Detects Arg1:T4 Arg2:T1	

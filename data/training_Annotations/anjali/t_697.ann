@@ -1,0 +1,11 @@
+T1	Treatment 21 31	Aclidinium
+T2	Disease 121 125	COPD
+R1	Treated_By Arg1:T2 Arg2:T1	
+T3	Symptom-or-Side-Effect 41 59	exercise endurance
+T4	Symptom-or-Side-Effect 61 79	exertional dyspnea
+T5	Symptom-or-Side-Effect 81 95	hyperinflation
+T6	Symptom-or-Side-Effect 100 117	physical activity
+R2	Comorbid_Condition Arg1:T2 Arg2:T6	
+R3	Comorbid_Condition Arg1:T2 Arg2:T5	
+R4	Comorbid_Condition Arg1:T2 Arg2:T4	
+R6	Comorbid_Condition Arg1:T2 Arg2:T3	

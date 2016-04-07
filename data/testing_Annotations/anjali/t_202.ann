@@ -1,0 +1,5 @@
+T1	Disease 28 34	asthma
+T2	Organ 70 84	adrenal glands
+T3	Drug 35 43	steroids
+R2	Cures Arg1:T3 Arg2:T1	
+#1	AnnotatorNotes T3	Steroids affects Adrenal Glands

@@ -1,0 +1,3 @@
+T1	Disease 94 131	chronic obstructive pulmonary disease
+T2	Disease 35 39	COPD
+R1	Alternative_Names Arg1:T1 Arg2:T2	

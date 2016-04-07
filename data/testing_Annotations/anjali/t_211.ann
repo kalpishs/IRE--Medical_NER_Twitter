@@ -1,0 +1,6 @@
+T1	Symptom-or-Side-Effect 35 41	eczema
+T2	Symptom-or-Side-Effect 43 61	dry and scaly skin
+T3	Symptom-or-Side-Effect 63 71	dry eyes
+T4	Disease 73 79	asthma
+R1	Is_Characteristic_Of Arg1:T1 Arg2:T4	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T4	

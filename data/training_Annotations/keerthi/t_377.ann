@@ -1,0 +1,10 @@
+T1	Organisation 1 16	GlaxoSmithKline
+T2	Drug 19 25	Nucala
+T3	Drug 27 38	mepolizumab
+R1	Alternative_Names Arg1:T2 Arg2:T3	
+T4	Mode-of-administration 46 56	injectable
+T5	Drug 57 81	IL-5 monoclonal antibody
+R2	Alternative_Names Arg1:T3 Arg2:T5	
+T6	Intensity 100 106	severe
+T7	Disease 107 114	asthma.
+R3	Cures Arg1:T3 Arg2:T7	

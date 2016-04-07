@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 6;17 27	Nasal microbiome
+T2	Risk-Factor 10 27	throat microbiome
+T3	Disease 65 71	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

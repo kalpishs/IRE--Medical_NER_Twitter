@@ -1,0 +1,9 @@
+T1	Disease-Type 88 110	respiratory infections
+T2	Disease-Type 112 125	heart disease
+T3	Disease 127 131	COPD
+T4	Disease 133 139	stroke
+T5	Risk-Factor 1 14	Air pollution
+R1	Increases_Likelihood_Of Arg1:T5 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T5 Arg2:T4	
+R3	Is_Of_Type Arg1:T3 Arg2:T1	
+R4	Is_Of_Type Arg1:T4 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Location 21 29	Canadian
+T2	Treatment 55 66	weight loss
+T3	Disease 79 85	asthma
+T4	Ethnic-Group 89 101	obese adults
+R1	Treated_By Arg1:T3 Arg2:T2	

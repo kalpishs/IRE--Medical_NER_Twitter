@@ -1,0 +1,5 @@
+T1	Organisation 45 50	Glaxo
+T2	Organisation 78 93	GlaxoSmithKline
+T3	Drug 53 64	asthma drug
+R1	Manufactured_by Arg1:T3 Arg2:T1	
+R2	Manufactured_by Arg1:T3 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	Risk-Factor 92 98	diesel
+T2	Disease 112 118	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Treatment 5 10	honey
+T4	Disease 58 72	pollen allergy
+R2	Treated_By Arg1:T4 Arg2:T3	

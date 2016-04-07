@@ -1,0 +1,3 @@
+T1	Disease 1 13	Lung disease
+T2	Symptom-or-Side-Effect 14 25	undiagnosed
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T1	

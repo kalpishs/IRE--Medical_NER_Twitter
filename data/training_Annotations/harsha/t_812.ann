@@ -1,0 +1,6 @@
+T1	Treatment 1 11	Key enzyme
+T2	Disease-Type 40 49	allergies
+T3	Disease 54 60	asthma
+T4	Person 18 30	country kids
+R1	Undergoes Arg1:T4 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	

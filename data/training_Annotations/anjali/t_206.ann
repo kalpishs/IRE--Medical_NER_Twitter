@@ -1,0 +1,5 @@
+T1	Disease 1 15	chronic asthma
+T2	Symptom-or-Side-Effect 51 70	airways remodelling
+T3	Symptom-or-Side-Effect 75 96	loss of reversibility
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	

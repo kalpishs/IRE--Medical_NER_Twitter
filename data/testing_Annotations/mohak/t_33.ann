@@ -1,0 +1,13 @@
+T1	Treatment 30 40	Meditation
+T2	Disease 83 89	cancer
+T3	Disease 91 97	asthma
+T4	Disease 98 107	arthritis
+T5	Disease 109 117	diabetes
+T6	Disease 119 131	hypertension
+T7	Disease 134 147	Heart disease
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	
+R5	Treated_By Arg1:T6 Arg2:T1	
+R6	Treated_By Arg1:T7 Arg2:T1	

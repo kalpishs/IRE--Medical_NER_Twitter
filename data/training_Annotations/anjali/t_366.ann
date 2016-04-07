@@ -1,0 +1,3 @@
+T1	Treatment 1 20	Breathing exercises
+T2	Disease 25 102	asthma  bronchitis  COPD  emphysema  cystic fibrosis  pneumonia  tuberculosis
+R1	Treated_By Arg1:T2 Arg2:T1	

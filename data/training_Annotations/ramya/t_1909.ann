@@ -1,0 +1,3 @@
+T1	Disease 1 5	COPD
+T2	Symptom-or-Side-Effect 18 38	sudden cardiac death
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

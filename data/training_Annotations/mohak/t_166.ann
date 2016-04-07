@@ -1,0 +1,5 @@
+T1	Disease 61 78	anxiety disorders
+T2	Disease 37 56	affective disorders
+T3	Disease 1 7	Asthma
+R1	Causes Arg1:T3 Arg2:T2	
+R2	Causes Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Risk-Factor 21 34	Air pollution
+T2	Disease 63 69	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Location 17 19	UK

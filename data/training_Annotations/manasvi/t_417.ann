@@ -1,0 +1,5 @@
+T1	Disease 42 48	asthma
+T2	Disease 61 75	heart problems
+T3	Risk-Factor 10 20	toxic smog
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

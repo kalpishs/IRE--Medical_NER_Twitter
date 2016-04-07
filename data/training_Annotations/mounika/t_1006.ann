@@ -1,0 +1,7 @@
+T1	Disease 19 23	COPD
+T2	Treatment 1 15	Oxygen therapy
+T3	Disease 49 60	burn injury
+T4	Person 24 32	patients
+R1	Is_Suffering_From Arg1:T4 Arg2:T3	
+R2	Is_Suffering_From Arg1:T4 Arg2:T1	
+R3	Treated_By Arg1:T1 Arg2:T2	

@@ -1,0 +1,20 @@
+T1	Disease 137 146	allergies
+T2	Disease 149 155	asthma
+T3	Risk-Factor 42 63	Biological pollutants
+T4	Risk-Factor 72 90	pollen from plants
+T5	Risk-Factor 92 96	mite
+T6	Risk-Factor 98 112	hair from pets
+T7	Risk-Factor 114 119	fungi
+T8	Risk-Factor 121 130	parasites
+R1	Increases_Likelihood_Of Arg1:T8 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T8 Arg2:T2	
+R3	Increases_Likelihood_Of Arg1:T7 Arg2:T1	
+R4	Increases_Likelihood_Of Arg1:T7 Arg2:T2	
+R5	Increases_Likelihood_Of Arg1:T6 Arg2:T1	
+R6	Increases_Likelihood_Of Arg1:T6 Arg2:T2	
+R7	Increases_Likelihood_Of Arg1:T5 Arg2:T1	
+R8	Increases_Likelihood_Of Arg1:T5 Arg2:T2	
+R9	Increases_Likelihood_Of Arg1:T4 Arg2:T1	
+R10	Increases_Likelihood_Of Arg1:T4 Arg2:T2	
+R11	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R12	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Risk-Factor 14 51	Chronic obstructive pulmonary disease
+T2	Disease 81 101	sudden cardiac death
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

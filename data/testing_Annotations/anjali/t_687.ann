@@ -1,0 +1,9 @@
+T2	Disease 33 39	asthma
+T3	Symptom-or-Side-Effect 41 49	alopecia
+T4	Symptom-or-Side-Effect 54 60	eczema
+T5	Disease 11 15	acne
+T1	Disease 17 31	hypothyroidism
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T2 Arg2:T3	
+R3	Comorbid_Condition Arg1:T2 Arg2:T4	
+R4	Comorbid_Condition Arg1:T5 Arg2:T2	

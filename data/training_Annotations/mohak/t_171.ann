@@ -1,0 +1,3 @@
+T1	Disease 69 75	asthma
+T2	Treatment 18 64	computerized clinical decision support systems
+R1	Treated_By Arg1:T1 Arg2:T2	

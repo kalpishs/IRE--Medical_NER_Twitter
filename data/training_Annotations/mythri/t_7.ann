@@ -1,0 +1,8 @@
+T1	Disease 23 29	cancer
+T2	Disease-Type 31 44	heart disease
+T3	Disease 46 52	stroke
+T4	Symptom-or-Side-Effect 54 65	blood clots
+T5	Symptom-or-Side-Effect 67 74	obesity
+T6	Symptom-or-Side-Effect 76 95	high blood pressure
+T7	Symptom-or-Side-Effect 97 113	high cholesterol
+T8	Disease 115 125	bronchitis

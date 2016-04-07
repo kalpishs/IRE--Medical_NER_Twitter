@@ -1,0 +1,3 @@
+T1	Disease 63 69	asthma
+T2	Risk-Factor 33 45	Pepper spray
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

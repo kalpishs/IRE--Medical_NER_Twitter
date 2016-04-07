@@ -1,0 +1,7 @@
+T1	Symptom-or-Side-Effect 105 112	dyspnea
+T2	Age 38 42	85yo
+T3	Person 43 49	smoker
+T4	Disease 56 69	stage II COPD
+R1	Is_of_Age Arg1:T3 Arg2:T2	
+R2	Is_Suffering_From Arg1:T3 Arg2:T4	
+R3	Comorbid_Condition Arg1:T4 Arg2:T1	

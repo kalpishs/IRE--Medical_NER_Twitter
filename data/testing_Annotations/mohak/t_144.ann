@@ -1,0 +1,7 @@
+T1	Disease 100 109	emphysema
+T2	Treatment 13 34	Lung volume reduction
+T3	Treatment 36 39	LVR
+T4	Organ 60 64	lung
+R1	Treated_By Arg1:T1 Arg2:T3	
+R2	Treated_By Arg1:T1 Arg2:T2	
+R3	Affects Arg1:T1 Arg2:T4	

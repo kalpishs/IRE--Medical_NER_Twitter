@@ -1,0 +1,11 @@
+T1	Organisation 45 49	GSKs
+T2	Drug 50 61	mepolizumab
+T3	Disease 85 91	asthma
+T4	Person 66 72	adults
+T5	Location 12 14	US
+R1	Manufactured_by Arg1:T2 Arg2:T1	
+R2	Is_Suffering_From Arg1:T4 Arg2:T3	
+R3	Cures Arg1:T2 Arg2:T3	
+T6	News 2 10	GSK News
+#1	AnnotatorNotes T4	person refers to adults
+#2	AnnotatorNotes T3	asthma stage is considered to be severe

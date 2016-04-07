@@ -1,0 +1,5 @@
+T1	Disease 1 40	Aspirin-exacerbated respiratory disease
+T2	Disease 77 83	asthma
+T3	Disease 85 100	nasal polyposis
+R1	Causes Arg1:T2 Arg2:T1	
+R2	Causes Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Drug 35 43	steroids
+T2	Disease 28 34	asthma
+T3	Organ 70 84	adrenal glands
+R1	Affects Arg1:T2 Arg2:T3	

@@ -1,0 +1,4 @@
+T1	Disease 74 118	antagonistic effects on physical functioning
+T2	Disease 1 58	Highly prevalent sarcopenia and abdominal obesity in COPD
+R1	Causes Arg1:T2 Arg2:T1	
+#1	AnnotatorNotes T2	multiple conditions

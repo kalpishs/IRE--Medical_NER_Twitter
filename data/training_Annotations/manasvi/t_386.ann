@@ -1,0 +1,6 @@
+T1	Disease 25 29	copd
+T2	Treatment 1 20	stem cell treatment
+T3	Disease 52 61	anti agin
+R1	Treated_By Arg1:T1 Arg2:T2	
+R2	Treated_By Arg1:T3 Arg2:T2	
+T4	Precaution 62 71	skin care

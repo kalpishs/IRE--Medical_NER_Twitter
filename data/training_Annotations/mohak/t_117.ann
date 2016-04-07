@@ -1,0 +1,16 @@
+T1	Disease 1 7	asthma
+T2	Symptom-or-Side-Effect 25 32	anxiety
+T3	Symptom-or-Side-Effect 33 43	drowsiness
+T4	Symptom-or-Side-Effect 44 53	confusion
+T5	Symptom-or-Side-Effect 54 67	panic attacks
+T6	Symptom-or-Side-Effect 68 117	difficulty concentrating  expressing and speaking
+#1	AnnotatorNotes T6	Multiple symptoms that are linked through a negation
+T7	Symptom-or-Side-Effect 118 128	exhaustion
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T1	
+R3	Is_Characteristic_Of Arg1:T3 Arg2:T1	
+R2	Is_Characteristic_Of Arg1:T4 Arg2:T1	
+R4	Is_Characteristic_Of Arg1:T5 Arg2:T1	
+R5	Is_Characteristic_Of Arg1:T6 Arg2:T1	
+R6	Is_Characteristic_Of Arg1:T7 Arg2:T1	
+T8	Symptom-or-Side-Effect 129 133	welp
+R7	Is_Characteristic_Of Arg1:T8 Arg2:T1	

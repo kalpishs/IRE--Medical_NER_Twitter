@@ -1,0 +1,5 @@
+T1	Treatment 1 37	Gene controlling lung disease repair
+T2	Disease 47 51	COPD
+T3	Disease 56 62	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	

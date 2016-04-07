@@ -1,0 +1,9 @@
+T1	Person 45 53	children
+T2	Age 39 44	Young
+T3	Drug 8 16	steroids
+T4	Symptom-or-Side-Effect 24 36	stunt growth
+T5	Disease 1 7	Asthma
+R1	Uses Arg1:T1 Arg2:T3	
+R2	Is_of_Age Arg1:T1 Arg2:T2	
+R3	Contraindication Arg1:T3 Arg2:T4	
+R4	Cures Arg1:T3 Arg2:T5	

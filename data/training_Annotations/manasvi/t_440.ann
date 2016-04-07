@@ -1,0 +1,7 @@
+T1	Disease 75 94	eosinophilic asthma
+T2	Disease 119 125	asthma
+T3	Drug 33 44	mepolizumab
+T4	Organisation 1 4	GSK
+R1	Cures Arg1:T3 Arg2:T1	
+R2	Cures Arg1:T3 Arg2:T2	
+R3	Manufactured_by Arg1:T3 Arg2:T4	

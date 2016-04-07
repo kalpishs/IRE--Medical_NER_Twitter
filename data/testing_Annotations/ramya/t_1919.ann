@@ -1,0 +1,3 @@
+T1	Disease 21 25	COPD
+T2	Treatment 26 72	hospitalization follow-up with a pulmonologist
+R1	Treated_By Arg1:T1 Arg2:T2	

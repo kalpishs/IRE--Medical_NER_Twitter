@@ -1,0 +1,7 @@
+T1	Disease 38 44	asthma
+T2	Disease 46 55	emphysema
+T3	Disease 61 79	pulmonary fibrosis
+T4	Disease-Type 11 32	Respiratory disorders
+R1	Is_Of_Type Arg1:T1 Arg2:T4	
+R2	Is_Of_Type Arg1:T3 Arg2:T4	
+R3	Is_Of_Type Arg1:T2 Arg2:T4	

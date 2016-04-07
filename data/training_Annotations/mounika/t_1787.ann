@@ -1,0 +1,3 @@
+T1	Disease 34 40	asthma
+T2	Symptom-or-Side-Effect 56 75	vulnerable to ozone
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

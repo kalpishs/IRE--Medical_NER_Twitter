@@ -1,0 +1,4 @@
+T1	Risk-Factor 1 15	Household mold
+T2	Disease 44 50	asthma
+T3	Age 34 43	childhood
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

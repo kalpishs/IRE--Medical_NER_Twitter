@@ -1,0 +1,12 @@
+T1	Drug 1 8	Aspirin
+T2	Disease 21 40	respiratory disease
+T3	Disease 116 122	asthma
+T4	Disease 98 110	nasal polyps
+T5	Disease 77 96	aspirin sensitivity
+R1	Comorbid_Condition Arg1:T5 Arg2:T2	
+R2	Comorbid_Condition Arg1:T4 Arg2:T2	
+R3	Comorbid_Condition Arg1:T3 Arg2:T2	
+R4	Causes Arg1:T1 Arg2:T5	
+R5	Causes Arg1:T1 Arg2:T4	
+R6	Causes Arg1:T1 Arg2:T3	
+R7	Causes Arg1:T1 Arg2:T2	

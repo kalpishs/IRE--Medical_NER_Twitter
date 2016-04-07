@@ -1,0 +1,6 @@
+T1	Disease 7 11	COPD
+T2	Disease 13 50	Chronic obstructive pulmonary disease
+R1	Alternative_Names Arg1:T1 Arg2:T2	
+T3	Symptom-or-Side-Effect 70 110	persistently obstructs bronchial airflow
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T2	
+R3	Is_Characteristic_Of Arg1:T3 Arg2:T1	

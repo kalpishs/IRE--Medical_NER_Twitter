@@ -1,0 +1,9 @@
+T1	Gender 64 69	women
+T2	Intensity 83 90	chronic
+T3	Organisation 2 10	panurses
+T4	Person 35 47	older adults
+T5	Age 49 52	>65
+R1	Is_of_Age Arg1:T4 Arg2:T5	
+T6	Disease-Type 125 140	immune problems
+T7	Disease 111 117	asthma
+T8	Disease-Type 119 122	CVD

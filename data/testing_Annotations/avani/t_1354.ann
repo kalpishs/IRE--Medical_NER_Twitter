@@ -1,0 +1,7 @@
+T1	Disease 22 32	bronchitis
+T2	Person 36 44	children
+#1	AnnotatorNotes T2	group of children
+T3	Person 49 55	adults
+#2	AnnotatorNotes T3	group of adults
+T4	Treatment 4 17	home remedies
+R1	Treated_By Arg1:T1 Arg2:T4	

@@ -1,0 +1,3 @@
+T1	Disease 21 27	Asthma
+T2	Drug 55 71	psychedelic drug
+R1	Cures Arg1:T2 Arg2:T1	

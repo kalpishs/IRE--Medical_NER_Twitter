@@ -1,0 +1,7 @@
+T1	Disease 1 7	Asthma
+T2	Symptom-or-Side-Effect 30 49	Shortness of breath
+T3	Symptom-or-Side-Effect 53 76	Chest tightness or pain
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	
+R3	Is_Characteristic_Of Arg1:T2 Arg2:T1	
+R4	Is_Characteristic_Of Arg1:T3 Arg2:T1	

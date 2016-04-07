@@ -1,0 +1,5 @@
+T1	Organisation 14 31	Glaxo  Theravance
+T2	Drug 34 46	Breo Ellipta
+T3	Disease 47 53	asthma
+R1	Cures Arg1:T2 Arg2:T3	
+R2	Manufactured_by Arg1:T2 Arg2:T1	

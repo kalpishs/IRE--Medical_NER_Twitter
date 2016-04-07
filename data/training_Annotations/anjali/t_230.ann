@@ -1,0 +1,5 @@
+T1	Disease 46 67	Parkinson’s  diabetes
+T2	Disease 69 91	cardiovascular disease
+T3	Disease 93 99	asthma
+T4	Disease 105 118	breast cancer
+#1	AnnotatorNotes T1	ResearchKit is an App by Apple an open source software framework that makes it easy for researchers and developers to create apps that could revolutionise medical studies, potentially transforming medicine forever

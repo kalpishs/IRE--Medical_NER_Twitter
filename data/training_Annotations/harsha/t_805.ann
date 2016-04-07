@@ -1,0 +1,5 @@
+T1	Test 86 96	spirometry
+T2	Test 99 111	gas analysis
+T3	Disease 34 51	COPD exacerbation
+R1	Detects Arg1:T1 Arg2:T3	
+R2	Detects Arg1:T2 Arg2:T3	

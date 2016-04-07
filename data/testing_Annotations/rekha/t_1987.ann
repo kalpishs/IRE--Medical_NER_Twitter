@@ -1,0 +1,4 @@
+T1	Test 16 28	breath tests
+T2	Disease 51 60	emphysema
+R1	Detects Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	does not

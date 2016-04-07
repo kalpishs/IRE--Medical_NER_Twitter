@@ -1,0 +1,6 @@
+T1	Disease 28 34	asthma
+T2	Risk-Factor 52 60	bacteria
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+T3	Person 64 77	early infancy
+R2	Is_Suffering_From Arg1:T3 Arg2:T1	
+#1	AnnotatorNotes T3	infants referred as person

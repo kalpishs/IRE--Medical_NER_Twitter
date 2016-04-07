@@ -1,0 +1,3 @@
+T1	Risk-Factor 63 84	artificial fragrances
+T2	Disease 108 114	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

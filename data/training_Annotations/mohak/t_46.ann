@@ -1,0 +1,18 @@
+T1	Disease 21 27	asthma
+T2	Disease 28 33	cough
+T3	Disease 34 48	sleep problems
+T4	Disease 50 58	insomnia
+R1	Alternative_Names Arg1:T3 Arg2:T4	
+T5	Disease 60 70	depression
+T6	Disease 71 80	Alzheimer
+T7	Disease 87 96	heartburn
+T8	Disease 98 118	nervous system spasm
+T9	Treatment 1 8	Saffron
+R2	Treated_By Arg1:T1 Arg2:T9	
+R3	Treated_By Arg1:T2 Arg2:T9	
+R4	Treated_By Arg1:T3 Arg2:T9	
+R5	Treated_By Arg1:T4 Arg2:T9	
+R6	Treated_By Arg1:T5 Arg2:T9	
+R7	Treated_By Arg1:T6 Arg2:T9	
+R8	Treated_By Arg1:T7 Arg2:T9	
+R9	Treated_By Arg1:T8 Arg2:T9	

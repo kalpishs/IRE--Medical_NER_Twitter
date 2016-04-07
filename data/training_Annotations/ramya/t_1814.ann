@@ -1,0 +1,4 @@
+T1	Organisation 1 12	AstraZeneca
+T2	Disease 78 82	COPD
+T3	Drug 43 48	PT003
+R1	Cures Arg1:T3 Arg2:T2	

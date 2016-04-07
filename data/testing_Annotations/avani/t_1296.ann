@@ -1,0 +1,3 @@
+T1	Drug 66 89	steroid-resistant IL-33
+T2	Disease 1 50	Pediatric severe asthma with fungal sensitization
+R1	Causes Arg1:T1 Arg2:T2	

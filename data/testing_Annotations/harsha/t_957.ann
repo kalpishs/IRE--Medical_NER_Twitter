@@ -1,0 +1,3 @@
+T1	Disease 7 13	asthma
+T2	Person 1 6	Child
+R1	Is_Suffering_From Arg1:T2 Arg2:T1	

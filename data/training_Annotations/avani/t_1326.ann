@@ -1,0 +1,3 @@
+T1	Risk-Factor 1 12	Isocyanates
+T2	Disease 42 61	occupational asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

@@ -1,0 +1,7 @@
+T1	Disease 13 19	asthma
+T2	Treatment 48 64	regular exercise
+T3	Risk-Factor 71 78	smoking
+T4	Treatment 80 94	healthy eating
+R1	Treated_By Arg1:T1 Arg2:T2	
+R2	Treated_By Arg1:T1 Arg2:T4	
+R3	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

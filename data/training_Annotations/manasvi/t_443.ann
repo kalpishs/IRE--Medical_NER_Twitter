@@ -1,0 +1,3 @@
+T2	Risk-Factor 27 36	Pollution
+T3	Disease 79 91	fatal asthma
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

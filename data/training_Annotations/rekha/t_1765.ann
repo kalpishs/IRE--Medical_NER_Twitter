@@ -1,0 +1,5 @@
+T1	Treatment 4 23	Weight Loss Surgery
+T2	Disease 32 38	Asthma
+T3	Symptom-or-Side-Effect 39 48	Flare-Ups
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Comorbid_Condition Arg1:T2 Arg2:T3	

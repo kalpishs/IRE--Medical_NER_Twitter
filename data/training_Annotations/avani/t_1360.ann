@@ -1,0 +1,5 @@
+T1	Disease 28 34	asthma
+T2	Person 43 50	infants
+#1	AnnotatorNotes T2	group of infants
+T3	Risk-Factor 1 18	Four gut bacteria
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

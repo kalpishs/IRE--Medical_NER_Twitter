@@ -1,0 +1,9 @@
+T1	Symptom-or-Side-Effect 1 13	Clogged ears
+T2	Symptom-or-Side-Effect 15 26	stuffy nose
+T3	Symptom-or-Side-Effect 28 35	cough  
+T4	Symptom-or-Side-Effect 39 57	asthmatic wheezing
+T5	Disease 80 90	bronchitis
+R1	Is_Characteristic_Of Arg1:T1 Arg2:T5	
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T5	
+R3	Is_Characteristic_Of Arg1:T3 Arg2:T5	
+R4	Is_Characteristic_Of Arg1:T4 Arg2:T5	

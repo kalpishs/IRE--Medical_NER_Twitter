@@ -1,0 +1,6 @@
+T1	Person_has_disease 72 84	Stuart Baggs
+E1	Person_has_disease:T1 Disease:T3
+T3	Disease 102 108	asthma
+T2	Treatment 17 25	reliever
+R1	Treated_By Arg1:T3 Arg2:T2	
+T4	Risk-Factor 86 91	death

@@ -1,0 +1,11 @@
+T1	Disease 1 5	COPD
+T2	Disease 29 66	Chronic obstructive pulmonary disease
+R1	Alternative_Names Arg1:T1 Arg2:T2	
+T3	Drug 68 80	umeclidinium
+T4	Drug 90 97	Incruse
+R2	Alternative_Names Arg1:T4 Arg2:T3	
+T5	Mode-of-administration 81 88	inhaler
+R3	Cures Arg1:T4 Arg2:T1	
+R4	Cures Arg1:T3 Arg2:T2	
+R5	Cures Arg1:T4 Arg2:T2	
+R6	Cures Arg1:T3 Arg2:T1	

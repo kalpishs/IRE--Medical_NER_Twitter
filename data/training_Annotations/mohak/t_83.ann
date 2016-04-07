@@ -1,0 +1,4 @@
+T1	Organisation 2 5	GSK
+T2	Drug 63 67	Breo
+R1	Manufactured_by Arg1:T2 Arg2:T1	
+T3	Organisation 110 114	THRX

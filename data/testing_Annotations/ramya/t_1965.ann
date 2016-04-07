@@ -1,0 +1,4 @@
+T1	Drug 81 89	Levaquin
+T2	Symptom-or-Side-Effect 37 43	killed
+T3	Person 48 55	husband
+R1	Causes Arg1:T1 Arg2:T2	

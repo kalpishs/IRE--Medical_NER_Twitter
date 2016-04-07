@@ -1,0 +1,5 @@
+T1	Risk-Factor 20 31	moldy homes
+T2	Disease 35 41	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Person 52 60	children
+#1	AnnotatorNotes T3	group of children

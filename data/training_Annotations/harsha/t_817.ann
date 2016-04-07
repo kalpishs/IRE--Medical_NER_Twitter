@@ -1,0 +1,7 @@
+T1	Drug 85 95	omalizumab
+T2	Disease 69 79	angioedema
+T3	Disease 55 64	urticaria
+T4	Disease 25 54	occupational delayed pressure
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Cures Arg1:T1 Arg2:T3	
+R3	Cures Arg1:T1 Arg2:T4	

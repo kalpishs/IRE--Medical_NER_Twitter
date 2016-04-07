@@ -1,0 +1,3 @@
+T1	Treatment 39 58	endobronchial valve
+T2	Disease 83 92	emphysema
+R1	Treated_By Arg1:T2 Arg2:T1	

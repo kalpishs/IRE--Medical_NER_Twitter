@@ -1,0 +1,4 @@
+T1	Disease 12 18	Asthma
+T2	Disease 23 60	chronic obstructive pulmonary disease
+T3	Disease 62 66	COPD
+R1	Alternative_Names Arg1:T2 Arg2:T3	

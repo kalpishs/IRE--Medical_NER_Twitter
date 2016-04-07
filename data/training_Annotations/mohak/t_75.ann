@@ -1,0 +1,3 @@
+T2	Disease 89 95	asthma
+T1	Drug 28 42	corticosteroid
+R1	Contraindication Arg1:T1 Arg2:T2	

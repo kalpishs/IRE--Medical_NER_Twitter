@@ -1,0 +1,3 @@
+T1	Disease 29 35	asthma
+T2	Organ 59 64	lungs
+R1	Affects Arg1:T1 Arg2:T2	

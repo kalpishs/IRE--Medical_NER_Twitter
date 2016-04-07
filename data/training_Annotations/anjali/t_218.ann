@@ -1,0 +1,5 @@
+T1	Disease 63 74	lung cancer
+T2	Disease 52 58	asthma
+T3	Symptom-or-Side-Effect 7 22	ckoal emissions
+R1	Comorbid_Condition Arg1:T2 Arg2:T3	
+R2	Comorbid_Condition Arg1:T1 Arg2:T3	

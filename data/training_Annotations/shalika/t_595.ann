@@ -1,0 +1,4 @@
+T1	Disease 63 69	asthma
+T2	Person 86 94	swimmers
+T3	Risk-Factor 21 35	Pool chemicals
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

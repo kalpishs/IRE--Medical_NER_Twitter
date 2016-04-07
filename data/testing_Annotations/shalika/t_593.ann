@@ -1,0 +1,5 @@
+T1	Disease 21 27	Asthma
+T2	Risk-Factor 63 79	viral infections
+T3	Risk-Factor 98 114	autumn allergens
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

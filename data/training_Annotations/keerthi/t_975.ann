@@ -1,0 +1,13 @@
+T1	Person 21 41	Dr Elizabeth Renzoni
+T2	Organ 43 47	lung
+T3	Location 47 49	uk
+T4	Disease 86 89	IPF
+#1	AnnotatorNotes T4	Idiopathic Pulmonary Fibrosis
+T5	Organ 90 95	lungs
+R1	Affects Arg1:T4 Arg2:T5	
+T6	Disease 108 112	copd
+T7	Organisation 51 58	KSSAHSN
+T8	Risk-Factor 59 75	bacterial burden
+T9	Intensity 76 82	higher
+R2	Increases_Likelihood_Of Arg1:T8 Arg2:T4	
+R3	Affects Arg1:T6 Arg2:T5	

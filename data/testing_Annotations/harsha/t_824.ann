@@ -1,0 +1,6 @@
+T1	News 1 48	UPDATE 1-FDA staff finds no new safety problems
+T2	Organisation 54 61	Glaxo's
+T3	Disease 62 68	asthma
+T4	Drug 69 73	drug
+R1	Cures Arg1:T4 Arg2:T3	
+R2	Manufactured_by Arg1:T4 Arg2:T2	

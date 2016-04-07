@@ -1,0 +1,4 @@
+T1	Disease 22 28	asthma
+T2	Symptom-or-Side-Effect 29 35	attack
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+T3	Intensity 8 12	died

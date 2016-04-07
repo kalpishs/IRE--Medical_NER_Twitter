@@ -1,0 +1,3 @@
+T1	Disease 64 70	asthma
+T2	Risk-Factor 1 60	DNA methylation signature of interleukin 1 receptor type II
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	

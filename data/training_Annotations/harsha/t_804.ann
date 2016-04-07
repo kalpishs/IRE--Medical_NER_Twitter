@@ -1,0 +1,3 @@
+T1	Drug 14 20	Avelox
+T2	Disease 54 60	plague
+R1	Cures Arg1:T1 Arg2:T2	

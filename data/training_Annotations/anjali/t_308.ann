@@ -1,0 +1,6 @@
+T1	Intensity 38 45	massive
+T2	Disease 46 59	asthma attack
+T3	Symptom-or-Side-Effect 77 85	coma smh
+R1	Comorbid_Condition Arg1:T2 Arg2:T3	
+T4	Person_has_disease 26 28	He
+E1	Person_has_disease:T4 Disease:T2

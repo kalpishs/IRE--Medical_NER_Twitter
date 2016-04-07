@@ -1,0 +1,15 @@
+T1	Disease 34 54	Rheumatoid arthritis
+T2	Disease 56 70	osteoarthritis
+T3	Disease 72 78	asthma
+T4	Disease 80 85	lupus
+T5	Disease 87 90	IBD
+T6	Disease 92 94	MS
+T7	Disease 96 104	diabetes
+T8	Disease-Type 13 32	autoimmune diseases
+R1	Is_Of_Type Arg1:T1 Arg2:T8	
+R2	Is_Of_Type Arg1:T2 Arg2:T8	
+R3	Is_Of_Type Arg1:T3 Arg2:T8	
+R4	Is_Of_Type Arg1:T4 Arg2:T8	
+R5	Is_Of_Type Arg1:T5 Arg2:T8	
+R6	Is_Of_Type Arg1:T6 Arg2:T8	
+R7	Is_Of_Type Arg1:T7 Arg2:T8	

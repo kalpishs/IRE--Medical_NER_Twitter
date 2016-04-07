@@ -1,0 +1,5 @@
+T1	Treatment 11 23	pest control
+T2	Disease 65 71	Asthma
+T3	Disease 74 92	breathing problems
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Risk-Factor 8 25	Good gut bacteria
+T2	Person 37 44	babies'
+T3	Disease 53 59	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

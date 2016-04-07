@@ -1,0 +1,4 @@
+T1	Age 32 33	6
+T2	Disease 18 24	asthma
+T3	Symptom-or-Side-Effect 59 72	breathing bad
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Disease 37 43	Asthma
+T2	Symptom-or-Side-Effect 49 69	chronic inflammatory
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	

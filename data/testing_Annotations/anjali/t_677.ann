@@ -1,0 +1,4 @@
+T1	Person 20 28	children
+T2	Disease 34 40	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+T3	Risk-Factor 70 75	ozone

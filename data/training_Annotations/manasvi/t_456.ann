@@ -1,0 +1,5 @@
+T1	Person 1 8	Infants
+T2	Disease 56 62	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+T3	Risk-Factor 9 36	lacking “good” gut bacteria
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T2	

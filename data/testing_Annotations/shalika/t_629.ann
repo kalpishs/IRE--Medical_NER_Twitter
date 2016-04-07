@@ -1,0 +1,4 @@
+T1	Disease 44 56	adult asthma
+T2	Disease 61 74	dementia risk
+R1	Causes Arg1:T1 Arg2:T2	
+R2	Causes Arg1:T2 Arg2:T1	

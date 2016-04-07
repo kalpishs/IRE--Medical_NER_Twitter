@@ -1,0 +1,4 @@
+T1	Risk-Factor 59 75	bacterial burden
+T2	Organ 86 95	IPF lungs
+T3	Disease 108 112	copd
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

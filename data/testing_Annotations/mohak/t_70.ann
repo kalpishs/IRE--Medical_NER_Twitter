@@ -1,0 +1,9 @@
+T1	Disease 92 98	Asthma
+T2	Disease 99 118	high blood pressure
+T3	Treatment 34 44	meditation
+T4	Treatment 47 56	Praanayam
+R1	Treated_By Arg1:T1 Arg2:T4	
+R2	Treated_By Arg1:T2 Arg2:T4	
+R3	Treated_By Arg1:T1 Arg2:T3	
+R4	Treated_By Arg1:T2 Arg2:T3	
+R5	Treated_By Arg1:T2 Arg2:T3	

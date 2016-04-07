@@ -1,0 +1,3 @@
+T1	Drug 57 68	roflumilast
+T2	Disease 20 24	COPD
+R1	Cures Arg1:T1 Arg2:T2	

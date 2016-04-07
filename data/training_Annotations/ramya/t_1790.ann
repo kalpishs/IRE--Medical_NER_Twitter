@@ -1,0 +1,4 @@
+T1	Age 73 84	12 year old
+T2	Person 85 89	girl
+T3	Disease 101 107	asthma
+R1	Is_Suffering_From Arg1:T2 Arg2:T3	

@@ -1,0 +1,3 @@
+T1	Disease 59 73	asthma attacks
+T2	Treatment 14 33	Weight loss surgery
+R1	Treated_By Arg1:T1 Arg2:T2	

@@ -1,0 +1,4 @@
+T1	Drug 19 26	aspirin
+T2	Symptom-or-Side-Effect 27 51	induced oxidative stress
+T3	Drug 58 64	asthma
+R1	Causes Arg1:T1 Arg2:T2	

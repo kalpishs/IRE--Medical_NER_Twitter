@@ -1,0 +1,7 @@
+T1	Disease 1 7	Asthma
+T2	Risk-Factor 40 49	Caesarean
+T3	Person 50 56	babies
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+R2	Is_Suffering_From Arg1:T3 Arg2:T1	
+#1	AnnotatorNotes T3	babies has been categorized as person 
+#2	AnnotatorNotes T2	there is 20 times higher asthma risk in cesarean babies 

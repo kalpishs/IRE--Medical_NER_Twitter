@@ -1,0 +1,4 @@
+T1	Person_has_disease 1 7	People
+E1	Person_has_disease:T1 
+T2	Disease 23 33	bronchitis
+T3	Advertisement 1 120	People inflicted with bronchitis have a common favorite pastime of attending symphony orchestra recorded performances."

@@ -1,0 +1,8 @@
+T1	Disease 39 45	asthma
+T2	Disease 50 87	chronic obstructive pulmonary disease
+T3	Disease 89 93	COPD
+R1	Alternative_Names Arg1:T2 Arg2:T3	
+T4	Disease-Type 1 29	Chronic respiratory diseases
+R2	Is_Of_Type Arg1:T1 Arg2:T4	
+R3	Is_Of_Type Arg1:T2 Arg2:T4	
+R4	Is_Of_Type Arg1:T3 Arg2:T4	

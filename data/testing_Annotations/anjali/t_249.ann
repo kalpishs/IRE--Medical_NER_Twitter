@@ -1,0 +1,6 @@
+T1	Person 1 11	Children's
+T2	Organ 12 17	lungs
+T3	Intensity 18 27	adversely
+T4	Risk-Factor 40 60	indoor air pollution
+T5	Person_has_disease 62 82	Children with asthma
+E1	Person_has_disease:T5 Person:T1

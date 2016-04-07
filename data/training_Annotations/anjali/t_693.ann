@@ -1,0 +1,6 @@
+T1	Disease 8 12	COPD
+T2	Disease 1 7	Asthma
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+T3	Symptom-or-Side-Effect 73 85	Inflammation
+T4	Disease 89 108	Chronic Obstructive
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T4	

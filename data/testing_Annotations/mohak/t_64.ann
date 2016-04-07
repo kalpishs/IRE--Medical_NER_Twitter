@@ -1,0 +1,9 @@
+T1	Risk-Factor 1 43	Air pollutants produced by coal combustion
+T2	Disease 58 64	asthma
+T3	Disease 66 77	lung cancer
+T4	Disease 79 103	congestive heart failure
+T5	Disease 108 115	strokes
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T4	
+R4	Increases_Likelihood_Of Arg1:T1 Arg2:T5	

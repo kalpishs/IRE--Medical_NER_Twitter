@@ -1,0 +1,6 @@
+T1	Disease 82 86	COPD
+T2	Organ 41 46	lungs
+T3	Person 50 57	elderly
+#1	AnnotatorNotes T3	adjective
+T4	Person 1 26	Young adults born preterm
+#2	AnnotatorNotes T4	group of such people

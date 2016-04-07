@@ -1,0 +1,5 @@
+T1	Disease 35 50	Asthma Symptoms
+T2	Disease 51 71	Bacterial Infections
+T3	Treatment 20 25	mango
+R1	Treated_By Arg1:T1 Arg2:T3	
+R2	Treated_By Arg1:T2 Arg2:T3	

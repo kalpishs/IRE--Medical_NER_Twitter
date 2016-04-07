@@ -1,0 +1,5 @@
+T1	Disease 34 40	asthma
+T2	Risk-Factor 9 25	Carbon pollution
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+T3	Disease 55 67	health risks
+R2	Increases_Likelihood_Of Arg1:T2 Arg2:T3	

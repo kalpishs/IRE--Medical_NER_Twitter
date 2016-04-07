@@ -1,0 +1,9 @@
+T1	Person 1 7	Mike's
+T2	Disease 26 30	COPD
+T3	Disease 33 57	congestive heart failure
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+R2	Is_Suffering_From Arg1:T1 Arg2:T3	
+T4	Treatment 61 100	implanted defibrillator/pacemaker combo
+R3	Undergoes Arg1:T1 Arg2:T4	
+R4	Treated_By Arg1:T2 Arg2:T4	
+R5	Treated_By Arg1:T3 Arg2:T4	

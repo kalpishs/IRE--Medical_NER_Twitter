@@ -1,0 +1,5 @@
+T1	Risk-Factor 38 49	environment
+T2	Disease 59 76	allergic diseases
+T3	Disease 102 108	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

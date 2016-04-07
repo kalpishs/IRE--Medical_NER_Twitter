@@ -1,0 +1,3 @@
+T1	Risk-Factor 17 39	carbon black particles
+T2	Disease 65 74	emphysema
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

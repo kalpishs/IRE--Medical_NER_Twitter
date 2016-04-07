@@ -1,0 +1,3 @@
+T1	Drug 9 16	aspirin
+T2	Disease 45 60	early emphysema
+R1	Cures Arg1:T1 Arg2:T2	

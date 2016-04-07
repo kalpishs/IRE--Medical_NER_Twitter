@@ -1,0 +1,3 @@
+T1	Disease 64 68	COPD
+T2	Treatment 19 33	beetroot juice
+R1	Treated_By Arg1:T1 Arg2:T2	

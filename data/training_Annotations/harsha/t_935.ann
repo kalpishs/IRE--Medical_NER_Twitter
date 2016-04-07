@@ -1,0 +1,6 @@
+T1	Organisation 21 29	Novartis
+T2	Drug 31 37	Xolair
+R1	Manufactured_by Arg1:T2 Arg2:T1	
+T3	Location 1 8	England
+T4	Disease 60 73	chronic hives
+R2	Cures Arg1:T2 Arg2:T4	

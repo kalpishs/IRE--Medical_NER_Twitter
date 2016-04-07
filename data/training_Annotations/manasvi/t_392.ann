@@ -1,0 +1,6 @@
+T1	Risk-Factor 1 15	Interleukin 13
+T2	Disease 41 47	asthma
+T3	Treatment 49 61	Tralokinumab
+R1	Treated_By Arg1:T2 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R3	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

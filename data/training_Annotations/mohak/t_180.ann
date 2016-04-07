@@ -1,0 +1,4 @@
+T1	Treatment 28 40	lung sealant
+T2	Disease 77 86	emphysema
+T3	Intensity 68 76	advanced
+R1	Treated_By Arg1:T2 Arg2:T1	

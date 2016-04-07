@@ -1,0 +1,13 @@
+T1	Treatment 3 17	raw vegan diet
+T2	Disease 69 78	Allergies
+T3	Disease 80 86	asthma
+T4	Disease 88 94	cancer
+T5	Disease 96 108	constipation
+T6	Disease 110 126	high cholesterol
+T7	Disease 128 135	obesity
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	
+R5	Treated_By Arg1:T6 Arg2:T1	
+R6	Treated_By Arg1:T7 Arg2:T1	

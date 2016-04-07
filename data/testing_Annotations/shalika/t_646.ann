@@ -1,0 +1,5 @@
+T1	Risk-Factor 20 24	diet
+T2	Disease 35 50	asthma severity
+T3	Person 54 63	pregnancy
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+R2	Is_Suffering_From Arg1:T3 Arg2:T2	

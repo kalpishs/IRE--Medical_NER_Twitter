@@ -1,0 +1,5 @@
+T1	Disease 18 24	asthma
+T2	Risk-Factor 42 48	danced
+T3	Risk-Factor 49 59	ran a mile
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

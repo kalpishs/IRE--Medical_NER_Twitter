@@ -1,0 +1,6 @@
+T1	Symptom-or-Side-Effect 1 24	Psychological disorders
+T2	Person 28 41	COPD patients
+#1	AnnotatorNotes T2	refers to group
+R1	Has Arg1:T2 Arg2:T1	
+T3	Person_symptom_duration 50 76	early hospital readmission
+E1	Person_symptom_duration:T3 Symptom:T1 Person:T2

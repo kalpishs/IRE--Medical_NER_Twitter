@@ -1,0 +1,5 @@
+T1	Drug 1 6	VR475
+T2	Organisation 77 90	Vectura Group
+T3	Intensity 13 32	significant benefit
+T4	Disease 62 75	severe asthma
+R1	Cures Arg1:T1 Arg2:T4	

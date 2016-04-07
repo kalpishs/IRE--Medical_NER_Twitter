@@ -1,0 +1,9 @@
+T1	Disease 41 47	asthma
+T3	Disease 62 69	obesity
+T4	Disease 49 57	diabetes
+T5	Risk-Factor 1 15	Cesarean birth
+R1	Increases_Likelihood_Of Arg1:T5 Arg2:T1	
+R2	Increases_Likelihood_Of Arg1:T5 Arg2:T4	
+R3	Increases_Likelihood_Of Arg1:T5 Arg2:T3	
+T2	Person 26 32	baby's
+T6	News 73 83	Yahoo News

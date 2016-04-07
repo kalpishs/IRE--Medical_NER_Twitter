@@ -1,0 +1,9 @@
+T1	Treatment 25 37	Thai massage
+T2	Disease 58 64	asthma
+T3	Disease 66 75	migraines
+T4	Disease 77 84	sprains
+T5	Disease 86 93	bruises
+R1	Treated_By Arg1:T2 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T5 Arg2:T1	

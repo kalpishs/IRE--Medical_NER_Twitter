@@ -1,0 +1,10 @@
+T1	Person 62 71	americans
+T2	Ethnic-Group 56 61	black
+R1	Belongs_To Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes T1	person referring to americans
+T3	Disease 76 86	bronchitis
+T4	Disease 87 93	aviary
+T5	Disease 94 98	h1n5
+R2	Is_Suffering_From Arg1:T1 Arg2:T3	
+R3	Is_Suffering_From Arg1:T1 Arg2:T4	
+R4	Is_Suffering_From Arg1:T1 Arg2:T5	

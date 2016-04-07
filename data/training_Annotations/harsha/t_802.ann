@@ -1,0 +1,10 @@
+T1	Disease 25 29	COPD
+T5	Location 42 50	American
+T2	Person 51 56	women
+#1	AnnotatorNotes T2	refers to Women
+T3	Disease 62 75	breast cancer
+T4	Disease 77 88	Alzheimer’s
+T6	Disease 91 99	diabetes
+R1	Is_In Arg1:T2 Arg2:T5	
+R2	Is_Suffering_From Arg1:T2 Arg2:T1	
+#2	AnnotatorNotes R2	women suffereing from COPD were more prone to death

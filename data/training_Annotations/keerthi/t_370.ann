@@ -1,0 +1,6 @@
+T1	Disease 49 55	asthma
+T2	Symptom-or-Side-Effect 57 62	colds
+T3	Disease 64 76	tuberculosis
+T4	Symptom-or-Side-Effect 78 86	insomnia
+T5	Symptom-or-Side-Effect 88 97	pneumonia
+T6	Symptom-or-Side-Effect 99 106	obesity

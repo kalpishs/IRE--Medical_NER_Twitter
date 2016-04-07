@@ -1,0 +1,3 @@
+T1	Drug 7 34	neutrophil elastase isoform
+T2	Disease 60 79	pulmonary emphysema
+R1	Cures Arg1:T1 Arg2:T2	

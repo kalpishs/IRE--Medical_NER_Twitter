@@ -1,0 +1,3 @@
+T1	Disease 37 47	Bronchitis
+T2	Treatment 16 32	25 Home Remedies
+R1	Treated_By Arg1:T1 Arg2:T2	

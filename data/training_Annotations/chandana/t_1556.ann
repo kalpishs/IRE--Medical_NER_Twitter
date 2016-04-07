@@ -1,0 +1,4 @@
+T1	Drug 26 35	Vitamin D
+T2	Disease 47 53	asthma
+R1	Cures Arg1:T1 Arg2:T2	
+T3	News 1 120	thesundaily: Study finds Vitamin D might ease asthma: CATCHING some rays outsid... http://t.co/LEldXO08uw #malaysianews

@@ -1,0 +1,4 @@
+T1	Organisation 62 80	European U-BIOPRED
+T2	Disease 94 100	asthma
+T3	Person 81 86	adult
+R1	Is_Suffering_From Arg1:T3 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Treatment 43 49	Ginger
+T2	Disease 59 65	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

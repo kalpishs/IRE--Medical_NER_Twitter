@@ -1,0 +1,5 @@
+T1	Disease 48 54	Asthma
+T2	Drug 55 59	Drug
+T3	Organisation 42 47	Glaxo
+R1	Cures Arg1:T2 Arg2:T1	
+R2	Manufactured_by Arg1:T2 Arg2:T3	

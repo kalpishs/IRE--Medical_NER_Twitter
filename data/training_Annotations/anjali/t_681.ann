@@ -1,0 +1,4 @@
+T1	Risk-Factor 33 37	cold
+T2	Disease 42 48	asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Intensity 49 55	attack

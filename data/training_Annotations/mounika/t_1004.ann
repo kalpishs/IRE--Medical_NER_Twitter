@@ -1,0 +1,4 @@
+T1	Drug 2 9	lexapro
+T2	Drug 11 29	Montelukast Sodium
+R1	Alternative_Names Arg1:T1 Arg2:T2	
+T3	Drug 75 82	lexapro

@@ -1,0 +1,5 @@
+T1	Disease 66 70	COPD
+T2	Disease 21 47	Cardiovascular comorbidity
+R1	Comorbid_Condition Arg1:T1 Arg2:T2	
+T3	Person 51 59	patients
+R2	Is_Suffering_From Arg1:T3 Arg2:T1	

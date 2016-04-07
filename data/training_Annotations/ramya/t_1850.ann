@@ -1,0 +1,3 @@
+T1	Person 1 17	Femi Fani-Kayode
+T2	Disease 30 54	cancer  asthma  dementia
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

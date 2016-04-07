@@ -1,0 +1,3 @@
+T1	Person 91 96	Nolan
+T2	Disease 140 153	asthma attack
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Disease 1 14	Asthma attack
+T2	Person_has_disease 21 40	man stopped by cops
+E1	Person_has_disease:T2 

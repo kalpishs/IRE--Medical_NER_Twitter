@@ -1,0 +1,6 @@
+T2	Risk-Factor 46 53	smoking
+T3	Intensity 80 88	increase
+T4	Disease 90 96	asthma
+T5	Person 106 110	baby
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T4	
+T1	Person 37 45	Father’s

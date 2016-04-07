@@ -1,0 +1,12 @@
+T1	Treatment 41 51	Meditation
+T2	Treatment 57 66	Praanayam
+T3	Disease 76 82	Asthma
+R1	Treated_By Arg1:T3 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T2	
+T4	Disease 84 91	high BP
+R3	Treated_By Arg1:T4 Arg2:T1	
+R4	Treated_By Arg1:T4 Arg2:T1	
+T5	Symptom-or-Side-Effect 93 99	stress
+T6	Symptom-or-Side-Effect 104 109	anger
+R5	Is_Characteristic_Of Arg1:T5 Arg2:T4	
+R6	Is_Characteristic_Of Arg1:T6 Arg2:T4	

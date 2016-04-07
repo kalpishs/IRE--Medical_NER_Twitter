@@ -1,0 +1,3 @@
+T1	Person 43 49	people
+T2	Disease 55 61	asthma
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	

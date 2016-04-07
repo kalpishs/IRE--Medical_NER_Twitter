@@ -1,0 +1,5 @@
+T1	Frequency 1 8	Regular
+T2	Drug 9 16	aspirin
+T3	Intensity 21 37	slow progression
+T4	Disease 41 72	deadly lung disease 'emphysema'
+R1	Cures Arg1:T2 Arg2:T4	

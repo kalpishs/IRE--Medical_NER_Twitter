@@ -1,0 +1,9 @@
+T1	Drug 38 45	steroid
+T2	Disease 50 56	asthma
+R1	Contraindication Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	due to indiscriminate dosage of steriods
+T3	Location 1 6	Udupi
+T4	Person 132 137	Leena
+T5	Age 97 112	Fifty-four-year
+R2	Is_of_Age Arg1:T4 Arg2:T5	
+R3	Is_In Arg1:T4 Arg2:T3	

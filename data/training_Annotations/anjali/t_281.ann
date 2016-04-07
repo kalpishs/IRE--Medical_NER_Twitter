@@ -1,0 +1,6 @@
+T1	Person_has_disease 1 14	COPD patients
+E1	Person_has_disease:T1 
+T2	Risk-Factor 15 36	receiving home oxygen
+T3	Intensity 42 48	higher
+T4	Disease 49 68	risk of burn injury
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T4	

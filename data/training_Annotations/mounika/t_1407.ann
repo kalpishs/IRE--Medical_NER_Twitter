@@ -1,0 +1,5 @@
+T1	Drug 10 28	Montelukast Sodium
+T2	Drug 37 46	Singulair
+R1	Alternative_Names Arg1:T1 Arg2:T2	
+T3	Drug 61 70	methadone
+T4	Drug 75 83	tramadol

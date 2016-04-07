@@ -1,0 +1,10 @@
+T1	Drug 66 90	steroids and antibiotics
+T2	Person 6 11	becky
+T3	Disease 19 25	asthma
+T4	Symptom-or-Side-Effect 26 42	high temperature
+T5	Symptom-or-Side-Effect 43 62	throat and ears bad
+R1	Comorbid_Condition Arg1:T3 Arg2:T4	
+R2	Comorbid_Condition Arg1:T3 Arg2:T5	
+R3	Is_Suffering_From Arg1:T2 Arg2:T3	
+R4	Cures Arg1:T1 Arg2:T3	
+R5	Uses Arg1:T2 Arg2:T1	

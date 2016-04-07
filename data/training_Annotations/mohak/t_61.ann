@@ -1,0 +1,4 @@
+T1	Disease 28 49	Infectious bronchitis
+T2	Disease 24 26	IB
+R1	Alternative_Names Arg1:T1 Arg2:T2	
+T3	Ethnic-Group 98 106	chickens

@@ -1,0 +1,5 @@
+T1	Symptom-or-Side-Effect 1 31	Massive retro-pneumoperitoneum
+T2	Symptom-or-Side-Effect 36 69	lower limb subcutaneous emphysema
+T3	Disease 76 107	pediatric heart transplantation
+R1	Is_Characteristic_Of Arg1:T2 Arg2:T3	
+R2	Is_Characteristic_Of Arg1:T1 Arg2:T3	

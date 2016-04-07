@@ -1,0 +1,6 @@
+T1	Person_has_disease 38 50	Grandmothers
+E1	Person_has_disease:T1 
+T2	Risk-Factor 55 61	smoked
+T3	Person 84 94	grandkids'
+T4	Disease 95 106	asthma risk
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T4	

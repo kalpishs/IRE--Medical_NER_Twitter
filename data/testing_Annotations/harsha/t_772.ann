@@ -1,0 +1,8 @@
+T2	Ethnic-Group 71 77	Whites
+T1	Ethnic-Group 20 25	Black
+T3	Disease 43 49	asthma
+T4	Person 26 34	children
+R1	Belongs_To Arg1:T4 Arg2:T1	
+R2	Is_Suffering_From Arg1:T4 Arg2:T3	
+T5	Frequency 53 65	higher rates
+R3	Belongs_To Arg1:T4 Arg2:T2	

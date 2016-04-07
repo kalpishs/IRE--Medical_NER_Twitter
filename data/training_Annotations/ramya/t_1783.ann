@@ -1,0 +1,4 @@
+T1	Location 15 22	Florida
+T2	Disease 58 64	asthma
+T3	Person 47 55	daughter
+R1	Is_Suffering_From Arg1:T3 Arg2:T2	

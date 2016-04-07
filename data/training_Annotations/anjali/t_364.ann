@@ -1,0 +1,5 @@
+T2	Person_has_disease 90 98	patients
+E1	Person_has_disease:T2 
+T3	Disease 105 109	COPD
+T1	Treatment 27 50	noninvasive ventilation
+R1	Treated_By Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Disease 16 22	asthma
+T2	Frequency 39 42	74%
+T3	Treatment 1 10	Vitamin D
+R1	Treated_By Arg1:T1 Arg2:T3	

@@ -1,0 +1,9 @@
+T1	Risk-Factor 11 19	Chlorine
+T2	Disease 60 66	Asthma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	
+T3	Person 50 59	Childhood
+T4	Location 33 40	Swimmer
+R2	Is_In Arg1:T3 Arg2:T4	
+R3	Is_Suffering_From Arg1:T3 Arg2:T2	
+#1	AnnotatorNotes T3	children referred to as person
+#2	AnnotatorNotes T4	Swimming pool marked as location

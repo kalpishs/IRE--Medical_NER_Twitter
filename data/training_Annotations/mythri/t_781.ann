@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 37	Chemicals in some household plastics
+T2	Person 48 53	child
+T3	Disease 54 60	asthma
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	
+R1	Is_Suffering_From Arg1:T2 Arg2:T3	

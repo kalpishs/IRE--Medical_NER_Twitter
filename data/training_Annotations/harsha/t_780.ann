@@ -1,0 +1,7 @@
+T1	Disease 24 30	asthma
+T2	Treatment 1 12	Weight loss
+T3	Person 49 55	adults
+T4	Weight 43 48	obese
+R1	Treated_By Arg1:T1 Arg2:T2	
+R2	Weighs Arg1:T3 Arg2:T4	
+R3	Is_Suffering_From Arg1:T3 Arg2:T1	

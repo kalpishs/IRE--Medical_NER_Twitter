@@ -1,0 +1,4 @@
+T1	Disease 55 61	asthma
+T2	Disease 28 33	fever
+T3	Symptom-or-Side-Effect 37 50	lost my voice
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T2	

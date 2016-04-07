@@ -1,0 +1,5 @@
+T1	Disease 80 97	Sinonasal disease
+T2	Disease 101 107	asthma
+T3	Symptom-or-Side-Effect 59 71	ChronicCough
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T1	
+R2	Is_Characteristic_Of Arg1:T3 Arg2:T2	

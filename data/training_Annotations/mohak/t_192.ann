@@ -1,0 +1,8 @@
+T1	Drug 1 4	ICS
+T2	Disease 13 17	COPD
+T3	Symptom-or-Side-Effect 51 60	pneumonia
+R1	Cures Arg1:T1 Arg2:T2	
+R2	Causes Arg1:T1 Arg2:T3	
+T4	Disease 62 84	reduces mortality risk
+#1	AnnotatorNotes T4	only for pneumonia
+R3	Causes Arg1:T1 Arg2:T4	

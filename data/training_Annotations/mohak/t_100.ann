@@ -1,0 +1,14 @@
+T1	Location 34 56	charing cross hospital
+T2	Symptom-or-Side-Effect 57 66	collapsed
+T3	Symptom-or-Side-Effect 67 81	stop breathing
+T4	Disease 82 88	asthma
+T5	Disease 91 102	nut allergy
+#1	AnnotatorNotes T5	is nut allergy a disease or symptom?
+R2	Is_Characteristic_Of Arg1:T2 Arg2:T5	
+#2	AnnotatorNotes R2	Could be either Asthama or Nut Allergy Cannot be sure
+R1	Is_Characteristic_Of Arg1:T3 Arg2:T5	
+#3	AnnotatorNotes R1	asthama or nut allergy
+R3	Is_Characteristic_Of Arg1:T2 Arg2:T4	
+#4	AnnotatorNotes R3	asthama or nut allergy
+R4	Is_Characteristic_Of Arg1:T3 Arg2:T4	
+#5	AnnotatorNotes R4	asthama or nut allergy

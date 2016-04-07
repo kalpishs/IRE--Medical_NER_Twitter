@@ -1,0 +1,6 @@
+T1	Treatment 41 74	nutrition  herbs  supplementation
+T2	Organ 86 90	lung
+T3	Disease 1 7	Asthma
+T4	Disease 9 18	Emphysema
+R1	Treated_By Arg1:T4 Arg2:T1	
+R2	Treated_By Arg1:T3 Arg2:T1	

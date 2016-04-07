@@ -1,0 +1,4 @@
+T1	Disease 97 103	asthma
+T2	Person 1 6	Obama
+T3	Risk-Factor 53 67	climate change
+R1	Increases_Likelihood_Of Arg1:T3 Arg2:T1	

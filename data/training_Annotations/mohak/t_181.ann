@@ -1,0 +1,3 @@
+T1	Treatment 19 30	Salabhasana
+T2	Disease 37 43	asthma
+R1	Treated_By Arg1:T2 Arg2:T1	

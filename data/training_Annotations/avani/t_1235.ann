@@ -1,0 +1,7 @@
+T1	Treatment 12 31	Hair Loss Treatment
+T2	Drug 32 43	Finasteride
+T3	Drug 64 72	Levaquin
+T4	Drug 53 61	Propecia
+R1	Involves Arg1:T1 Arg2:T4	
+R2	Involves Arg1:T1 Arg2:T3	
+R3	Involves Arg1:T1 Arg2:T2	

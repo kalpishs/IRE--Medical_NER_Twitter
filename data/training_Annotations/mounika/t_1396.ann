@@ -1,0 +1,5 @@
+T1	Person 3 16	AshleyGardner
+T2	Disease 29 39	bronchitis
+T3	Symptom-or-Side-Effect 46 60	coughing blood
+R1	Is_Suffering_From Arg1:T1 Arg2:T2	
+R2	Comorbid_Condition Arg1:T2 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Risk-Factor 1 14	Early infancy
+T2	Risk-Factor 15 50	microbial and metabolic alterations
+T3	Disease 66 82	childhood asthma
+R1	Increases_Likelihood_Of Arg1:T2 Arg2:T3	
+R2	Increases_Likelihood_Of Arg1:T1 Arg2:T3	

@@ -1,0 +1,3 @@
+T1	Risk-Factor 0 9	"Asbestos
+T2	Disease 41 74	asthma  lung cancer  mesothelioma
+R1	Increases_Likelihood_Of Arg1:T1 Arg2:T2	

@@ -1,0 +1,5 @@
+T1	Disease 50 56	asthma
+T2	Treatment 19 38	'good' gut bacteria
+T3	Ethnic-Group 65 72	infants
+#1	AnnotatorNotes T3	Please Check 
+R1	Treated_By Arg1:T1 Arg2:T2	

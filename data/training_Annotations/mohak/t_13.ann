@@ -1,0 +1,11 @@
+T1	Disease 23 29	asthma
+T2	Disease 31 35	ADHD
+T3	Disease 37 56	reproductive issues
+T4	Disease 58 80	cardiovascular disease
+T5	Disease 86 108	neurological disorders
+T6	Risk-Factor 114 122	seasonal
+R1	Increases_Likelihood_Of Arg1:T6 Arg2:T5	
+R2	Increases_Likelihood_Of Arg1:T6 Arg2:T4	
+R3	Increases_Likelihood_Of Arg1:T6 Arg2:T3	
+R4	Increases_Likelihood_Of Arg1:T6 Arg2:T2	
+R5	Increases_Likelihood_Of Arg1:T6 Arg2:T1	

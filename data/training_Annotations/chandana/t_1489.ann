@@ -1,0 +1,4 @@
+T1	Organisation 1 4	FDA
+T2	Organisation 18 26	Novartis
+T4	Drug 59 76	Utibron™ Neohaler
+R1	Manufactured_by Arg1:T4 Arg2:T2	

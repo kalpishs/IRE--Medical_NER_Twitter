@@ -1,0 +1,4 @@
+T1	Drug 16 26	Gallopamil
+T2	Disease 8 14	asthma
+T3	Intensity 1 7	Severe
+R1	Cures Arg1:T1 Arg2:T2	

@@ -1,0 +1,3 @@
+T1	Drug 19 55	Montelukast Sodium Generic Singulair
+T2	Disease 81 91	depression
+R1	Cures Arg1:T1 Arg2:T2	

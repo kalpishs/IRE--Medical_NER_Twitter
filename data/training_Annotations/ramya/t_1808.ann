@@ -1,0 +1,4 @@
+T1	Organisation 1 14	Cohero Health
+T2	Person 31 38	Patient
+T3	Disease 72 78	Asthma
+R1	Is_Suffering_From Arg1:T2 Arg2:T3	
