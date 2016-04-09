@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
+from metamap import *
 
 Classify = ["Disease", "Drug", "Symptom"]
 
@@ -18,8 +19,8 @@ def gives_tag(tlist, term, flag):
 	return tag			
 
 def tokenise(line):
-	gapsadder = ["?","*",",",":","@","#","%","^","(",")","\xe2\x80\x99","~",'"',"\n","'","\r","…"]
-	gaps2 = [".","\t"]
+	gapsadder = ['"',"\n","'","\r"]
+	gaps2 = ["\t"]
 	gap = "  "
 	for i in gapsadder:
 		line = line.replace(i, "")
@@ -36,7 +37,9 @@ def make_file(filename,combined_file):
 	Disease = []
 	Drug = []
 	Symptom = []
-	f = open(filename)
+	tmp=sys.argv[1].split(".txt")
+	fname2 = tmp[0]+ ".ann"
+	f = open(fname2)
 	while 1:
 		Disease_list = []
 		Drug_list = []
@@ -72,23 +75,20 @@ def make_file(filename,combined_file):
 			Drug.append(Drug_list)
 		if len(Symptom_list) != 0:
 			Symptom.append(Symptom_list)												
-	
-	tmp=sys.argv[1].split(".ann")
-	fname2 = tmp[0]+ ".txt"	
-	f = open(fname2)
+		
+	f = open(filename)
 	f2 = open(combined_file, "a")
 	
 	while 1:
 		line = f.readline()
 		line = line.split("http")[0]
-		line = line.replace("-", " ")
 		if line == "":
 			break
 		line = tokenise(line)
 		list = line.split(" ")
 		for ind in xrange(len(list)):
 			add1=""
-			add1 = list[ind]
+			add1 = list[ind] + " " + meta_tag(list[ind])
 			"""
 			context=ngram/2
 			try:
@@ -122,6 +122,7 @@ def make_file(filename,combined_file):
 		#f2.write("\n")
 		
 		f2.close()
-		
+
+meta_map("out")		
 make_file(sys.argv[1],sys.argv[2])
 
