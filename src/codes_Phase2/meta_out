@@ -1,0 +1,424 @@
+input text: 
+ "Exploring 'clinical conundrum' of asthma-COPD overlap in nonsmokers with chronic asthma http://t.co/rtWi6raLG9"
+
+Utterance:
+ Id: 0000000.tx.1
+ Utterance text: "Exploring 'clinical conundrum' of asthma-COPD overlap in nonsmokers with chronic asthma http://t.co/rtWi6raLG9"
+ Position: (0, 112)
+Phrase:
+ text: "Exploring 'clinical conundrum'
+ Minimal Commitment Parse: [punc([inputmatch(["]),tokens([])]),mod([lexmatch([exploring]),inputmatch([Exploring]),tag(noun),tokens([exploring])]),punc([inputmatch([']),tokens([])]),mod([lexmatch([clinical]),inputmatch([clinical]),tag(adj),tokens([clinical])]),head([lexmatch([conundrum]),inputmatch([conundrum]),tag(noun),tokens([conundrum])]),punc([inputmatch([']),tokens([])])]
+Candidates:
+ Candidate:
+  Score: -660
+  Concept Id: C0205210
+  Concept Name: Clinical
+  Preferred Name: Clinical
+  Matched Words: [clinical]
+  Semantic Types: [qlco]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(12, 8)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C3272565
+  Concept Name: Clinical
+  Preferred Name: Clinical Lot
+  Matched Words: [clinical]
+  Semantic Types: [inpr]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(12, 8)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C0205210
+   Concept Name: Clinical
+   Preferred Name: Clinical
+   Matched Words: [clinical]
+   Semantic Types: [qlco]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(12, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -660
+   Score: -660
+   Concept Id: C3272565
+   Concept Name: Clinical
+   Preferred Name: Clinical Lot
+   Matched Words: [clinical]
+   Semantic Types: [inpr]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(12, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of asthma-COPD overlap
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([asthma]),inputmatch([asthma]),tag(noun),tokens([asthma])]),punc([inputmatch([-]),tokens([])]),mod([lexmatch([COPD]),inputmatch([COPD]),tag(noun),tokens([copd])]),head([lexmatch([overlap]),inputmatch([overlap]),tag(noun),tokens([overlap])])]
+Candidates:
+ Candidate:
+  Score: -827
+  Concept Id: C0185027
+  Concept Name: overlap
+  Preferred Name: Imbrication (procedure)
+  Matched Words: [overlap]
+  Semantic Types: [topp]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, MTH, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(47, 7)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -827
+  Concept Id: C1948020
+  Concept Name: Overlap
+  Preferred Name: Overlap
+  Matched Words: [overlap]
+  Semantic Types: [cnce]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0, MTH, NCI]
+  Positional Info: [(47, 7)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -734
+  Concept Id: C0865800
+  Concept Name: asthma copd
+  Preferred Name: asthma with chronic obstructive pulmonary disease
+  Matched Words: [asthma, copd]
+  Semantic Types: [dsyn]
+  MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, ICD10CM, MTHICD9]
+  Positional Info: [(35, 11)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0004096
+  Concept Name: Asthma
+  Preferred Name: Asthma
+  Matched Words: [asthma]
+  Semantic Types: [dsyn]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(35, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0024117
+  Concept Name: COPD NOS
+  Preferred Name: Chronic Obstructive Airway Disease
+  Matched Words: [copd]
+  Semantic Types: [dsyn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CCS, CHV, COSTAR, CSP, DXP, ICD10CM, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(42, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C2984299
+  Concept Name: Asthma
+  Preferred Name: Asthma Pathway
+  Matched Words: [asthma]
+  Semantic Types: [ftcn]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(35, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -901
+   Score: -734
+   Concept Id: C0865800
+   Concept Name: asthma copd
+   Preferred Name: asthma with chronic obstructive pulmonary disease
+   Matched Words: [asthma, copd]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, ICD10CM, MTHICD9]
+   Positional Info: [(35, 11)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C0185027
+   Concept Name: overlap
+   Preferred Name: Imbrication (procedure)
+   Matched Words: [overlap]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, MTH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(47, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -901
+   Score: -734
+   Concept Id: C0865800
+   Concept Name: asthma copd
+   Preferred Name: asthma with chronic obstructive pulmonary disease
+   Matched Words: [asthma, copd]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, ICD10CM, MTHICD9]
+   Positional Info: [(35, 11)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1948020
+   Concept Name: Overlap
+   Preferred Name: Overlap
+   Matched Words: [overlap]
+   Semantic Types: [cnce]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V3.0, MTH, NCI]
+   Positional Info: [(47, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in nonsmokers
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([nonsmokers]),inputmatch([nonsmokers]),tag(noun),tokens([nonsmokers])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C0337672
+  Concept Name: nonsmokers
+  Preferred Name: Non-smoker
+  Matched Words: [nonsmokers]
+  Semantic Types: [fndg]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, MTH, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(58, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -966
+  Concept Id: C0425293
+  Concept Name: Non-Smoker
+  Preferred Name: Never smoked tobacco
+  Matched Words: [non, smoker]
+  Semantic Types: [fndg]
+  MatchMap: [[[1, 1], [1, 2], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI, SNOMEDCT]
+  Positional Info: [(58, 10)]
+  Pruning Status: 1
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0337672
+   Concept Name: nonsmokers
+   Preferred Name: Non-smoker
+   Matched Words: [nonsmokers]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, MTH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(58, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: with chronic asthma http
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([chronic]),inputmatch([chronic]),tag(adj),tokens([chronic])]),mod([lexmatch([asthma]),inputmatch([asthma]),tag(noun),tokens([asthma])]),head([inputmatch([http]),tag(noun),tokens([http])])]
+Candidates:
+ Candidate:
+  Score: -827
+  Concept Id: C1555015
+  Concept Name: HTTP
+  Preferred Name: HTTP
+  Matched Words: [http]
+  Semantic Types: [idcn]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0]
+  Positional Info: [(89, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -734
+  Concept Id: C0877430
+  Concept Name: chronic asthma
+  Preferred Name: asthma chronic
+  Matched Words: [chronic, asthma]
+  Semantic Types: [dsyn]
+  MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV]
+  Positional Info: [(74, 14)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0004096
+  Concept Name: Asthma
+  Preferred Name: Asthma
+  Matched Words: [asthma]
+  Semantic Types: [dsyn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(82, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0205191
+  Concept Name: chronic
+  Preferred Name: chronic
+  Matched Words: [chronic]
+  Semantic Types: [tmco]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, DXP, MTH, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(74, 7)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C2984299
+  Concept Name: Asthma
+  Preferred Name: Asthma Pathway
+  Matched Words: [asthma]
+  Semantic Types: [ftcn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(82, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -901
+   Score: -734
+   Concept Id: C0877430
+   Concept Name: chronic asthma
+   Preferred Name: asthma chronic
+   Matched Words: [chronic, asthma]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV]
+   Positional Info: [(74, 14)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1555015
+   Concept Name: HTTP
+   Preferred Name: HTTP
+   Matched Words: [http]
+   Semantic Types: [idcn]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V3.0]
+   Positional Info: [(89, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: :
+ Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: //t.co/rtWi6raLG9"
+ Minimal Commitment Parse: [punc([inputmatch([/]),tokens([])]),punc([inputmatch([/]),tokens([])]),mod([lexmatch([T(co)]),inputmatch([t,.,co,/]),tag(noun),tokens([t,co])]),head([inputmatch([rtWi6raLG9]),tag(noun),tokens([rtwi6ralg9])]),punc([inputmatch(["]),tokens([])])]
+Candidates:
+ Candidate:
+  Score: -660
+  Concept Id: C2603360
+  Concept Name: T'
+  Preferred Name: T prime
+  Matched Words: [t]
+  Semantic Types: [clna]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [LNC, MTH]
+  Positional Info: [(96, 1)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C2603360
+   Concept Name: T'
+   Preferred Name: T prime
+   Matched Words: [t]
+   Semantic Types: [clna]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH]
+   Positional Info: [(96, 1)]
+   Pruning Status: 0
+   Negation Status: 0
