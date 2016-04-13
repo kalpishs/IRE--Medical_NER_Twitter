@@ -1,0 +1,757 @@
+input text: 
+ "Saving lives...................creating difference thru critical care A case of COPD with severe community... http://t.co/X8PKw48p0D"
+
+Utterance:
+ Id: 0000000.tx.1
+ Utterance text: "Saving lives...................creating difference thru critical care A case of COPD with severe community... http://t.co/X8PKw48p0D"
+ Position: (0, 134)
+Phrase:
+ text: "Saving
+ Minimal Commitment Parse: [punc([inputmatch(["]),tokens([])]),head([lexmatch([saving]),inputmatch([Saving]),tag(noun),tokens([saving])])]
+Candidates:
+ Candidate:
+  Score: -966
+  Concept Id: C2347840
+  Concept Name: Save
+  Preferred Name: Commit Operation
+  Matched Words: [save]
+  Semantic Types: [mcha]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(1, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -966
+   Score: -966
+   Concept Id: C2347840
+   Concept Name: Save
+   Preferred Name: Commit Operation
+   Matched Words: [save]
+   Semantic Types: [mcha]
+   MatchMap: [[[1, 1], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(1, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: lives...................creating difference
+ Minimal Commitment Parse: [verb([lexmatch([lives]),inputmatch([lives]),tag(verb),tokens([lives])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),mod([lexmatch([creating]),inputmatch([creating]),tag(adj),tokens([creating])]),head([lexmatch([difference]),inputmatch([difference]),tag(noun),tokens([difference])])]
+Candidates:
+ Candidate:
+  Score: -827
+  Concept Id: C1705241
+  Concept Name: *Difference
+  Preferred Name: Delta (difference)
+  Matched Words: [difference]
+  Semantic Types: [qnco]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V2.5, MTH, NCI]
+  Positional Info: [(41, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -827
+  Concept Id: C1705242
+  Concept Name: Difference
+  Preferred Name: Different
+  Matched Words: [difference]
+  Semantic Types: [qlco]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(41, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -755
+  Concept Id: C0443199
+  Concept Name: Differential
+  Preferred Name: Differential quality
+  Matched Words: [differential]
+  Semantic Types: [qlco]
+  MatchMap: [[[3, 3], [1, 1], 3]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 3]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, LNC, MTH, SNOMEDCT]
+  Positional Info: [(41, 10)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0595998
+  Concept Name: lives
+  Preferred Name: Household composition
+  Matched Words: [lives]
+  Semantic Types: [fndg]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, SNOMEDCT]
+  Positional Info: [(8, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C0376558
+  Concept Name: Living
+  Preferred Name: Life
+  Matched Words: [living]
+  Semantic Types: [idcn]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, LCH, LNC, MSH, MTH, NCI]
+  Positional Info: [(8, 5)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C1548795
+  Concept Name: Live
+  Preferred Name: Live - Specimen Condition
+  Matched Words: [live]
+  Semantic Types: [qlco]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [HL7V2.5, MTH]
+  Positional Info: [(8, 5)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C1634625
+  Concept Name: % live
+  Preferred Name: % live
+  Matched Words: [live]
+  Semantic Types: [qlco]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [SNOMEDCT]
+  Positional Info: [(8, 5)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C1706214
+  Concept Name: Create
+  Preferred Name: Creation
+  Matched Words: [create]
+  Semantic Types: [acty]
+  MatchMap: [[[2, 2], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(32, 8)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C2982691
+  Concept Name: Live
+  Preferred Name: Reside
+  Matched Words: [live]
+  Semantic Types: [acty]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(8, 5)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -627
+  Concept Id: C3244320
+  Concept Name: create
+  Preferred Name: Create data operation
+  Matched Words: [create]
+  Semantic Types: [ftcn]
+  MatchMap: [[[2, 2], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [HL7V3.0, MTH]
+  Positional Info: [(32, 8)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -840
+   Score: -660
+   Concept Id: C0595998
+   Concept Name: lives
+   Preferred Name: Household composition
+   Matched Words: [lives]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNOMEDCT]
+   Positional Info: [(8, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -627
+   Concept Id: C1706214
+   Concept Name: Create
+   Preferred Name: Creation
+   Matched Words: [create]
+   Semantic Types: [acty]
+   MatchMap: [[[2, 2], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(32, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1705241
+   Concept Name: *Difference
+   Preferred Name: Delta (difference)
+   Matched Words: [difference]
+   Semantic Types: [qnco]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V2.5, MTH, NCI]
+   Positional Info: [(41, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -840
+   Score: -660
+   Concept Id: C0595998
+   Concept Name: lives
+   Preferred Name: Household composition
+   Matched Words: [lives]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNOMEDCT]
+   Positional Info: [(8, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -627
+   Concept Id: C1706214
+   Concept Name: Create
+   Preferred Name: Creation
+   Matched Words: [create]
+   Semantic Types: [acty]
+   MatchMap: [[[2, 2], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(32, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1705242
+   Concept Name: Difference
+   Preferred Name: Different
+   Matched Words: [difference]
+   Semantic Types: [qlco]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(41, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -840
+   Score: -660
+   Concept Id: C0595998
+   Concept Name: lives
+   Preferred Name: Household composition
+   Matched Words: [lives]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNOMEDCT]
+   Positional Info: [(8, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -627
+   Concept Id: C3244320
+   Concept Name: create
+   Preferred Name: Create data operation
+   Matched Words: [create]
+   Semantic Types: [ftcn]
+   MatchMap: [[[2, 2], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [HL7V3.0, MTH]
+   Positional Info: [(32, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1705241
+   Concept Name: *Difference
+   Preferred Name: Delta (difference)
+   Matched Words: [difference]
+   Semantic Types: [qnco]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V2.5, MTH, NCI]
+   Positional Info: [(41, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -840
+   Score: -660
+   Concept Id: C0595998
+   Concept Name: lives
+   Preferred Name: Household composition
+   Matched Words: [lives]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNOMEDCT]
+   Positional Info: [(8, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -627
+   Concept Id: C3244320
+   Concept Name: create
+   Preferred Name: Create data operation
+   Matched Words: [create]
+   Semantic Types: [ftcn]
+   MatchMap: [[[2, 2], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [HL7V3.0, MTH]
+   Positional Info: [(32, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1705242
+   Concept Name: Difference
+   Preferred Name: Different
+   Matched Words: [difference]
+   Semantic Types: [qlco]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(41, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: thru critical care
+ Minimal Commitment Parse: [prep([lexmatch([thru]),inputmatch([thru]),tag(prep),tokens([thru])]),head([lexmatch([critical care]),inputmatch([critical,care]),tag(noun),tokens([critical,care])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C0010337
+  Concept Name: Critical Care
+  Preferred Name: Care of intensive care unit patient
+  Matched Words: [critical, care]
+  Semantic Types: [hlca]
+  MatchMap: [[[1, 2], [1, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, LNC, MEDLINEPLUS, MSH, MTH, SNOMEDCT]
+  Positional Info: [(57, 13)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1511545
+  Concept Name: Critical
+  Preferred Name: Critical
+  Matched Words: [critical]
+  Semantic Types: [qlco]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(57, 8)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1947933
+  Concept Name: Care
+  Preferred Name: care activity
+  Matched Words: [care]
+  Semantic Types: [acty]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(66, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -827
+  Concept Id: C0150499
+  Concept Name: Caring
+  Preferred Name: Caring
+  Matched Words: [caring]
+  Semantic Types: [inbe]
+  MatchMap: [[[2, 2], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, MSH, MTH]
+  Positional Info: [(66, 4)]
+  Pruning Status: 1
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0010337
+   Concept Name: Critical Care
+   Preferred Name: Care of intensive care unit patient
+   Matched Words: [critical, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, LNC, MEDLINEPLUS, MSH, MTH, SNOMEDCT]
+   Positional Info: [(57, 13)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: A case
+ Minimal Commitment Parse: [det([lexmatch([A]),inputmatch([A]),tag(det),tokens([a])]),head([lexmatch([case]),inputmatch([case]),tag(noun),tokens([case])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C0868928
+  Concept Name: Case
+  Preferred Name: Case (situation)
+  Matched Words: [case]
+  Semantic Types: [ftcn]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, LCH, MTH, SNOMEDCT]
+  Positional Info: [(73, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -1000
+  Concept Id: C1706255
+  Concept Name: CASE
+  Preferred Name: Packaging Case
+  Matched Words: [case]
+  Semantic Types: [medd]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(73, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -1000
+  Concept Id: C1706256
+  Concept Name: Case
+  Preferred Name: Clinical Study Case
+  Matched Words: [case]
+  Semantic Types: [cnce]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(73, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -1000
+  Concept Id: C3274647
+  Concept Name: Case
+  Preferred Name: True Case Status
+  Matched Words: [case]
+  Semantic Types: [qlco]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(73, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -966
+  Concept Id: C1533148
+  Concept Name: Cases
+  Preferred Name: Case unit dose
+  Matched Words: [cases]
+  Semantic Types: [qnco]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI, SNOMEDCT]
+  Positional Info: [(73, 4)]
+  Pruning Status: 1
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0868928
+   Concept Name: Case
+   Preferred Name: Case (situation)
+   Matched Words: [case]
+   Semantic Types: [ftcn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, LCH, MTH, SNOMEDCT]
+   Positional Info: [(73, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1706255
+   Concept Name: CASE
+   Preferred Name: Packaging Case
+   Matched Words: [case]
+   Semantic Types: [medd]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(73, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1706256
+   Concept Name: Case
+   Preferred Name: Clinical Study Case
+   Matched Words: [case]
+   Semantic Types: [cnce]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(73, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C3274647
+   Concept Name: Case
+   Preferred Name: True Case Status
+   Matched Words: [case]
+   Semantic Types: [qlco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(73, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of COPD
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([COPD]),inputmatch([COPD]),tag(noun),tokens([copd])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C0024117
+  Concept Name: COPD NOS
+  Preferred Name: Chronic Obstructive Airway Disease
+  Matched Words: [copd]
+  Semantic Types: [dsyn]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [AOD, CCS, CHV, COSTAR, CSP, DXP, ICD10CM, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(81, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0024117
+   Concept Name: COPD NOS
+   Preferred Name: Chronic Obstructive Airway Disease
+   Matched Words: [copd]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CHV, COSTAR, CSP, DXP, ICD10CM, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(81, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: with severe community... http
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([severe]),inputmatch([severe]),tag(adj),tokens([severe])]),mod([lexmatch([community]),inputmatch([community]),tag(noun),tokens([community])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),head([inputmatch([http]),tag(noun),tokens([http])])]
+Candidates:
+ Candidate:
+  Score: -827
+  Concept Id: C1555015
+  Concept Name: HTTP
+  Preferred Name: HTTP
+  Matched Words: [http]
+  Semantic Types: [idcn]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0]
+  Positional Info: [(111, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0009462
+  Concept Name: Community
+  Preferred Name: Community
+  Matched Words: [community]
+  Semantic Types: [geoa]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, CSP, LNC, MSH, NCI, SNOMEDCT]
+  Positional Info: [(98, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -660
+  Concept Id: C0205082
+  Concept Name: Severe
+  Preferred Name: Severe (severity modifier)
+  Matched Words: [severe]
+  Semantic Types: [qlco]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(91, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -851
+   Score: -660
+   Concept Id: C0205082
+   Concept Name: Severe
+   Preferred Name: Severe (severity modifier)
+   Matched Words: [severe]
+   Semantic Types: [qlco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(91, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -660
+   Concept Id: C0009462
+   Concept Name: Community
+   Preferred Name: Community
+   Matched Words: [community]
+   Semantic Types: [geoa]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, CSP, LNC, MSH, NCI, SNOMEDCT]
+   Positional Info: [(98, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C1555015
+   Concept Name: HTTP
+   Preferred Name: HTTP
+   Matched Words: [http]
+   Semantic Types: [idcn]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V3.0]
+   Positional Info: [(111, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: :
+ Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: //t.co/X8PKw48p0D"
+ Minimal Commitment Parse: [punc([inputmatch([/]),tokens([])]),punc([inputmatch([/]),tokens([])]),mod([lexmatch([T(co)]),inputmatch([t,.,co,/]),tag(noun),tokens([t,co])]),head([inputmatch([X8PKw48p0D]),tag(noun),tokens([x8pkw48p0d])]),punc([inputmatch(["]),tokens([])])]
+Candidates:
+ Candidate:
+  Score: -660
+  Concept Id: C2603360
+  Concept Name: T'
+  Preferred Name: T prime
+  Matched Words: [t]
+  Semantic Types: [clna]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [LNC, MTH]
+  Positional Info: [(118, 1)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C2603360
+   Concept Name: T'
+   Preferred Name: T prime
+   Matched Words: [t]
+   Semantic Types: [clna]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH]
+   Positional Info: [(118, 1)]
+   Pruning Status: 0
+   Negation Status: 0

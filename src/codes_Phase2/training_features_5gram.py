@@ -4,8 +4,27 @@ import re
 import sys
 from metamap import *
 from pos_tagger import *
+from ortho import *
+import ast
+from collections import defaultdict
+from nltk.stem.porter import *
 
+stemmer = PorterStemmer()
+clust_dict = {}
 Classify = ["Disease", "Drug", "Symptom"]
+length = defaultdict(int)
+
+def get_length(term):
+	if length.has_key(term):
+		return str(length[term])
+	else:
+		return str(len(term))	
+
+def stemmed(term):
+	try:
+		return stemmer.stem(term)
+	except:
+		return term	
 
 def gives_tag(tlist, term, flag):
 	tag = ""
@@ -17,7 +36,22 @@ def gives_tag(tlist, term, flag):
 				tag = Classify[flag] + "-begin"	
 			else:
 				tag = Classify[flag] + "-inside"
-	return tag			
+	return tag	
+
+def cluster_dict(filename):
+	global clust_dict
+	f = open(filename)
+	dictionary = f.readline()
+	try:
+		clust_dict = ast.literal_eval(dictionary)
+	except:
+		print "error" 
+
+def cluster_tag(term):
+	if clust_dict.has_key(term):
+		return clust_dict[term]
+	else:
+		return "nil"	
 
 def tokenise(line):
 	gapsadder = ['"',"\n","'","\r"]
@@ -72,10 +106,19 @@ def make_file(filename,combined_file):
 							Symptom_list.append(terms)
 		if len(Disease_list) != 0:
 			Disease.append(Disease_list)
+			joint = ("").join(Disease_list)
+			for elem in Disease_list:
+				length[elem] = len(joint)/len(Disease_list)
 		if len(Drug_list) != 0:
 			Drug.append(Drug_list)
+			joint = ("").join(Drug_list)
+			for elem in Drug_list:
+				length[elem] = len(joint)/len(Drug_list)
 		if len(Symptom_list) != 0:
-			Symptom.append(Symptom_list)												
+			Symptom.append(Symptom_list)
+			joint = ("").join(Symptom_list)
+			for elem in Symptom_list:
+				length[elem] = len(joint)/len(Symptom_list)												
 	
 	f = open(filename)
 	f2 = open(combined_file, "a")
@@ -89,12 +132,31 @@ def make_file(filename,combined_file):
 		list = line.split(" ")
 		for ind in xrange(len(list)):
 			add1 = ""
-			add1 = list[ind] + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind])
+			add1 = list[ind] + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind]) + " " + get_length(list[ind]) + ortho_tag(list[ind]) + " " + cluster_tag(list[ind])
+			flag1 = 0
+			flag2 = 0
+			noun = "nil"
+			verb = "nil"
+		
+			for ind2 in range(ind+1, len(list)):
+				next_term = list[ind2]
+				if tagger.has_key(next_term):
+					if tagger[next_term] == "N" and flag1==0:
+						noun = next_term
+						flag1 = 1
+					elif tagger[next_term] == "V" and flag2==0:
+						verb = next_term
+						flag2 = 1
+					elif flag1==1 and flag2==1:
+						break
+
+			add1 += " " + noun + " " + verb
+			
 			context = ngram/2
 			try:
 				for no in range(1,context+1):
 					if ind-no >=0:
-						add1 += " " + list[ind-no] + " " + meta_tag(list[ind-no])+ " " + term_tag(tagger, list[ind-no])
+						add1 += " " + list[ind-no]  + " " + meta_tag(list[ind-no])+ " " + term_tag(tagger, list[ind-no]) 
 					else:
 						list[ind+100000]
 									
@@ -103,7 +165,7 @@ def make_file(filename,combined_file):
 			
 			try:
 				for no in range(1,context+1):
-					add1 += " " + list[ind+no] + " " + meta_tag(list[ind+no]) + " " + term_tag(tagger, list[ind+no])
+					add1 += " " + list[ind+no]  + " " + meta_tag(list[ind+no]) + " " + term_tag(tagger, list[ind+no])
 									
 			except:
 				add1 += " NORIGHT nil ,"*(context+1 - no) 
@@ -123,7 +185,9 @@ def make_file(filename,combined_file):
 		f2.close()
 		
 
+cluster_dict("cluster_out")
 meta_map("meta_out")
 tagger = pos_tags("pos_out")
+#print tagger
 make_file(sys.argv[1],sys.argv[2])
 

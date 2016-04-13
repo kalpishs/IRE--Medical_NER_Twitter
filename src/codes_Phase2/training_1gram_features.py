@@ -4,8 +4,17 @@ import re
 import sys
 from metamap import *
 from pos_tagger import *
+from ortho import ortho_tag
+from nltk.stem.porter import *
+stemmer = PorterStemmer()
 
 Classify = ["Disease", "Drug", "Symptom"]
+
+def stemmed(term):
+	try:
+		return stemmer.stem(term)
+	except:
+		return term
 
 def gives_tag(tlist, term, flag):
 	tag = ""
@@ -89,7 +98,24 @@ def make_file(filename,combined_file):
 		list = line.split(" ")
 		for ind in xrange(len(list)):
 			add1=""
-			add1 = list[ind] + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind])
+			add1 = list[ind] + " " + stemmed(list[ind]) + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind]) + " " + str(len(list[ind])) + ortho_tag(list[ind])
+			flag1 = 0
+			flag2 = 0
+			noun = "nil"
+			verb = "nil"
+			for ind2 in range(ind+1, len(list)):
+				next_term = list[ind2]
+				if tagger.has_key(next_term):
+					if tagger[next_term] == "N" and flag1==0:
+						noun = next_term
+						flag1 = 1
+					elif tagger[next_term] == "V" and flag2==0:
+						noun = next_term
+						flag2 = 1
+					elif flag1==1 and flag2==1:
+						break
+
+			add1 += " " + noun + " " + verb						
 			"""
 			context=ngram/2
 			try:

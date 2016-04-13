@@ -42,7 +42,6 @@ def meta_map(file_name):
 						if check1 in line:
 							line = line.split(check1)[1].strip()
 							text = line[:len(line)-1].lower()
-							text = stemmer.stem(text)
 							for elem in text_list:
 								if text in elem:
 									text = elem
@@ -78,11 +77,11 @@ def meta_tag(term):
 	else:
 		for key in tags.keys():
 			try:
-				if unicode(term) in unicode(key):
+				if term in key:
 					tags[key] = tags[key].replace(" ","")
 					return tags[key]
 			except:
-				#print term
 				return "nil"		
 		return "nil"	
 
+meta_map(sys.argv[1])

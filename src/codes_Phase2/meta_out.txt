@@ -1,0 +1,494 @@
+input text: 
+ "RT @WorldLungFdn Fascinating! How a small group of determined women created a #smokefree community in #China http://t.co/cZTNxE64Zx"
+
+Utterance:
+ Id: 0000000.tx.1
+ Utterance text: "RT @WorldLungFdn Fascinating! How a small group of determined women created a #smokefree community in #China http://t.co/cZTNxE64Zx"
+ Position: (0, 133)
+Phrase:
+ text: "RT @WorldLungFdn Fascinating! How
+ Minimal Commitment Parse: [punc([inputmatch(["]),tokens([])]),mod([lexmatch([RT]),inputmatch([RT]),tag(noun),tokens([rt])]),punc([inputmatch([@]),tokens([])]),mod([inputmatch([WorldLungFdn]),tag(noun),tokens([worldlungfdn])]),mod([lexmatch([fascinating]),inputmatch([Fascinating]),tag(noun),tokens([fascinating])]),punc([inputmatch([!]),tokens([])]),adv([lexmatch([how]),inputmatch([How]),tag(adv),tokens([how])])]
+Candidates:
+ Candidate:
+  Score: -812
+  Concept Id: C2945653
+  Concept Name: fascinating
+  Preferred Name: fascinate
+  Matched Words: [fascinating]
+  Semantic Types: [bhvr]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV]
+  Positional Info: [(18, 11)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -812
+   Score: -812
+   Concept Id: C2945653
+   Concept Name: fascinating
+   Preferred Name: fascinate
+   Matched Words: [fascinating]
+   Semantic Types: [bhvr]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV]
+   Positional Info: [(18, 11)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: a small group
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([small]),inputmatch([small]),tag(adj),tokens([small])]),head([lexmatch([group]),inputmatch([group]),tag(noun),tokens([group])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C0679993
+  Concept Name: small group
+  Preferred Name: small group
+  Matched Words: [small, group]
+  Semantic Types: [grpa]
+  MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [AOD, CHV, LCH]
+  Positional Info: [(37, 11)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C0441833
+  Concept Name: Group
+  Preferred Name: Groups
+  Matched Words: [group]
+  Semantic Types: [idcn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, MTH, NCI, SNOMEDCT]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C0687744
+  Concept Name: group
+  Preferred Name: Social group
+  Matched Words: [group]
+  Semantic Types: [popg]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, MTH, NCI, SNOMEDCT]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1257890
+  Concept Name: Group
+  Preferred Name: Population Group
+  Matched Words: [group]
+  Semantic Types: [popg]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, HL7V3.0, MEDLINEPLUS, MSH, MTH, NCI, SNOMEDCT]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1552516
+  Concept Name: Group
+  Preferred Name: Specialty Group
+  Matched Words: [group]
+  Semantic Types: [hcro]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0, MTH]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1705428
+  Concept Name: Group
+  Preferred Name: Group Object
+  Matched Words: [group]
+  Semantic Types: [cnce]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -861
+  Concept Id: C1705429
+  Concept Name: Group
+  Preferred Name: User Group
+  Matched Words: [group]
+  Semantic Types: [popg]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(43, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -827
+  Concept Id: C1552839
+  Concept Name: groups
+  Preferred Name: Table Rules - groups
+  Matched Words: [groups]
+  Semantic Types: [idcn]
+  MatchMap: [[[2, 2], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0, MTH]
+  Positional Info: [(43, 5)]
+  Pruning Status: 1
+  Negation Status: 0
+ Candidate:
+  Score: -694
+  Concept Id: C0700321
+  Concept Name: Small
+  Preferred Name: Small
+  Matched Words: [small]
+  Semantic Types: [qnco]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(37, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0679993
+   Concept Name: small group
+   Preferred Name: small group
+   Matched Words: [small, group]
+   Semantic Types: [grpa]
+   MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, LCH]
+   Positional Info: [(37, 11)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of determined women
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([determined]),inputmatch([determined]),tag(adj),tokens([determined])]),head([lexmatch([women]),inputmatch([women]),tag(noun),tokens([women])])]
+Candidates:
+ Candidate:
+  Score: -861
+  Concept Id: C0043210
+  Concept Name: Women
+  Preferred Name: Woman
+  Matched Words: [women]
+  Semantic Types: [popg]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [AOD, CHV, DXP, LCH, MEDLINEPLUS, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(63, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0680730
+  Concept Name: determinations
+  Preferred Name: Adjudication
+  Matched Words: [determinations]
+  Semantic Types: [gora]
+  MatchMap: [[[1, 1], [1, 1], 3]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 3]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CHV, MTH, NCI]
+  Positional Info: [(52, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1148554
+  Concept Name: determination
+  Preferred Name: Determination Aspects
+  Matched Words: [determination]
+  Semantic Types: [lbpr]
+  MatchMap: [[[1, 1], [1, 1], 3]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 3]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MSH, MTH]
+  Positional Info: [(52, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -853
+   Score: -623
+   Concept Id: C0680730
+   Concept Name: determinations
+   Preferred Name: Adjudication
+   Matched Words: [determinations]
+   Semantic Types: [gora]
+   MatchMap: [[[1, 1], [1, 1], 3]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 3]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, MTH, NCI]
+   Positional Info: [(52, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -861
+   Concept Id: C0043210
+   Concept Name: Women
+   Preferred Name: Woman
+   Matched Words: [women]
+   Semantic Types: [popg]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, DXP, LCH, MEDLINEPLUS, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(63, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -853
+   Score: -623
+   Concept Id: C1148554
+   Concept Name: determination
+   Preferred Name: Determination Aspects
+   Matched Words: [determination]
+   Semantic Types: [lbpr]
+   MatchMap: [[[1, 1], [1, 1], 3]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 3]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MSH, MTH]
+   Positional Info: [(52, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -861
+   Concept Id: C0043210
+   Concept Name: Women
+   Preferred Name: Woman
+   Matched Words: [women]
+   Semantic Types: [popg]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, DXP, LCH, MEDLINEPLUS, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(63, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: created
+ Minimal Commitment Parse: [verb([lexmatch([created]),inputmatch([created]),tag(verb),tokens([created])])]
+Candidates:
+ Candidate:
+  Score: -1000
+  Concept Id: C1706214
+  Concept Name: Created
+  Preferred Name: Creation
+  Matched Words: [created]
+  Semantic Types: [acty]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(69, 7)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -966
+  Concept Id: C3244320
+  Concept Name: create
+  Preferred Name: Create data operation
+  Matched Words: [create]
+  Semantic Types: [ftcn]
+  MatchMap: [[[1, 1], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0, MTH]
+  Positional Info: [(69, 7)]
+  Pruning Status: 1
+  Negation Status: 0
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1706214
+   Concept Name: Created
+   Preferred Name: Creation
+   Matched Words: [created]
+   Semantic Types: [acty]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(69, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: a #smokefree community
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),punc([inputmatch([#]),tokens([])]),mod([lexmatch([smokefree]),inputmatch([smokefree]),tag(adj),tokens([smokefree])]),head([lexmatch([community]),inputmatch([community]),tag(noun),tokens([community])])]
+Candidates:
+ Candidate:
+  Score: -861
+  Concept Id: C0009462
+  Concept Name: Community
+  Preferred Name: Community
+  Matched Words: [community]
+  Semantic Types: [geoa]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [CHV, CSP, LNC, MSH, NCI, SNOMEDCT]
+  Positional Info: [(90, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -861
+   Score: -861
+   Concept Id: C0009462
+   Concept Name: Community
+   Preferred Name: Community
+   Matched Words: [community]
+   Semantic Types: [geoa]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CSP, LNC, MSH, NCI, SNOMEDCT]
+   Positional Info: [(90, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in #China http
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),punc([inputmatch([#]),tokens([])]),mod([lexmatch([China]),inputmatch([China]),tag(noun),tokens([china])]),head([inputmatch([http]),tag(noun),tokens([http])])]
+Candidates:
+ Candidate:
+  Score: -861
+  Concept Id: C1555015
+  Concept Name: HTTP
+  Preferred Name: HTTP
+  Matched Words: [http]
+  Semantic Types: [idcn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: true
+  is Overmatch?: false
+  Sources: [HL7V3.0]
+  Positional Info: [(110, 4)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -694
+  Concept Id: C0008115
+  Concept Name: China
+  Preferred Name: China
+  Matched Words: [china]
+  Semantic Types: [geoa]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, HL7V3.0, LCH, MSH, MTH, NCI, SNOMEDCT]
+  Positional Info: [(104, 5)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -888
+   Score: -694
+   Concept Id: C0008115
+   Concept Name: China
+   Preferred Name: China
+   Matched Words: [china]
+   Semantic Types: [geoa]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V3.0, LCH, MSH, MTH, NCI, SNOMEDCT]
+   Positional Info: [(104, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -861
+   Concept Id: C1555015
+   Concept Name: HTTP
+   Preferred Name: HTTP
+   Matched Words: [http]
+   Semantic Types: [idcn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V3.0]
+   Positional Info: [(110, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: :
+ Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: //t.co/cZTNxE64Zx"
+ Minimal Commitment Parse: [punc([inputmatch([/]),tokens([])]),punc([inputmatch([/]),tokens([])]),mod([lexmatch([T(co)]),inputmatch([t,.,co,/]),tag(noun),tokens([t,co])]),head([inputmatch([cZTNxE64Zx]),tag(noun),tokens([cztnxe64zx])]),punc([inputmatch(["]),tokens([])])]
+Candidates:
+ Candidate:
+  Score: -660
+  Concept Id: C2603360
+  Concept Name: T'
+  Preferred Name: T prime
+  Matched Words: [t]
+  Semantic Types: [clna]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [LNC, MTH]
+  Positional Info: [(117, 1)]
+  Pruning Status: 0
+  Negation Status: 0
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C2603360
+   Concept Name: T'
+   Preferred Name: T prime
+   Matched Words: [t]
+   Semantic Types: [clna]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH]
+   Positional Info: [(117, 1)]
+   Pruning Status: 0
+   Negation Status: 0

@@ -13,7 +13,9 @@ while line != "":
 
 f = open(system_tags, "r")
 system_tags = f.readline()
+print system_tags
 system_tags = system_tags.split(" ")
+print system_tags	
 
 tags_matched=0
 total_tags=len(gold_tags)

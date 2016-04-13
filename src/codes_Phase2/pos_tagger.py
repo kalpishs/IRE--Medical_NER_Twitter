@@ -25,8 +25,10 @@ def pos_tags(file_name):
 	for listl in range(length):
 		urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', word_list[listl])
 		if urls:
-			del dictionary[word_list[listl]]
-
+			try:
+				del dictionary[word_list[listl]]
+			except:
+				pass	
 	#print dictionary		
 	return dictionary
 
@@ -38,11 +40,10 @@ def term_tag(tagger, term):
 	else:
 		for key in tagger.keys():
 			try:
-				if unicode(term) in unicode(key):
+				if term in key:
 					tagger[key] = tagger[key].replace(" ","")
 					return tagger[key]
 			except:
-				#print term
 				return ","		
 		return ","
 			

@@ -30,7 +30,8 @@ do
 	
 	 do
 		echo $files
-		`echo "bash $path/testapi.sh --input $files --output out"`
+		`echo "bash $path/testapi.sh --input $files --output meta_out2"`
+		`echo $(bash $path2/runTagger.sh $files) > pos_out2`
 		python training_1gram_features.py $files ../testing_files/gold_testing_1gram
     		
 	
@@ -40,8 +41,8 @@ done;
 `echo "java -cp $java_home/class:$java_home/lib/mallet-deps.jar cc.mallet.fst.SimpleTagger --train true --model-file ../models/trained_model_1gram ../training_files/training_file_1gram"`
 
 #---testing----#
-cut -d' ' -f1-3 ../testing_files/gold_testing_1gram > ../testing_files/testing_file_1gram
-cut -d' ' -f4 ../testing_files/gold_testing_1gram > ../testing_files/gold_tags_1gram
+cut -d' ' -f1-7 ../testing_files/gold_testing_1gram > ../testing_files/testing_file_1gram
+cut -d' ' -f8 ../testing_files/gold_testing_1gram > ../testing_files/gold_tags_1gram
 `echo $(java -cp $java_home/class:$java_home/lib/mallet-deps.jar cc.mallet.fst.SimpleTagger --model-file ../models/trained_model ../testing_files/testing_file) > ../system_result/system_tags_1gram`
 
 #----accuracy---# 
