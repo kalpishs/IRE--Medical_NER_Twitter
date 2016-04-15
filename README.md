@@ -109,7 +109,9 @@ For instance, the words “childhood asthma” represent a single entity which i
 childhood -> Disease-Begin  and asthma -> Disease-Inside.
 
 So, this is the output format and the corresponding labels are as follows:
+
 {Disease-begin, Disease-inside, Drug-begin, Drug-inside, Symptom-begin, Symptom-inside, None}
+
 So, we basically assign 2 labels (Begin, Inside) per entity (Disease, Drug, Symptom) and 1 extra label (None) representing Outside tag in BIO model.
 
 These labels are the output which are obtained in system generated file by the trained tool.
@@ -119,10 +121,13 @@ These labels are the output which are obtained in system generated file by the t
 Conclusion
 ==============================================================================================================================================
 The dataset provided to us consists of 85% of ‘None’ entity tags, hence if we label all the terms as none - we’ll have 85% accuracy. This conveys that accuracy is not the correct metric for correct evaluation of feature models.
+
 Since this metric isn’t good-enough to tell us significance of one feature model over another, we tried using more application specific metrics such as Precision, Recall and F-Score. 
+
 In this project we experimented with different feature sets and evaluated their efficiency in NER.
 
 --- The best 3 feature models along with statistic analysis are represented in the presentation available at: link
+
 --- A video demonstrating our work has also been put-up and can be accessesed from: link 
 
 ==============================================================================================================================================
