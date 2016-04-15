@@ -129,7 +129,13 @@ In this project we experimented with different feature sets and evaluated their 
 --- The best 3 feature models along with statistic analysis are represented in the presentation available at: link
 
 --- A video demonstrating our work has also been put-up and can be accessesed from: link 
-
+==============================================================================================================================================
+Links
+==============================================================================================================================================
++Github Web page <http://kalpishs.github.io/IRE­­Medical_NER_Twitter>
++Dropbox link :- <https://goo.gl/3Plc8s> 
++YouTube:-<https://youtu.be/dFKIy7CgMrg>
++Presentation :-<https://goo.gl/GN0AWr>
 ==============================================================================================================================================
 Tags
 ==============================================================================================================================================
