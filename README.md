@@ -18,13 +18,13 @@ Medical   entities   can   be   diseases,   drugs,   symptoms,   etc.   Previous
 
 
 ==============================================================================================================================================
-		    			 Data set Used
+Data set Used
 ==============================================================================================================================================
 # 1 : Twitter data SET for Training and Testing purposes
 	We   have   a   dataset   of   1   year   of   tweets   about   4   diseases   and   32   drugs.   A   team   of   domain  experts   has   annotated   about   2000   tweets   with   entities   (around   20   types:   diseases,   drugs,  symptoms) and also relations (around 40 relation types: cures, causes, etc). 
 
 ==============================================================================================================================================
-                     			 Project Scope
+Project Scope
 ==============================================================================================================================================
 This project is mainly focused on feature extraction  of medical entities on the set of tweets. This will be divided into three phases namely.
 	(i) Feature Identification and extraction
@@ -35,7 +35,7 @@ This project is mainly focused on feature extraction  of medical entities on the
 
 	
 ==============================================================================================================================================
-                    			 List of Files 
+List of Files 
 ==============================================================================================================================================
 
 (i) bash_5gram.sh (Bash script to execute the project files in one-go)
@@ -49,7 +49,7 @@ This project is mainly focused on feature extraction  of medical entities on the
 
 
 ==============================================================================================================================================
-                    			How to Run  
+How to Run  
 ==============================================================================================================================================
 ->Install Following Tools:
 	1)Mallet :- A Java-based package for statistical natural language processing,text classification and  information extraction tool
@@ -83,7 +83,7 @@ All the files mentioned in the previous section sequentially, It also runs comma
    ../testing_files/testing_file_5gram) > ../system_result/system_tags_5gram  	(Running mallet on testing data using trained model)
 
 ==============================================================================================================================================
-                      			Output FORMAT
+Output FORMAT
 ==============================================================================================================================================
 We have used the BIO(Begin-Inside-Outside)  model for labelling entities. For a whole corpus of tweets, we are labelling data term-wise. This model (BIO) lets us handle entities that span over multiple terms.
 For instance, the words “childhood asthma” represent a single entity which is a disease, 
@@ -95,7 +95,7 @@ These labels are the output which are obtained in system generated file by the t
 
 
 ==============================================================================================================================================
-                     			Conclusion
+Conclusion
 ==============================================================================================================================================
 The dataset provided to us consists of 85% of ‘None’ entity tags, hence if we label all the terms as none - we’ll have 85% accuracy. This conveys that accuracy is not the correct metric for correct evaluation of feature models.
 Since this metric isn’t good-enough to tell us significance of one feature model over another, we tried using more application specific metrics such as Precision, Recall and F-Score. 
@@ -105,7 +105,7 @@ In this project we experimented with different feature sets and evaluated their 
 --- A video demonstrating our work has also been put-up and can be accessesed from: link 
 
 ==============================================================================================================================================
-                     			Tags
+Tags
 ==============================================================================================================================================
 'Information Retrieval and Extraction Course', 'IIIT-H', Major Project', 'Mallet', 'Medical NER', 'Feature Sets', 'Disease', 'Drug', 'Symptom', 'Analysis and Approach'
 
