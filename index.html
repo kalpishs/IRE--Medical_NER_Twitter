@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ire--medical ner twitter by kalpishs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Ire--medical ner twitter</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/kalpishs/IRE--Medical_NER_Twitter" class="btn">View on GitHub</a>
+      <a href="https://github.com/kalpishs/IRE--Medical_NER_Twitter/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kalpishs/IRE--Medical_NER_Twitter/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <hr>
+
+<p>Mentor: Nikhil Pattisapu</p>
+
+<p>Project No. : 19</p>
+
+<p>Team No. : 56</p>
+
+<p>By Chinmay Bapna, Juhi Tandon, Kalpish Singhal</p>
+
+<hr>
+
+<h1></h1>
+
+<h1>
+<a id="-medical-named-entity-on-twitter-data" class="anchor" href="#-medical-named-entity-on-twitter-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Medical Named Entity on twitter Data</h1>
+
+<p>Medical Entity Recognition is a crucial step towards efficient medical texts analysis. The task of a Medical Name Entity Recognizer is two fold. ­ </p>
+
+<p>(i) Identification of entity boundaries in the sentences. </p>
+
+<p>(ii) Entity categorization. 
+Our objective is to extend medical entity  recognition for tweets. </p>
+
+<p>Medical   entities   can   be   diseases,   drugs,   symptoms,   etc.   Previously,   researchers   in   the   field  have   used   hand   crafted   features   to   identify   medical   entities   in   medical   literature.   It   has   been  found   that   in   contrast   with   semantic   approaches   which   require   rich   domain­ knowledge for rule or pattern construction, statistical approaches are more scalable.</p>
+
+<h1></h1>
+
+<h1>
+<a id="data-set-used" class="anchor" href="#data-set-used" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data set Used</h1>
+
+<p>Twitter data SET for Training and Testing purposes
+    We have a dataset of 1 year of tweets about 4 diseases and 32 drugs. A team of domain  experts has annotated about 2000 tweets with entities (around 20 types: diseases, drugs,  symptoms) and also relations (around 40 relation types: cures, causes, etc). </p>
+
+<h1></h1>
+
+<h1>
+<a id="project-scope" class="anchor" href="#project-scope" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Scope</h1>
+
+<p>This project is mainly focused on feature extraction  of medical entities on the set of tweets. This will be divided into three phases namely.</p>
+
+<pre><code>(i) Feature Identification and extraction
+
+(ii) Model training using CRF 
+
+(iii) Testing using trained model
+
+(iv) Evaluating the output obtained for different feature-models using metrics such as Precision, Recall, F-score and Accuracy.
+
+(v) Selecting some feature models and plot their precision , recall , F-scores for each label
+</code></pre>
+
+<h1></h1>
+
+<h1>
+<a id="list-of-files-" class="anchor" href="#list-of-files-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of Files </h1>
+
+<p>(i) bash_5gram.sh (Bash script to execute the project files in one-go)</p>
+
+<p>(ii) training_features_5gram.py (main code for constructing feature files)</p>
+
+<p>(iii) metamap.py (for extracting semantic tags from Metamap(tool) generated output)</p>
+
+<p>(iv) pos_tagger.py (for extracting part-of-speech tags from Tweet-NLP(tool) generated output)</p>
+
+<p>(v) ortho.py (for assigning orthographic features)</p>
+
+<p>(vi) cluster.py (for extracting cluster-id tags from Brown-Clustering(algorithm) generated output)</p>
+
+<p>(vii) part.sh (for testing-exploring new feature sets from pre-existing feature file)</p>
+
+<p>(viii) evaluate.py (for testing system generated output on the basis of different evaluation metrics)</p>
+
+<h1></h1>
+
+<h1>
+<a id="how-to-run--" class="anchor" href="#how-to-run--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to Run  </h1>
+
+<p>-&gt;Install Following Tools:</p>
+
+<p>1)Mallet :- A Java-based package for statistical natural language processing,text classification and  information extraction tool using Command line scripts.
+  MALLET includes sophisticated tools for document classification: efficient routines for converting text to "features",a wide variety of algorithms eg. CRF
+           Installation instructions available at <a href="http://mallet.cs.umass.edu/">http://mallet.cs.umass.edu/</a></p>
+
+<p>2)Meta-Map 2013 :- MetaMap is a highly configurable program developed to map biomedical text to the UMLS Metathesaurus or,equivalently, to discover Metathesaurus concepts referred to in text. We have made use of Meta-Map Java-api for making use of this tool to find semantic tags.
+      Installation instructions available at <a href="https://metamap.nlm.nih.gov/JavaApi.shtml">https://metamap.nlm.nih.gov/JavaApi.shtml</a></p>
+
+<p>3)Tweet-NLP :-  Provide a tokenizer, a part-of-speech tagger, hierarchical word clusters, and a dependency parser for tweet. We used it to address the problem of part-of-speech tagging for English data from the popular micro blogging service Twitter. The tool reports tagging results nearing 90% accuracy.
+    Installation instructions available at <a href="http://www.cs.cmu.edu/%7Eark/TweetNLP/">http://www.cs.cmu.edu/~ark/TweetNLP/</a></p>
+
+<p>4)You'll also need to run Brown-CLustering algorithm on both - testing and training data, for this project, we already have stored its output in usable format in the file IRE--Medical_NER_Twitter/data/cluster-50/paths Code and usage instructions available at <a href="https://github.com/percyliang/brown-cluster">https://github.com/percyliang/brown-cluster</a></p>
+
+<p>Download the Project from here, <a href="https://github.com/kalpishs/IRE--Medical_NER_Twitter.git">https://github.com/kalpishs/IRE--Medical_NER_Twitter.git</a>
+Configure the file bash_5gram.sh in the codes_Phase2 folder in src, with the paths of installed tools, data, etc.
+Start the metamap server, for Metamap server Java-api, run bash publc-mm/bin/mmserver13  (public-mm -&gt; Metamap installed directory) 
+Execute bash_5gram.sh and voila -&gt; it will run successfully.
+This bash script calls, 
+All the files mentioned in the previous section sequentially, It also runs commands to get output from different tools such as:</p>
+
+<p>1) bash $path/testapi.sh --input $files --output meta_out      (Running metamap)</p>
+
+<p>2) bash $path2/runTagger.sh $files) &gt; pos_out                  (Running tweet-nlp)</p>
+
+<p>3) java -cp $java_home/class:$java_home/lib/mallet-deps.jar cc.mallet.fst.SimpleTagger --train true --model-file ../models/
+   trained_model_5gram ../training_files/training_file_5gram   (Running mallet on training data and training model 'trained_model_5gram')</p>
+
+<p>4) java -cp $java_home/class:$java_home/lib/mallet-deps.jar cc.mallet.fst.SimpleTagger --model-file ../models/trained_model_5gram 
+   ../testing_files/testing_file_5gram) &gt; ../system_result/system_tags_5gram    (Running mallet on testing data using trained model)</p>
+
+<h1></h1>
+
+<h1>
+<a id="output-format" class="anchor" href="#output-format" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Output FORMAT</h1>
+
+<p>We have used the BIO(Begin-Inside-Outside)  model for labelling entities. For a whole corpus of tweets, we are labelling data term-wise. This model (BIO) lets us handle entities that span over multiple terms.</p>
+
+<p>For instance, the words “childhood asthma” represent a single entity which is a disease, In accordance with our  implementation, the separate words childhood and asthma will be labelled as</p>
+
+<p>childhood -&gt; Disease-Begin  and asthma -&gt; Disease-Inside.</p>
+
+<p>So, this is the output format and the corresponding labels are as follows:</p>
+
+<p>{Disease-begin, Disease-inside, Drug-begin, Drug-inside, Symptom-begin, Symptom-inside, None}</p>
+
+<p>So, we basically assign 2 labels (Begin, Inside) per entity (Disease, Drug, Symptom) and 1 extra label (None) representing Outside tag in BIO model.</p>
+
+<p>These labels are the output which are obtained in system generated file by the trained tool.</p>
+
+<h1></h1>
+
+<h1>
+<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conclusion</h1>
+
+<p>The dataset provided to us consists of 85% of ‘None’ entity tags, hence if we label all the terms as none - we’ll have 85% accuracy. This conveys that accuracy is not the correct metric for correct evaluation of feature models.</p>
+
+<p>Since this metric isn’t good-enough to tell us significance of one feature model over another, we tried using more application specific metrics such as Precision, Recall and F-Score. </p>
+
+<p>In this project we experimented with different feature sets and evaluated their efficiency in NER.</p>
+
+<p>--- The best 3 feature models along with statistic analysis are represented in the presentation available at: <a href="https://goo.gl/GN0AWr">https://goo.gl/GN0AWr</a></p>
+
+<p>--- A video demonstrating our work has also been put-up and can be accessesed from: <a href="https://youtu.be/dFKIy7CgMrg">https://youtu.be/dFKIy7CgMrg</a></p>
+
+<p>---Dropbox link :- <a href="https://goo.gl/3Plc8s">https://goo.gl/3Plc8s</a> </p>
+
+<p>---Slideshare: <a href="http://www.slideshare.net/NitishJain24/ire-presentation-team56">http://www.slideshare.net/NitishJain24/ire-presentation-team56</a></p>
+
+<h1></h1>
+
+<h1>
+<a id="tags" class="anchor" href="#tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tags</h1>
+
+<p>'Information Retrieval and Extraction Course', 'IIIT-H', Major Project', 'Mallet', 'Medical NER', 'Feature Sets', 'Disease', 'Drug', 'Symptom', 'Analysis and Approach'</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/kalpishs/IRE--Medical_NER_Twitter">Ire--medical ner twitter</a> is maintained by <a href="https://github.com/kalpishs">kalpishs</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
