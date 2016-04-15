@@ -126,16 +126,14 @@ Since this metric isn’t good-enough to tell us significance of one feature mod
 
 In this project we experimented with different feature sets and evaluated their efficiency in NER.
 
---- The best 3 feature models along with statistic analysis are represented in the presentation available at: link
+--- The best 3 feature models along with statistic analysis are represented in the presentation available at: <https://goo.gl/GN0AWr>
 
---- A video demonstrating our work has also been put-up and can be accessesed from: link 
-==============================================================================================================================================
-Links
-==============================================================================================================================================
-+Github Web page <http://kalpishs.github.io/IRE­­Medical_NER_Twitter>
-+Dropbox link :- <https://goo.gl/3Plc8s> 
-+YouTube:-<https://youtu.be/dFKIy7CgMrg>
-+Presentation :-<https://goo.gl/GN0AWr>
+--- A video demonstrating our work has also been put-up and can be accessesed from: <https://youtu.be/dFKIy7CgMrg>
+
+---Dropbox link :- <https://goo.gl/3Plc8s> 
+
+---Github Web page <http://kalpishs.github.io/IRE­­Medical_NER_Twitter>
+
 ==============================================================================================================================================
 Tags
 ==============================================================================================================================================
