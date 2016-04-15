@@ -132,7 +132,7 @@ In this project we experimented with different feature sets and evaluated their 
 
 ---Dropbox link :- <https://goo.gl/3Plc8s> 
 
----Github Web page <http://kalpishs.github.io/IRE­­Medical_NER_Twitter>
+---Github Web page <http://kalpishs.github.io/IRE--Medical_NER_Twitter>
 
 ==============================================================================================================================================
 Tags
