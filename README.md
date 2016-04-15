@@ -134,6 +134,9 @@ In this project we experimented with different feature sets and evaluated their 
 
 ---Github Web page <http://kalpishs.github.io/IRE--Medical_NER_Twitter>
 
+------Slideshare: http://www.slideshare.net/NitishJain24/ire-presentation-team56
+
+
 ==============================================================================================================================================
 Tags
 ==============================================================================================================================================
