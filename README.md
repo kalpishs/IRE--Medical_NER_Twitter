@@ -12,6 +12,7 @@ ________________________________________________________________________________
  Medical Named Entity on twitter Data
 ==============================================================================================================================================
 Medical Entity Recognition is a crucial step towards efficient medical texts analysis. The task of a Medical Name Entity Recognizer is two fold. ­ 
+
 (i) Identification of entity boundaries in the sentences. 
 
 (ii) Entity categorization. 
@@ -23,7 +24,7 @@ Medical   entities   can   be   diseases,   drugs,   symptoms,   etc.   Previous
 ==============================================================================================================================================
 Data set Used
 ==============================================================================================================================================
-#Twitter data SET for Training and Testing purposes
+Twitter data SET for Training and Testing purposes
  	We have a dataset of 1 year of tweets about 4 diseases and 32 drugs. A team of domain  experts has annotated about 2000 tweets with entities (around 20 types: diseases, drugs,  symptoms) and also relations (around 40 relation types: cures, causes, etc). 
 
 ==============================================================================================================================================
@@ -102,11 +103,15 @@ All the files mentioned in the previous section sequentially, It also runs comma
 Output FORMAT
 ==============================================================================================================================================
 We have used the BIO(Begin-Inside-Outside)  model for labelling entities. For a whole corpus of tweets, we are labelling data term-wise. This model (BIO) lets us handle entities that span over multiple terms.
-For instance, the words “childhood asthma” represent a single entity which is a disease, 
-In accordance with our  implementation, the separate words childhood and asthma will be labelled as childhood -> Disease-Begin  and asthma -> Disease-Inside.
+
+For instance, the words “childhood asthma” represent a single entity which is a disease, In accordance with our  implementation, the separate words childhood and asthma will be labelled as
+
+childhood -> Disease-Begin  and asthma -> Disease-Inside.
+
 So, this is the output format and the corresponding labels are as follows:
 {Disease-begin, Disease-inside, Drug-begin, Drug-inside, Symptom-begin, Symptom-inside, None}
 So, we basically assign 2 labels (Begin, Inside) per entity (Disease, Drug, Symptom) and 1 extra label (None) representing Outside tag in BIO model.
+
 These labels are the output which are obtained in system generated file by the trained tool.
 
 
