@@ -1,9 +1,14 @@
 import sys
 
-gold_tags=sys.argv[1]
+""" Testing file - predefined annotated tags """
+gold_tags=sys.argv[1]       
+
+""" System Generated file - containing tags separated by space """  
 system_tags=sys.argv[2]
 
 f2 = open(gold_tags, "r")
+
+""" 	Making 2 lists of tags with the tags extracted from each file 	"""   
 
 gold_tags = list()
 line = "gold"
@@ -18,13 +23,15 @@ system_tags = system_tags.split(" ")
 
 tags_matched=0
 total_tags=len(gold_tags)
+
+
 print "system_tags:", len(system_tags)
 print "gold_tags:",len(gold_tags)
 
-drugs=[0.0,0.0,0.0]
-disease=[0.0,0.0,0.0]
-symptom=[0.0,0.0,0.0]
-none=[0.0,0.0,0.0]
+drugs=[0.01,0.01,0.01]
+disease=[0.01,0.01,0.01]
+symptom=[0.01,0.01,0.01]
+none=[0.01,0.01,0.01]
 for i in xrange(total_tags):
 	#print gold_tags[i], system_tags[i]
 	if gold_tags[i].strip()==system_tags[i].strip():
@@ -57,66 +64,24 @@ for i in xrange(total_tags):
 	else:
 		none[2] += 1
 
-p1=r1=f1=p2=r2=f2=p3=r3=f3=p4=r4=f4=0
-try:
-	p1 = drugs[0]/drugs[1]
-except:
-	pass
+""" p represents precision, r recall and f represents f score """
+""" Calculating the above mentioned metrics for each label """
 
-try:
-	r1 = drugs[0]/drugs[2]
-except:
-	pass
+p1 = drugs[0]/drugs[1]
+r1 = drugs[0]/drugs[2]
+f1 = (2*p1*r1)/(p1+r1)
 
-try:
-	f1 = (2*p1*r1)/(p1+r1)
-except:
-	pass
+p2 = disease[0]/disease[1]
+r2 = disease[0]/disease[2]
+f2 = (2*p2*r2)/(p2+r2)
+	
+p3 = symptom[0]/symptom[1]
+r3 = symptom[0]/symptom[2]
+f3 = (2*p3*r3)/(p3+r3)
 
-try:
-	p2 = disease[0]/disease[1]
-except:
-	pass
-
-try:	
-	r2 = disease[0]/disease[2]
-except:
-	pass
-
-try:
-	f2 = (2*p2*r2)/(p2+r2)
-except:
-	pass
-
-try:	
-	p3 = symptom[0]/symptom[1]
-except:
-	pass
-
-try:	
-	r3 = symptom[0]/symptom[2]
-except:
-	pass
-
-try:
-	f3 = (2*p3*r3)/(p3+r3)
-except:
-	pass
-
-try:	
-	p4 = none[0]/none[1]
-except:
-	pass
-
-try:	
-	r4 = none[0]/none[2]
-except:
-	pass
-
-try:
-	f4 = (2*p4*r4)/(p4+r4)
-except:
-	pass
+p4 = none[0]/none[1]
+r4 = none[0]/none[2]
+f4 = (2*p4*r4)/(p4+r4)
 
 print "Drugs: Precision - ",p1, " Recall - ",r1, " F-Score - ",f1 
 
@@ -127,6 +92,8 @@ print "Symptom: Precision - ",p3, " Recall - ",r3, " F-Score - ",f3
 print "None: Precision - ",p4, " Recall - ",r4, " F-Score - ",f4 
 print ""
 
+
+""" Accuracy calculated by a simple formula """
 
 accuracy= (tags_matched*1.0)/total_tags
 print "Accuracy =" + str(tags_matched)+"/"+str(total_tags)+"="+str(accuracy)

@@ -1,3 +1,5 @@
+""" Module that returns orthographic features of a term """
+
 def ortho_tag(word):
 	import string
 	strin1=strin2=strin3=""
@@ -17,6 +19,9 @@ def ortho_tag(word):
 		suffix=word+" "+" _ _ _"
 
 	else :
+
+		#!---Capitalization----#
+		
 		flag=0
 		if word.isupper():
 			strin1="AA"
@@ -30,11 +35,19 @@ def ortho_tag(word):
 			strin1="Aa"
 			
 		for i in word:
+
+				#!----Punctuation Check----#
+
 				if i in string.punctuation:
 					strin2='p'
 
+				#!----Digit Check---#
+
 				if i.isdigit():
 					strin3="d"
+
+		#!---Getting prefix and suffix---#					
+		
 		if len(word)>=no_prefix:
 				for i in range(1,no_prefix+1):
 					prefix+=word[0:i]+" "
@@ -55,7 +68,8 @@ def ortho_tag(word):
 		if strin3 != "d":
 			strin3 = "n"	
 
+	#!---Combining all orthographic features separated by space, to be treated as separate feature---#
+	
 	end =  " " + strin1 + " " + strin2 + " " + strin3 + " " + prefix + suffix
 	return end
 		
-print ortho_tag("abcd")

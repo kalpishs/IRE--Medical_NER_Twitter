@@ -1,21 +1,33 @@
-#/usr/bin
-# -*- coding: utf-8 -*-
+""" Module which appends combined feature file
+	 with feature-rows for all terms of a tweet """
+
 import re
 import sys
 from metamap import *
 from pos_tagger import *
-from ortho import ortho_tag
+from ortho import *
+import ast
+from collections import defaultdict
 from nltk.stem.porter import *
 stemmer = PorterStemmer()
 
 Classify = ["Disease", "Drug", "Symptom"]
 
+""" Function which returns word_length """
+def get_length(term):
+	if length.has_key(term):
+		return str(length[term])
+	else:
+		return str(len(term))
+
+""" Function which returns lemma of a term """
 def stemmed(term):
 	try:
 		return stemmer.stem(term)
 	except:
 		return term
 
+""" Function which returns label of a term from annotated file """
 def gives_tag(tlist, term, flag):
 	tag = ""
 	if len(tlist) == 0:
@@ -28,6 +40,24 @@ def gives_tag(tlist, term, flag):
 				tag = Classify[flag] + "-inside"
 	return tag			
 
+""" Function which generates global dictionary which contains cluster_id's for all terms """
+def cluster_dict(filename):
+	global clust_dict
+	f = open(filename)
+	dictionary = f.readline()
+	try:
+		clust_dict = ast.literal_eval(dictionary)
+	except:
+		print "error" 
+
+""" Function which returns cluster_id form term which is a key in global cluster dictionary """
+def cluster_tag(term):
+	if clust_dict.has_key(term):
+		return clust_dict[term]
+	else:
+		return "nil"	
+
+""" Function which tokenises white spaces and quotes with spaces or blanks """
 def tokenise(line):
 	gapsadder = ['"',"\n","'","\r"]
 	gaps2 = ["\t"]
@@ -40,6 +70,7 @@ def tokenise(line):
 		line = line.replace("  ", " ")	
 	return line.strip()
 
+""" Main function which appends combined feature file with feature-rows for all terms of a tweet """
 def make_file(filename,combined_file):
 	ngram=5
 	tag_flag=0
@@ -48,6 +79,9 @@ def make_file(filename,combined_file):
 	Drug = []
 	Symptom = []
 	tmp=sys.argv[1].split(".txt")
+	
+	#!---Making lists of terms corresponding to each label from annotation file---#
+
 	fname2 = tmp[0]+ ".ann"
 	f = open(fname2)
 	while 1:
@@ -88,6 +122,8 @@ def make_file(filename,combined_file):
 		
 	f = open(filename)
 	f2 = open(combined_file, "a")
+
+	#!---Iterating over each term of a tweet and assigning feature tags to it---#
 	
 	while 1:
 		line = f.readline()
@@ -98,7 +134,8 @@ def make_file(filename,combined_file):
 		list = line.split(" ")
 		for ind in xrange(len(list)):
 			add1=""
-			add1 = list[ind] + " " + stemmed(list[ind]) + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind]) + " " + str(len(list[ind])) + ortho_tag(list[ind])
+			add1 = list[ind] + " " + meta_tag(list[ind]) + " " + term_tag(tagger, list[ind]) + " " + str(len(list[ind])) + ortho_tag(list[ind])+ " " + cluster_tag(list[ind])
+			
 			flag1 = 0
 			flag2 = 0
 			noun = "nil"
@@ -116,26 +153,7 @@ def make_file(filename,combined_file):
 						break
 
 			add1 += " " + noun + " " + verb						
-			"""
-			context=ngram/2
-			try:
-				for no in range(1,context+1):
-					if ind-no >=0:
-						add1 +=" "+list[ind-no]
-					else:
-						list[ind+100000]
-									
-			except:
-				
-				add1+=" NOLEFT"*(context+1-no)
 			
-			try:
-				for no in range(1,context+1):
-					add1 +=" "+list[ind+no]
-									
-			except:
-				add1+=" NORIGHT"*(context+1-no)
-			"""
 			tag = gives_tag(Disease, list[ind], 0)
 			if tag == "":
 				tag = gives_tag(Drug, list[ind], 1)
@@ -144,13 +162,24 @@ def make_file(filename,combined_file):
 					if tag == "":
 						tag = "None"
 
+			#!---Finally assigning label to each term
+			#!---according to previously created annotated lists---# 
+	
 			add1+=" "+tag+"\n"
 			f2.write(add1)
-		#f2.write("\n")
 		
 		f2.close()
 
-meta_map("meta_out2")
-tagger = pos_tags("pos_out2")		
+""" Clustering Module """
+cluster_dict("cluster_out")
+
+""" Assigning metamap-tag dictionary for metamap output on whole tweet """
+meta_map("meta_out_2")
+
+""" Assigning pos-tag dictionary for tweetmlp output on whole tweet """
+tagger = pos_tags("pos_out_2")
+
+"""  Calling main function  """
 make_file(sys.argv[1],sys.argv[2])
+
 

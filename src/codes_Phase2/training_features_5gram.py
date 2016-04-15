@@ -1,5 +1,6 @@
-#/usr/bin
-# -*- coding: utf-8 -*-
+""" Module which appends combined feature file
+	 with feature-rows for all terms of a tweet """
+
 import re
 import sys
 from metamap import *
@@ -14,18 +15,24 @@ clust_dict = {}
 Classify = ["Disease", "Drug", "Symptom"]
 length = defaultdict(int)
 
+
+""" Function which returns word_length """
 def get_length(term):
 	if length.has_key(term):
 		return str(length[term])
 	else:
 		return str(len(term))	
 
+
+""" Function which returns lemma of a term """
 def stemmed(term):
 	try:
 		return stemmer.stem(term)
 	except:
 		return term	
 
+
+""" Function which returns label of a term from annotated file """
 def gives_tag(tlist, term, flag):
 	tag = ""
 	if len(tlist) == 0:
@@ -38,6 +45,8 @@ def gives_tag(tlist, term, flag):
 				tag = Classify[flag] + "-inside"
 	return tag	
 
+
+""" Function which generates global dictionary which contains cluster_id's for all terms """
 def cluster_dict(filename):
 	global clust_dict
 	f = open(filename)
@@ -47,12 +56,16 @@ def cluster_dict(filename):
 	except:
 		print "error" 
 
+
+""" Function which returns cluster_id form term which is a key in global cluster dictionary """
 def cluster_tag(term):
 	if clust_dict.has_key(term):
 		return clust_dict[term]
 	else:
 		return "nil"	
 
+
+""" Function which tokenises white spaces and quotes with spaces or blanks """
 def tokenise(line):
 	gapsadder = ['"',"\n","'","\r"]
 	gaps2 = ["\t"]
@@ -65,6 +78,8 @@ def tokenise(line):
 		line = line.replace("  ", " ")	
 	return line.strip()
 
+
+""" Main function which appends combined feature file with feature-rows for all terms of a tweet """
 def make_file(filename,combined_file):
 	ngram=5
 	tag_flag=0
@@ -73,6 +88,9 @@ def make_file(filename,combined_file):
 	Drug = []
 	Symptom = []
 	tmp=filename.split(".txt")
+
+	#!-----Making lists of terms corresponding to each label from annotation file-----#
+
 	fname2 = tmp[0]+ ".ann"	
 	f = open(fname2)
 	while 1:
@@ -123,6 +141,8 @@ def make_file(filename,combined_file):
 	f = open(filename)
 	f2 = open(combined_file, "a")
 	
+	#!-----Iterating over each term of a tweet and assigning feature tags to it-----#
+
 	while 1:
 		line = f.readline()
 		line = line.split("http")[0]
@@ -151,6 +171,8 @@ def make_file(filename,combined_file):
 						break
 
 			add1 += " " + noun + " " + verb
+
+			#!----Word Context and corresponding features (metamap + pos) for them----#
 			
 			context = ngram/2
 			try:
@@ -178,16 +200,22 @@ def make_file(filename,combined_file):
 					if tag == "":
 						tag = "None"
 
+			#!-----Finally assigning label to each term according to previously created annotated lists----# 
+
 			add1 += " " + tag + "\n"
-			f2.write(add1)
-		#f2.write("\n")
-		
+			f2.write(add1)		
 		f2.close()
 		
 
+""" Clustering Module """
 cluster_dict("cluster_out")
+
+""" Assigning metamap-tag dictionary for metamap output on whole tweet """
 meta_map("meta_out")
+
+""" Assigning pos-tag dictionary for tweetmlp output on whole tweet """
 tagger = pos_tags("pos_out")
-#print tagger
+
+"""  Calling main function  """
 make_file(sys.argv[1],sys.argv[2])
 

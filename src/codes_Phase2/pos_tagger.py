@@ -1,10 +1,16 @@
+""" Extracting and storing pos tags of a tweet
+ generated through tweet-nlp stored in file 'pos_out'"""
+
 import re
 import itertools
 
+""" Function which returns a dictionary of the form {term:pos-tag_of_term} """
 def pos_tags(file_name):
 	fobj = open(file_name)
 	string=fobj.read()
 
+	#!---Splitting on the basis of quotes, all tweets are in quotes---#
+	
 	STR=re.split('"', string)
 	
 	words=STR[1].split(" ")
@@ -12,9 +18,10 @@ def pos_tags(file_name):
 	for word in words:
 		word_list.append(word.lower())
 	
-	#print len(words)
+	#!---Extracting same no. of pos-tags
+	#!---as words extracted from tweets---#
+
 	STR[2] = STR[2].strip()
-	#print STR[2]
 	tags=STR[2].split()[:len(word_list)]
 	pos_list=[]
 	for tag in tags:
@@ -29,9 +36,10 @@ def pos_tags(file_name):
 				del dictionary[word_list[listl]]
 			except:
 				pass	
-	#print dictionary		
 	return dictionary
 
+
+""" Function that returns pos tag of a term if contained in dictionary tagger """
 def term_tag(tagger, term):
 	term = term.lower()
 	if tagger.has_key(term):

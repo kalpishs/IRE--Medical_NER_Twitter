@@ -1,734 +1,837 @@
 input text: 
- "Asthma Tied to Higher Risk of Sleep Apnea: TUESDAY  Jan. 13  2015 (HealthDay News) -- Two troublesome adult br... http://t.co/WwdVNDbvSe"
+ "Nebulizer asthma breathing treatment air compressor $9 50 medical healthcare"
 
 Utterance:
  Id: 0000000.tx.1
- Utterance text: "Asthma Tied to Higher Risk of Sleep Apnea: TUESDAY  Jan. 
- Position: (0, 58)
+ Utterance text: "Nebulizer asthma breathing treatment air compressor $9 50 medical healthcare"
+ Position: (0, 78)
 Phrase:
- text: "Asthma Tied
- Minimal Commitment Parse: [punc([inputmatch(["]),tokens([])]),mod([lexmatch([asthma]),inputmatch([Asthma]),tag(noun),tokens([asthma])]),head([lexmatch([tied]),inputmatch([Tied]),tag(noun),tokens([tied])])]
+ text: "Nebulizer asthma breathing treatment air compressor $9 50 medical healthcare"
+ Minimal Commitment Parse: [punc([inputmatch(["]),tokens([])]),mod([lexmatch([nebulizer]),inputmatch([Nebulizer]),tag(noun),tokens([nebulizer])]),mod([lexmatch([asthma]),inputmatch([asthma]),tag(noun),tokens([asthma])]),mod([lexmatch([breathing]),inputmatch([breathing]),tag(adj),tokens([breathing])]),mod([lexmatch([treatment]),inputmatch([treatment]),tag(noun),tokens([treatment])]),mod([lexmatch([air compressor]),inputmatch([air,compressor]),tag(noun),tokens([air,compressor])]),punc([inputmatch([$]),tokens([])]),shapes([inputmatch([9]),features([integer]),tokens([9])]),shapes([inputmatch([50]),features([integer]),tokens([50])]),mod([lexmatch([medical]),inputmatch([medical]),tag(adj),tokens([medical])]),head([lexmatch([healthcare]),inputmatch([healthcare]),tag(noun),tokens([healthcare])]),punc([inputmatch(["]),tokens([])])]
 Candidates:
  Candidate:
-  Score: -861
-  Concept Id: C1416505
-  Concept Name: TIED
-  Preferred Name: ITGBL1 gene
-  Matched Words: [tied]
-  Semantic Types: [gngm]
-  MatchMap: [[[2, 2], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  Score: -790
+  Concept Id: C0086388
+  Concept Name: Health Care
+  Preferred Name: Health Care
+  Matched Words: [health, care]
+  Semantic Types: [hlca]
+  MatchMap: [[[10, 10], [1, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
   is Head?: true
   is Overmatch?: false
-  Sources: [HGNC, MTH, OMIM]
-  Positional Info: [(8, 4)]
+  Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+  Positional Info: [(67, 10)]
   Pruning Status: 0
   Negation Status: 0
  Candidate:
-  Score: -827
-  Concept Id: C0453920
-  Concept Name: Tie
-  Preferred Name: Tie (garment)
-  Matched Words: [tie]
-  Semantic Types: [mnob]
-  MatchMap: [[[2, 2], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
-  is Head?: true
+  Score: -680
+  Concept Id: C0498465
+  Concept Name: nebulizer compressor
+  Preferred Name: NEBULIZER, WITH COMPRESSOR
+  Matched Words: [nebulizer, compressor]
+  Semantic Types: [medd]
+  MatchMap: [[[1, 1], [1, 1], 0], [[6, 6], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 6, phrase end: 6], [concept start: 6, concept end: 6], lexical variation: 0]]
+  is Head?: false
   is Overmatch?: false
-  Sources: [CHV, MTH, SNOMEDCT]
-  Positional Info: [(8, 4)]
-  Pruning Status: 1
+  Sources: [CHV, HCPCS]
+  Positional Info: [(1, 9), (42, 10)]
+  Pruning Status: 0
   Negation Status: 0
  Candidate:
-  Score: -827
-  Concept Id: C3472712
-  Concept Name: Tie
-  Preferred Name: Tie Container Closure
-  Matched Words: [tie]
-  Semantic Types: [mnob]
-  MatchMap: [[[2, 2], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 1]]
-  is Head?: true
+  Score: -637
+  Concept Id: C0021459
+  Concept Name: Breathing treatment
+  Preferred Name: Inhalation Therapy
+  Matched Words: [breathing, treatment]
+  Semantic Types: [topp]
+  MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
   is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(8, 4)]
-  Pruning Status: 1
+  Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(18, 19)]
+  Pruning Status: 0
   Negation Status: 0
  Candidate:
-  Score: -694
+  Score: -637
+  Concept Id: C0175737
+  Concept Name: Air compressor
+  Preferred Name: Air compressor
+  Matched Words: [air, compressor]
+  Semantic Types: [mnob]
+  MatchMap: [[[5, 6], [1, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 5, phrase end: 6], [concept start: 5, concept end: 6], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(38, 14)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0001861
+  Concept Name: Air
+  Preferred Name: Air
+  Matched Words: [air]
+  Semantic Types: [sbst]
+  MatchMap: [[[5, 5], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 5, phrase end: 5], [concept start: 5, concept end: 5], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, LCH, LNC, MSH, MTH, MTHSPL, NCI, NDFRT, RXNORM, SNM, SNMI, SNOMEDCT, VANDF]
+  Positional Info: [(38, 3)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0004048
+  Concept Name: breathing
+  Preferred Name: Inspiration function
+  Matched Words: [breathing]
+  Semantic Types: [orgf]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, HL7V3.0, LNC, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(18, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
   Concept Id: C0004096
   Concept Name: Asthma
   Preferred Name: Asthma
   Matched Words: [asthma]
   Semantic Types: [dsyn]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(11, 6)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0027524
+  Concept Name: Nebuliser
+  Preferred Name: Nebulizers
+  Matched Words: [nebuliser]
+  Semantic Types: [medd]
   MatchMap: [[[1, 1], [1, 1], 0]]
   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
   is Head?: false
   is Overmatch?: false
-  Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(1, 6)]
+  Sources: [CHV, HL7V2.5, MSH, MTH, NCI, RXNORM, SNOMEDCT, VANDF]
+  Positional Info: [(1, 9)]
   Pruning Status: 0
   Negation Status: 0
  Candidate:
-  Score: -694
+  Score: -623
+  Concept Id: C0035203
+  Concept Name: Breathing
+  Preferred Name: Respiration
+  Matched Words: [breathing]
+  Semantic Types: [phsf]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, LCH, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
+  Positional Info: [(18, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0039798
+  Concept Name: treatment
+  Preferred Name: therapeutic aspects
+  Matched Words: [treatment]
+  Semantic Types: [ftcn]
+  MatchMap: [[[4, 4], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [HL7V3.0, MSH, MTH]
+  Positional Info: [(28, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0087111
+  Concept Name: Treatment
+  Preferred Name: Therapeutic procedure
+  Matched Words: [treatment]
+  Semantic Types: [topp]
+  MatchMap: [[[4, 4], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, CHV, CSP, HL7V2.5, LNC, MSH, MTH, MTHHH, MTHMST, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(28, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0180063
+  Concept Name: compressor
+  Preferred Name: compressor
+  Matched Words: [compressor]
+  Semantic Types: [medd]
+  MatchMap: [[[6, 6], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 6, phrase end: 6], [concept start: 6, concept end: 6], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV]
+  Positional Info: [(42, 10)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C0205476
+  Concept Name: Medical
+  Preferred Name: Medical
+  Matched Words: [medical]
+  Semantic Types: [ftcn]
+  MatchMap: [[[9, 9], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+  Positional Info: [(59, 7)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1160636
+  Concept Name: breathing
+  Preferred Name: respiratory gaseous exchange in organisms
+  Matched Words: [breathing]
+  Semantic Types: [biof]
+  MatchMap: [[[3, 3], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [AOD, GO, MTH]
+  Positional Info: [(18, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1522326
+  Concept Name: Treatment
+  Preferred Name: Treating
+  Matched Words: [treatment]
+  Semantic Types: [ftcn]
+  MatchMap: [[[4, 4], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(28, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1533734
+  Concept Name: Treatment
+  Preferred Name: Administration procedure
+  Matched Words: [treatment]
+  Semantic Types: [topp]
+  MatchMap: [[[4, 4], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [ICD10PCS, MTH, NCI, SNOMEDCT]
+  Positional Info: [(28, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1705169
+  Concept Name: Treatment
+  Preferred Name: Biomaterial Treatment
+  Matched Words: [treatment]
+  Semantic Types: [cnce]
+  MatchMap: [[[4, 4], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(28, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
+  Concept Id: C1709156
+  Concept Name: Nebulizer
+  Preferred Name: Nebulizer Device Component
+  Matched Words: [nebulizer]
+  Semantic Types: [mnob]
+  MatchMap: [[[1, 1], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MTH, NCI]
+  Positional Info: [(1, 9)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -623
   Concept Id: C2984299
   Concept Name: Asthma
   Preferred Name: Asthma Pathway
   Matched Words: [asthma]
   Semantic Types: [ftcn]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+  MatchMap: [[[2, 2], [1, 1], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
   is Head?: false
   is Overmatch?: false
   Sources: [MTH, NCI]
-  Positional Info: [(1, 6)]
+  Positional Info: [(11, 6)]
   Pruning Status: 0
   Negation Status: 0
+ Candidate:
+  Score: -602
+  Concept Id: C0392681
+  Concept Name: Asthmatic breathing
+  Preferred Name: Asthmatic breathing
+  Matched Words: [asthmatic, breathing]
+  Semantic Types: [sosy]
+  MatchMap: [[[2, 2], [1, 1], 3], [[3, 3], [2, 2], 0]]
+  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 3], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [SNM, SNMI, SNOMEDCT]
+  Positional Info: [(11, 16)]
+  Pruning Status: 0
+  Negation Status: 0
+ Candidate:
+  Score: -590
+  Concept Id: C0070924
+  Concept Name: AIRS
+  Preferred Name: Phosphoribosylformylglycinamidine cyclo-ligase
+  Matched Words: [airs]
+  Semantic Types: [aapp, enzy]
+  MatchMap: [[[5, 5], [1, 1], 1]]
+  MatchMap alt. repr.: [[[phrase start: 5, phrase end: 5], [concept start: 5, concept end: 5], lexical variation: 1]]
+  is Head?: false
+  is Overmatch?: false
+  Sources: [MSH, MTH, OMIM, SNMI, SNOMEDCT]
+  Positional Info: [(38, 3)]
+  Pruning Status: 1
+  Negation Status: 0
 Mappings:
- Map Score: -888
-   Score: -694
+ Map Score: -752
+   Score: -680
+   Concept Id: C0498465
+   Concept Name: nebulizer compressor
+   Preferred Name: NEBULIZER, WITH COMPRESSOR
+   Matched Words: [nebulizer, compressor]
+   Semantic Types: [medd]
+   MatchMap: [[[1, 1], [1, 1], 0], [[6, 6], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 6, phrase end: 6], [concept start: 6, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, HCPCS]
+   Positional Info: [(1, 9), (42, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
    Concept Id: C0004096
    Concept Name: Asthma
    Preferred Name: Asthma
    Matched Words: [asthma]
    Semantic Types: [dsyn]
-   MatchMap: [[[1, 1], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
    Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
-   Positional Info: [(1, 6)]
+   Positional Info: [(11, 6)]
    Pruning Status: 0
    Negation Status: 0
-   Score: -861
-   Concept Id: C1416505
-   Concept Name: TIED
-   Preferred Name: ITGBL1 gene
-   Matched Words: [tied]
-   Semantic Types: [gngm]
-   MatchMap: [[[2, 2], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0001861
+   Concept Name: Air
+   Preferred Name: Air
+   Matched Words: [air]
+   Semantic Types: [sbst]
+   MatchMap: [[[5, 5], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 5], [concept start: 5, concept end: 5], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, LCH, LNC, MSH, MTH, MTHSPL, NCI, NDFRT, RXNORM, SNM, SNMI, SNOMEDCT, VANDF]
+   Positional Info: [(38, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
    is Head?: true
    is Overmatch?: false
-   Sources: [HGNC, MTH, OMIM]
-   Positional Info: [(8, 4)]
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
    Pruning Status: 0
    Negation Status: 0
- Map Score: -888
-   Score: -694
+ Map Score: -752
+   Score: -680
+   Concept Id: C0498465
+   Concept Name: nebulizer compressor
+   Preferred Name: NEBULIZER, WITH COMPRESSOR
+   Matched Words: [nebulizer, compressor]
+   Semantic Types: [medd]
+   MatchMap: [[[1, 1], [1, 1], 0], [[6, 6], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 6, phrase end: 6], [concept start: 6, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, HCPCS]
+   Positional Info: [(1, 9), (42, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
    Concept Id: C2984299
    Concept Name: Asthma
    Preferred Name: Asthma Pathway
    Matched Words: [asthma]
    Semantic Types: [ftcn]
-   MatchMap: [[[1, 1], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
    Sources: [MTH, NCI]
-   Positional Info: [(1, 6)]
+   Positional Info: [(11, 6)]
    Pruning Status: 0
    Negation Status: 0
-   Score: -861
-   Concept Id: C1416505
-   Concept Name: TIED
-   Preferred Name: ITGBL1 gene
-   Matched Words: [tied]
-   Semantic Types: [gngm]
-   MatchMap: [[[2, 2], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0001861
+   Concept Name: Air
+   Preferred Name: Air
+   Matched Words: [air]
+   Semantic Types: [sbst]
+   MatchMap: [[[5, 5], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 5], [concept start: 5, concept end: 5], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, LCH, LNC, MSH, MTH, MTHSPL, NCI, NDFRT, RXNORM, SNM, SNMI, SNOMEDCT, VANDF]
+   Positional Info: [(38, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
    is Head?: true
    is Overmatch?: false
-   Sources: [HGNC, MTH, OMIM]
-   Positional Info: [(8, 4)]
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
    Pruning Status: 0
    Negation Status: 0
-Phrase:
- text: to Higher Risk
- Minimal Commitment Parse: [prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),head([lexmatch([higher risk]),inputmatch([Higher,Risk]),tag(adj),tokens([higher,risk])])]
-Candidates:
- Candidate:
-  Score: -966
-  Concept Id: C0332167
-  Concept Name: high risk
-  Preferred Name: High risk of
-  Matched Words: [high, risk]
-  Semantic Types: [qlco]
-  MatchMap: [[[1, 2], [1, 2], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [CHV, MTH, SNMI, SNOMEDCT]
-  Positional Info: [(16, 11)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -861
-  Concept Id: C0035647
-  Concept Name: Risk
-  Preferred Name: Risk
-  Matched Words: [risk]
-  Semantic Types: [qlco]
-  MatchMap: [[[2, 2], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, HL7V3.0, LCH, LNC, MSH, NCI, SNMI, SNOMEDCT]
-  Positional Info: [(23, 4)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -827
-  Concept Id: C0205250
-  Concept Name: High
-  Preferred Name: High
-  Matched Words: [high]
-  Semantic Types: [qlco]
-  MatchMap: [[[1, 1], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [CHV, HL7V3.0, MTH, NCI, SNMI, SNOMEDCT]
-  Positional Info: [(16, 6)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -827
-  Concept Id: C1299351
-  Concept Name: High
-  Preferred Name: Abnormally high
-  Matched Words: [high]
-  Semantic Types: [qlco]
-  MatchMap: [[[1, 1], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [CHV, HL7V3.0, MTH, SNOMEDCT]
-  Positional Info: [(16, 6)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -827
-  Concept Id: C1522410
-  Concept Name: Highest
-  Preferred Name: Highest
-  Matched Words: [highest]
-  Semantic Types: [qlco]
-  MatchMap: [[[1, 1], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(16, 6)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -827
-  Concept Id: C2700149
-  Concept Name: HIGH
-  Preferred Name: Value Above Reference Range
-  Matched Words: [high]
-  Semantic Types: [inpr]
-  MatchMap: [[[1, 1], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(16, 6)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -966
-   Score: -966
-   Concept Id: C0332167
-   Concept Name: high risk
-   Preferred Name: High risk of
-   Matched Words: [high, risk]
-   Semantic Types: [qlco]
-   MatchMap: [[[1, 2], [1, 2], 1]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 1]]
-   is Head?: true
-   is Overmatch?: false
-   Sources: [CHV, MTH, SNMI, SNOMEDCT]
-   Positional Info: [(16, 11)]
-   Pruning Status: 0
-   Negation Status: 0
-Phrase:
- text: of Sleep Apnea
- Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([sleep apnea]),inputmatch([Sleep,Apnea]),tag(noun),tokens([sleep,apnea])])]
-Candidates:
- Candidate:
-  Score: -1000
-  Concept Id: C0037315
-  Concept Name: Apnea, Sleep
-  Preferred Name: Sleep Apnea Syndromes
-  Matched Words: [sleep, apnea]
-  Semantic Types: [dsyn]
-  MatchMap: [[[1, 2], [1, 2], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, LCH, MEDLINEPLUS, MSH, MTH, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(31, 11)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -1000
-  Concept Id: C3496180
-  Concept Name: SLEEP APNEA
-  Preferred Name: SLEEP APNEA (device)
-  Matched Words: [sleep, apnea]
-  Semantic Types: [medd]
-  MatchMap: [[[1, 2], [1, 2], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [MTH, VANDF]
-  Positional Info: [(31, 11)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -861
-  Concept Id: C0003578
-  Concept Name: Apnea
-  Preferred Name: Apnea
-  Matched Words: [apnea]
-  Semantic Types: [patf]
-  MatchMap: [[[2, 2], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, LCH, MSH, MTH, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(37, 5)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -861
-  Concept Id: C0037313
-  Concept Name: Sleep
-  Preferred Name: Sleep
-  Matched Words: [sleep]
-  Semantic Types: [orgf]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, CSP, GO, ICF, ICF-CY, LCH, MSH, MTH, NCI, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(31, 5)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -861
-  Concept Id: C1963065
-  Concept Name: Apnea
-  Preferred Name: Apnea Adverse Event
-  Matched Words: [apnea]
-  Semantic Types: [fndg]
-  MatchMap: [[[2, 2], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(37, 5)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -827
-  Concept Id: C0424522
-  Concept Name: Sleeping
-  Preferred Name: Asleep
-  Matched Words: [sleeping]
-  Semantic Types: [fndg]
-  MatchMap: [[[1, 1], [1, 1], 1]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [CHV, ICD10CM, MTH, SNMI, SNOMEDCT]
-  Positional Info: [(31, 5)]
-  Pruning Status: 1
-  Negation Status: 0
- Candidate:
-  Score: -789
-  Concept Id: C0013144
-  Concept Name: Sleepy
-  Preferred Name: Drowsiness
-  Matched Words: [sleepy]
-  Semantic Types: [fndg]
-  MatchMap: [[[1, 1], [1, 1], 3]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 3]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, CSP, DXP, MSH, MTH, MTHICD9, NCI, OMIM, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(31, 5)]
-  Pruning Status: 1
-  Negation Status: 0
- Candidate:
-  Score: -761
-  Concept Id: C0917801
-  Concept Name: Sleeplessness
-  Preferred Name: Sleeplessness
-  Matched Words: [sleeplessness]
-  Semantic Types: [sosy]
-  MatchMap: [[[1, 1], [1, 1], 6]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 6]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, MEDLINEPLUS, MSH, MTH, NCI, OMIM, QMR, SNM, SNMI, SNOMEDCT]
-  Positional Info: [(31, 5)]
-  Pruning Status: 1
-  Negation Status: 0
-Mappings:
- Map Score: -1000
-   Score: -1000
-   Concept Id: C0037315
-   Concept Name: Apnea, Sleep
-   Preferred Name: Sleep Apnea Syndromes
-   Matched Words: [sleep, apnea]
-   Semantic Types: [dsyn]
-   MatchMap: [[[1, 2], [1, 2], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
-   is Head?: true
-   is Overmatch?: false
-   Sources: [AOD, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, LCH, MEDLINEPLUS, MSH, MTH, NCI, NDFRT, OMIM, SNM, SNMI, SNOMEDCT]
-   Positional Info: [(31, 11)]
-   Pruning Status: 0
-   Negation Status: 0
- Map Score: -1000
-   Score: -1000
-   Concept Id: C3496180
-   Concept Name: SLEEP APNEA
-   Preferred Name: SLEEP APNEA (device)
-   Matched Words: [sleep, apnea]
+ Map Score: -752
+   Score: -623
+   Concept Id: C0027524
+   Concept Name: Nebuliser
+   Preferred Name: Nebulizers
+   Matched Words: [nebuliser]
    Semantic Types: [medd]
-   MatchMap: [[[1, 2], [1, 2], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
-   is Head?: true
-   is Overmatch?: false
-   Sources: [MTH, VANDF]
-   Positional Info: [(31, 11)]
-   Pruning Status: 0
-   Negation Status: 0
-Phrase:
- text: :
- Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
-Candidates:
-Mappings:
-Phrase:
- text: TUESDAY  Jan.
- Minimal Commitment Parse: [mod([lexmatch([Tuesday]),inputmatch([TUESDAY]),tag(noun),tokens([tuesday])]),head([lexmatch([Jan]),inputmatch([Jan]),tag(noun),tokens([jan])]),punc([inputmatch([.]),tokens([])])]
-Candidates:
- Candidate:
-  Score: -694
-  Concept Id: C0585026
-  Concept Name: Tuesday
-  Preferred Name: Tuesday
-  Matched Words: [tuesday]
-  Semantic Types: [tmco]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-  is Head?: false
-  is Overmatch?: false
-  Sources: [CHV, HL7V2.5, NCI, SNOMEDCT]
-  Positional Info: [(44, 7)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -694
-   Score: -694
-   Concept Id: C0585026
-   Concept Name: Tuesday
-   Preferred Name: Tuesday
-   Matched Words: [tuesday]
-   Semantic Types: [tmco]
    MatchMap: [[[1, 1], [1, 1], 0]]
    MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
-   Sources: [CHV, HL7V2.5, NCI, SNOMEDCT]
-   Positional Info: [(44, 7)]
+   Sources: [CHV, HL7V2.5, MSH, MTH, NCI, RXNORM, SNOMEDCT, VANDF]
+   Positional Info: [(1, 9)]
    Pruning Status: 0
    Negation Status: 0
-Utterance:
- Id: 0000000.tx.2
- Utterance text: 13  2015 (HealthDay News) -- Two troublesome adult br... 
- Position: (58, 57)
-Phrase:
- text: 13  2015
- Minimal Commitment Parse: [shapes([inputmatch([13]),features([integer]),tokens([13])]),shapes([inputmatch([2015]),features([integer]),tokens([2015])])]
-Candidates:
-Mappings:
-Phrase:
- text: (HealthDay News
- Minimal Commitment Parse: [punc([inputmatch([(]),tokens([])]),mod([inputmatch([HealthDay]),tag(noun),tokens([healthday])]),head([lexmatch([news]),inputmatch([News]),tag(noun),tokens([news])])]
-Candidates:
- Candidate:
-  Score: -861
-  Concept Id: C0282425
-  Concept Name: News
-  Preferred Name: News [Publication Type]
-  Matched Words: [news]
-  Semantic Types: [inpr]
-  MatchMap: [[[2, 2], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [AOD, CHV, MSH, MTH, NCI]
-  Positional Info: [(78, 4)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -861
-   Score: -861
-   Concept Id: C0282425
-   Concept Name: News
-   Preferred Name: News [Publication Type]
-   Matched Words: [news]
-   Semantic Types: [inpr]
+   Score: -623
+   Concept Id: C0004096
+   Concept Name: Asthma
+   Preferred Name: Asthma
+   Matched Words: [asthma]
+   Semantic Types: [dsyn]
    MatchMap: [[[2, 2], [1, 1], 0]]
    MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
-   is Head?: true
+   is Head?: false
    is Overmatch?: false
-   Sources: [AOD, CHV, MSH, MTH, NCI]
-   Positional Info: [(78, 4)]
+   Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(11, 6)]
    Pruning Status: 0
    Negation Status: 0
-Phrase:
- text: )
- Minimal Commitment Parse: [punc([inputmatch([)]),tokens([])])]
-Candidates:
-Mappings:
-Phrase:
- text: --
- Minimal Commitment Parse: [punc([inputmatch([-]),tokens([])]),punc([inputmatch([-]),tokens([])])]
-Candidates:
-Mappings:
-Phrase:
- text: Two troublesome adult br...
- Minimal Commitment Parse: [mod([lexmatch([two]),inputmatch([Two]),tag(noun),tokens([two])]),mod([lexmatch([troublesome]),inputmatch([troublesome]),tag(adj),tokens([troublesome])]),mod([lexmatch([adult]),inputmatch([adult]),tag(noun),tokens([adult])]),head([lexmatch([bR]),inputmatch([br]),tag(noun),tokens([br])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])]),punc([inputmatch([.]),tokens([])])]
-Candidates:
- Candidate:
-  Score: -812
-  Concept Id: C1704648
-  Concept Name: Br.
-  Preferred Name: Brother - courtesy title
-  Matched Words: [br]
-  Semantic Types: [cnce]
-  MatchMap: [[[4, 4], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(109, 2)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -645
-  Concept Id: C0001675
-  Concept Name: Adult
-  Preferred Name: Adult
-  Matched Words: [adult]
-  Semantic Types: [aggp]
-  MatchMap: [[[3, 3], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
-  is Head?: false
-  is Overmatch?: false
-  Sources: [AOD, CHV, CSP, MSH, MTH, NCI, NDFRT, SNOMEDCT]
-  Positional Info: [(103, 5)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -645
-  Concept Id: C0205448
-  Concept Name: Two
-  Preferred Name: Two
-  Matched Words: [two]
-  Semantic Types: [qnco]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-  is Head?: false
-  is Overmatch?: false
-  Sources: [LNC, MTH, NCI, SNMI, SNOMEDCT]
-  Positional Info: [(87, 3)]
-  Pruning Status: 0
-  Negation Status: 0
- Candidate:
-  Score: -645
-  Concept Id: C1706450
-  Concept Name: Adult
-  Preferred Name: Legal Adult
-  Matched Words: [adult]
-  Semantic Types: [humn]
-  MatchMap: [[[3, 3], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
-  is Head?: false
-  is Overmatch?: false
-  Sources: [MTH, NCI]
-  Positional Info: [(103, 5)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -775
-   Score: -645
-   Concept Id: C0205448
-   Concept Name: Two
-   Preferred Name: Two
-   Matched Words: [two]
-   Semantic Types: [qnco]
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0175737
+   Concept Name: Air compressor
+   Preferred Name: Air compressor
+   Matched Words: [air, compressor]
+   Semantic Types: [mnob]
+   MatchMap: [[[5, 6], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 6], [concept start: 5, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(38, 14)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -752
+   Score: -623
+   Concept Id: C0027524
+   Concept Name: Nebuliser
+   Preferred Name: Nebulizers
+   Matched Words: [nebuliser]
+   Semantic Types: [medd]
    MatchMap: [[[1, 1], [1, 1], 0]]
    MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
-   Sources: [LNC, MTH, NCI, SNMI, SNOMEDCT]
-   Positional Info: [(87, 3)]
+   Sources: [CHV, HL7V2.5, MSH, MTH, NCI, RXNORM, SNOMEDCT, VANDF]
+   Positional Info: [(1, 9)]
    Pruning Status: 0
    Negation Status: 0
-   Score: -645
-   Concept Id: C0001675
-   Concept Name: Adult
-   Preferred Name: Adult
-   Matched Words: [adult]
-   Semantic Types: [aggp]
-   MatchMap: [[[3, 3], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
-   is Head?: false
-   is Overmatch?: false
-   Sources: [AOD, CHV, CSP, MSH, MTH, NCI, NDFRT, SNOMEDCT]
-   Positional Info: [(103, 5)]
-   Pruning Status: 0
-   Negation Status: 0
-   Score: -812
-   Concept Id: C1704648
-   Concept Name: Br.
-   Preferred Name: Brother - courtesy title
-   Matched Words: [br]
-   Semantic Types: [cnce]
-   MatchMap: [[[4, 4], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
-   is Head?: true
-   is Overmatch?: false
-   Sources: [MTH, NCI]
-   Positional Info: [(109, 2)]
-   Pruning Status: 0
-   Negation Status: 0
- Map Score: -775
-   Score: -645
-   Concept Id: C0205448
-   Concept Name: Two
-   Preferred Name: Two
-   Matched Words: [two]
-   Semantic Types: [qnco]
-   MatchMap: [[[1, 1], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-   is Head?: false
-   is Overmatch?: false
-   Sources: [LNC, MTH, NCI, SNMI, SNOMEDCT]
-   Positional Info: [(87, 3)]
-   Pruning Status: 0
-   Negation Status: 0
-   Score: -645
-   Concept Id: C1706450
-   Concept Name: Adult
-   Preferred Name: Legal Adult
-   Matched Words: [adult]
-   Semantic Types: [humn]
-   MatchMap: [[[3, 3], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   Score: -623
+   Concept Id: C2984299
+   Concept Name: Asthma
+   Preferred Name: Asthma Pathway
+   Matched Words: [asthma]
+   Semantic Types: [ftcn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
    Sources: [MTH, NCI]
-   Positional Info: [(103, 5)]
+   Positional Info: [(11, 6)]
    Pruning Status: 0
    Negation Status: 0
-   Score: -812
-   Concept Id: C1704648
-   Concept Name: Br.
-   Preferred Name: Brother - courtesy title
-   Matched Words: [br]
-   Semantic Types: [cnce]
-   MatchMap: [[[4, 4], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0175737
+   Concept Name: Air compressor
+   Preferred Name: Air compressor
+   Matched Words: [air, compressor]
+   Semantic Types: [mnob]
+   MatchMap: [[[5, 6], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 6], [concept start: 5, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(38, 14)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
    is Head?: true
    is Overmatch?: false
-   Sources: [MTH, NCI]
-   Positional Info: [(109, 2)]
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
    Pruning Status: 0
    Negation Status: 0
-Utterance:
- Id: 0000000.tx.3
- Utterance text: http://t.co/WwdVNDbvSe"
- Position: (115, 23)
-Phrase:
- text: http
- Minimal Commitment Parse: [head([inputmatch([http]),tag(noun),tokens([http])])]
-Candidates:
- Candidate:
-  Score: -1000
-  Concept Id: C1555015
-  Concept Name: HTTP
-  Preferred Name: HTTP
-  Matched Words: [http]
-  Semantic Types: [idcn]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-  is Head?: true
-  is Overmatch?: false
-  Sources: [HL7V3.0]
-  Positional Info: [(115, 4)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -1000
-   Score: -1000
-   Concept Id: C1555015
-   Concept Name: HTTP
-   Preferred Name: HTTP
-   Matched Words: [http]
-   Semantic Types: [idcn]
-   MatchMap: [[[1, 1], [1, 1], 0]]
-   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-   is Head?: true
-   is Overmatch?: false
-   Sources: [HL7V3.0]
-   Positional Info: [(115, 4)]
-   Pruning Status: 0
-   Negation Status: 0
-Phrase:
- text: :
- Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
-Candidates:
-Mappings:
-Phrase:
- text: //t.co/WwdVNDbvSe"
- Minimal Commitment Parse: [punc([inputmatch([/]),tokens([])]),punc([inputmatch([/]),tokens([])]),mod([lexmatch([T(co)]),inputmatch([t,.,co,/]),tag(noun),tokens([t,co])]),head([inputmatch([WwdVNDbvSe]),tag(noun),tokens([wwdvndbvse])]),punc([inputmatch(["]),tokens([])])]
-Candidates:
- Candidate:
-  Score: -660
-  Concept Id: C2603360
-  Concept Name: T'
-  Preferred Name: T prime
-  Matched Words: [t]
-  Semantic Types: [clna]
-  MatchMap: [[[1, 1], [1, 1], 0]]
-  MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
-  is Head?: false
-  is Overmatch?: false
-  Sources: [LNC, MTH]
-  Positional Info: [(122, 1)]
-  Pruning Status: 0
-  Negation Status: 0
-Mappings:
- Map Score: -660
-   Score: -660
-   Concept Id: C2603360
-   Concept Name: T'
-   Preferred Name: T prime
-   Matched Words: [t]
-   Semantic Types: [clna]
+ Map Score: -752
+   Score: -623
+   Concept Id: C1709156
+   Concept Name: Nebulizer
+   Preferred Name: Nebulizer Device Component
+   Matched Words: [nebulizer]
+   Semantic Types: [mnob]
    MatchMap: [[[1, 1], [1, 1], 0]]
    MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
    is Head?: false
    is Overmatch?: false
-   Sources: [LNC, MTH]
-   Positional Info: [(122, 1)]
+   Sources: [MTH, NCI]
+   Positional Info: [(1, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0004096
+   Concept Name: Asthma
+   Preferred Name: Asthma
+   Matched Words: [asthma]
+   Semantic Types: [dsyn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CCS, CHV, COSTAR, CSP, CST, DXP, ICD10CM, ICD9CM, ICPC, LCH, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NDFRT, OMIM, QMR, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(11, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0175737
+   Concept Name: Air compressor
+   Preferred Name: Air compressor
+   Matched Words: [air, compressor]
+   Semantic Types: [mnob]
+   MatchMap: [[[5, 6], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 6], [concept start: 5, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(38, 14)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -752
+   Score: -623
+   Concept Id: C1709156
+   Concept Name: Nebulizer
+   Preferred Name: Nebulizer Device Component
+   Matched Words: [nebulizer]
+   Semantic Types: [mnob]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(1, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C2984299
+   Concept Name: Asthma
+   Preferred Name: Asthma Pathway
+   Matched Words: [asthma]
+   Semantic Types: [ftcn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(11, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0021459
+   Concept Name: Breathing treatment
+   Preferred Name: Inhalation Therapy
+   Matched Words: [breathing, treatment]
+   Semantic Types: [topp]
+   MatchMap: [[[3, 3], [1, 1], 0], [[4, 4], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0], [[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(18, 19)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -637
+   Concept Id: C0175737
+   Concept Name: Air compressor
+   Preferred Name: Air compressor
+   Matched Words: [air, compressor]
+   Semantic Types: [mnob]
+   MatchMap: [[[5, 6], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 5, phrase end: 6], [concept start: 5, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, SNM, SNMI, SNOMEDCT]
+   Positional Info: [(38, 14)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -623
+   Concept Id: C0205476
+   Concept Name: Medical
+   Preferred Name: Medical
+   Matched Words: [medical]
+   Semantic Types: [ftcn]
+   MatchMap: [[[9, 9], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 9, phrase end: 9], [concept start: 9, concept end: 9], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI, SNMI, SNOMEDCT]
+   Positional Info: [(59, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -790
+   Concept Id: C0086388
+   Concept Name: Health Care
+   Preferred Name: Health Care
+   Matched Words: [health, care]
+   Semantic Types: [hlca]
+   MatchMap: [[[10, 10], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 10, phrase end: 10], [concept start: 10, concept end: 10], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, MSH, NCI, SNMI]
+   Positional Info: [(67, 10)]
    Pruning Status: 0
    Negation Status: 0
